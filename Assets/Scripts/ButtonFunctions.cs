@@ -1,17 +1,24 @@
 using UnityEngine;
 
+// Is it great design to put literally all button functions in one file? No. Am I going to do it anyway? :)
+
 public class ButtonFunctions : MonoBehaviour
 {
-    public void StartGame(){
-        Scenes.sc.openScene("Hallway"); //temp filler. dunno where we spawn yet.
+    public void startGame(){
         Scenes.sc.closeScene("Start");
+        Scenes.sc.openScene("Hallway"); //temp filler. dunno where we spawn yet.
     }
 
-    public void Credits(){
-        // do. something.
+    public void credits(){
+        Scene_Start.sc_st.enableCredits();
     }
 
-    public void Endings(){
-        // 
+    public void endings(){
+        Scene_Start.sc_st.enableEndings();
+    }
+
+    public void startBack(){
+        Scene_Start.sc_st.disableCredits();
+        Scene_Start.sc_st.disableEndings();
     }
 }

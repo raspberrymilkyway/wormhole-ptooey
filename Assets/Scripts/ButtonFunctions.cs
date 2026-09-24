@@ -1,9 +1,16 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 // Is it great design to put literally all button functions in one file? No. Am I going to do it anyway? :)
 
 public class ButtonFunctions : MonoBehaviour
 {
+    public static ButtonFunctions bf;
+
+    void Start(){
+        bf = this;
+    }
+
     public void startNewGame(){
         Scenes.sc.closeScene("Start");
         Scenes.sc.openScene("Cabin");
@@ -35,5 +42,10 @@ public class ButtonFunctions : MonoBehaviour
         // spoken or thought - true for spoken, false for thought
         Debug.Log(blurb);
         //edit - this needs to be passed somewhere for later display
+    }
+
+    public void changeCursor(string path){
+        Texture2D c = Resources.Load<Texture2D>("cursors/" + path);
+        UnityEngine.Cursor.SetCursor(c, Vector2.zero, CursorMode.Auto); //if using .ForceSoftware, brighten textures or swap types, uncheck sRGB, and accept the warnings
     }
 }

@@ -13,7 +13,7 @@ public class ClickMovement : MonoBehaviour, IPointerClickHandler
     }
 
     public void OnPointerClick(PointerEventData eventData){
-        Vector2 screenPos = Mouse.current.position.ReadValue();
-        player.GetComponent<RectTransform>().position = new Vector3(screenPos.x, screenPos.y, 0); //does this... need a vector3 conversion?
+        Vector2 screenPos = Pointer.current.position.ReadValue();
+        player.GetComponent<RectTransform>().position = new Vector3(screenPos.x, screenPos.y, 0);
     }
 }

@@ -13,6 +13,7 @@ public class Bookkeeper : MonoBehaviour
     public List<string> openScenes = new List<string>(){"Components"};
     private List<string> allItems = new List<string>{}; //path
     private bool[] endings = new bool[6];
+    private string cursor = "";
 
     void Start(){
         bk = this;
@@ -40,5 +41,12 @@ public class Bookkeeper : MonoBehaviour
 
     protected internal Camera getCamera(){
         return cam;
+    }
+
+    protected internal void setCurrentCursor(string name){
+        cursor = name;
+    }
+    protected internal void clearCurrentCursor(){
+        cursor = "";
     }
 }

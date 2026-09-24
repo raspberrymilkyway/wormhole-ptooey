@@ -48,9 +48,8 @@ public class InventoryScene : MonoBehaviour
         Image iimg = item.AddComponent<Image>();
         iimg.sprite = Resources.Load<Sprite>(path);
 
-        item.AddComponent(typeof(EventTrigger));
-        InventoryMovement im = (InventoryMovement)item.AddComponent(typeof(InventoryMovement));
-        im.setItem(name);
+        Button ibut = item.AddComponent<Button>();
+        ibut.onClick.AddListener(() => ButtonFunctions.bf.changeCursor(name));
 
         RectTransform irt = item.GetComponent<RectTransform>();
         

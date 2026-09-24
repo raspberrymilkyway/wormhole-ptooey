@@ -38,14 +38,15 @@ public class ButtonFunctions : MonoBehaviour
         Scenes.sc.swapRooms(current, goingTo);
     }
 
-    public void blurb(string blurb, bool speaking){
-        // spoken or thought - true for spoken, false for thought
-        Debug.Log(blurb);
-        //edit - this needs to be passed somewhere for later display
+    public void blurb(string blot){
+        // spoken or thought?
+        Debug.Log(blot);
+        // this needs to be passed somewhere for later display
     }
 
-    public void changeCursor(string path){
-        Texture2D c = Resources.Load<Texture2D>("cursors/" + path);
+    public void changeCursor(string name){
+        Texture2D c = Resources.Load<Texture2D>("cursors/" + name);
         UnityEngine.Cursor.SetCursor(c, Vector2.zero, CursorMode.Auto); //if using .ForceSoftware, brighten textures or swap types, uncheck sRGB, and accept the warnings
+        Bookkeeper.bk.setCurrentCursor(name);
     }
 }

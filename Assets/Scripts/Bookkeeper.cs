@@ -46,6 +46,9 @@ public class Bookkeeper : MonoBehaviour
     protected internal void setCurrentCursor(string name){
         cursor = name;
     }
+    protected internal string getCurrentCursor(){
+        return cursor;
+    }
     protected internal void clearCurrentCursor(){
         cursor = "";
     }

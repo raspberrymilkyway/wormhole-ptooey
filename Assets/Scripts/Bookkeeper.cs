@@ -8,6 +8,8 @@ public class Bookkeeper : MonoBehaviour
 {
     public static Bookkeeper bk;
 
+    public Camera cam;
+
     public List<string> openScenes = new List<string>(){"Components"};
     private List<string> allItems = new List<string>{}; //path
     private bool[] endings = new bool[6];
@@ -31,5 +33,9 @@ public class Bookkeeper : MonoBehaviour
 
     protected internal bool[] getEndings(){
         return endings;
+    }
+
+    protected internal Camera getCamera(){
+        return cam;
     }
 }

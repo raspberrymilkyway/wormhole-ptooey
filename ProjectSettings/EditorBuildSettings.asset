@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: c48a04021da2b624aa1c8686fe24ee7e
   - enabled: 1
-    path: Assets/Scenes/Hallway.unity
+    path: Assets/Scenes/Cabin.unity
     guid: 52fcdd25925476a4a8073930ea187bbe
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

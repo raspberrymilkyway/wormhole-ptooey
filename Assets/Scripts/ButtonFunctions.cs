@@ -6,7 +6,7 @@ public class ButtonFunctions : MonoBehaviour
 {
     public void startGame(){
         Scenes.sc.closeScene("Start");
-        Scenes.sc.openScene("Hallway"); //temp filler. dunno where we spawn yet.
+        Scenes.sc.openScene("Cabin");
     }
 
     public void credits(){

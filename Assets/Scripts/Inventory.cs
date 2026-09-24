@@ -11,8 +11,9 @@ public class Inventory : MonoBehaviour
 
     void Start(){
         inv = this;
-        currItems = new List<string>{};
-        usedItems = new List<string>{};
+        looseItems = new List<string>{"inventory/junk_item4"};
+        currItems = new List<string>{"inventory/junk_item1", "inventory/junk_item2", "inventory/junk_item3", "inventory/junk_item4", "inventory/junk_item5", "inventory/junk_item5"};
+        usedItems = new List<string>{"inventory/junk_item5"};
     }
 
     protected internal List<string> getLooseItems(){
@@ -23,6 +24,15 @@ public class Inventory : MonoBehaviour
     }
     protected internal List<string> getUsedItems(){
         return usedItems;
+    }
+
+    protected internal bool isItemLoose(string item){
+        for (int i=0; i<looseItems.Count; i++){
+            if (looseItems[i].Equals(item)){
+                return true;
+            }
+        }
+        return false;
     }
 
     protected internal void addLooseItem(string path){

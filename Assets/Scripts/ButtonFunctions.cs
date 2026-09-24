@@ -30,4 +30,10 @@ public class ButtonFunctions : MonoBehaviour
     public void swapRoom(string current, string goingTo){
         Scenes.sc.swapRooms(current, goingTo);
     }
+
+    public void blurb(string blurb, bool speaking){
+        // spoken or thought - true for spoken, false for thought
+        Debug.Log(blurb);
+        //edit - this needs to be passed somewhere for later display
+    }
 }

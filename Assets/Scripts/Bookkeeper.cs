@@ -30,6 +30,9 @@ public class Bookkeeper : MonoBehaviour
     protected internal bool isSceneOpen(string scene){
         return openScenes.Contains(scene);
     }
+    protected internal string getCurrentScene(){
+        return openScenes[openScenes.Count-1];
+    }
 
     protected internal bool[] getEndings(){
         return endings;

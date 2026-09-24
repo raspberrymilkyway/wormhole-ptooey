@@ -8,6 +8,7 @@ public class Scene_Start : MonoBehaviour
 
     public GameObject endings;
     public GameObject credits;
+    public Button cont;
     public TMP_Text[] endingText = new TMP_Text[6];
     public Image[] endingImg = new Image[6];
 
@@ -16,6 +17,11 @@ public class Scene_Start : MonoBehaviour
 
         disableCredits();
         disableEndings();
+
+        if (!SaveData.sd.wasDataLoaded()){
+            cont.interactable = false;
+            cont.GetComponentsInChildren<TMP_Text>()[0].color = new Color(0.5f, 0.5f, 0.5f, 1);
+        }
 
         bool[] ends = Bookkeeper.bk.getEndings();
         for (int i=0; i<ends.Length; i++){

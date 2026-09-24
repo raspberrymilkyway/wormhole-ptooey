@@ -26,6 +26,7 @@ public class SaveData : MonoBehaviour
             progress.currInvData = new string[]{};
             progress.usedInvData = new string[]{};
             progress.achievedEndings = new bool[6];
+            progress.currentRoom = "Cabin";
         }
     }
 
@@ -34,6 +35,7 @@ public class SaveData : MonoBehaviour
             deleteSaveData();
         }
         updateInventory();
+        updateCurrentRoom();
         string data = JsonUtility.ToJson(progress);
         File.WriteAllText(path, data);
     }
@@ -54,6 +56,13 @@ public class SaveData : MonoBehaviour
         progress.currInvData = Inventory.inv.getCurrItems().ToArray();
         progress.usedInvData = Inventory.inv.getUsedItems().ToArray();
     }
+    protected internal void updateCurrentRoom(){
+        progress.currentRoom = Bookkeeper.bk.getCurrentScene();
+    }
+
+    protected internal string getCurrentRoom(){
+        return progress.currentRoom;
+    }
 }
 
 [Serializable]
@@ -64,5 +73,6 @@ public class Progress
     public string[] currInvData;
     public string[] usedInvData;
     public bool[] achievedEndings;
+    public string currentRoom;
     //do we need like. a dialogue saver? how are our interactions interacting?
 }

@@ -18,4 +18,10 @@ public class Scenes : MonoBehaviour
         SceneManager.UnloadSceneAsync(scene);
         Bookkeeper.bk.closeOpenScene(scene);
     }
+    protected internal void swapRooms(string curr, string goTo){
+        // only to be used after start is closed!
+        closeScene(curr);
+        openScene(goTo);
+        SaveData.sd.saveData(); //should we save every time a room is swapped? check resource use
+    }
 }

@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class ButtonFunctions : MonoBehaviour
 {
-    public void startGame(){
+    public void startNewGame(){
         Scenes.sc.closeScene("Start");
         Scenes.sc.openScene("Cabin");
+    }
+
+    public void continueGame(){
+        Scenes.sc.closeScene("Start");
+        Scenes.sc.openScene(SaveData.sd.getCurrentRoom());
     }
 
     public void credits(){
@@ -20,5 +25,9 @@ public class ButtonFunctions : MonoBehaviour
     public void startBack(){
         Scene_Start.sc_st.disableCredits();
         Scene_Start.sc_st.disableEndings();
+    }
+
+    public void swapRoom(string current, string goingTo){
+        Scenes.sc.swapRooms(current, goingTo);
     }
 }

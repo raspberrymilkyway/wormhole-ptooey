@@ -6,6 +6,7 @@ public class InventoryInteractable: MonoBehaviour
 {
     public string functionToCall = "";
     public GameObject manager;
+    public GameObject cursorImg;
     public string[] interactableItems = new string[]{};
 
     void Start(){
@@ -40,7 +41,6 @@ public class InventoryInteractable: MonoBehaviour
             Debug.Log("thought bubble: didn't work.");
         }
 
-        UnityEngine.Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-        Bookkeeper.bk.clearCurrentCursor();
+        ButtonFunctions.bf.hideCursor();
     }
 }

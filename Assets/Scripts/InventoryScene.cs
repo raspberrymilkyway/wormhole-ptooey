@@ -10,6 +10,7 @@ public class InventoryScene : MonoBehaviour
     public List<string> itemPaths = new List<string>{};
     public List<GameObject> itemObjects = new List<GameObject>{};
     public GameObject inventory;
+    public Image cursor;
 
     private int invInd = 0;
     private int xMod = 0;
@@ -19,6 +20,7 @@ public class InventoryScene : MonoBehaviour
         for (int i=0; i<itemPaths.Count; i++){
             itemObjects[i].SetActive(Inventory.inv.isItemLoose(itemPaths[i]));
         }
+        cursor.gameObject.SetActive(false);
         setInventory();
     }
 

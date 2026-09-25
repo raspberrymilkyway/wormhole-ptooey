@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 // Is it great design to put literally all button functions in one file? No. Am I going to do it anyway? :)
 
 public class ButtonFunctions : MonoBehaviour
 {
     public static ButtonFunctions bf;
+    public Image cursorImg;
 
     void Start(){
         bf = this;
@@ -45,8 +47,18 @@ public class ButtonFunctions : MonoBehaviour
     }
 
     public void changeCursor(string name){
-        Texture2D c = Resources.Load<Texture2D>("cursors/" + name);
-        UnityEngine.Cursor.SetCursor(c, Vector2.zero, CursorMode.Auto); //if using .ForceSoftware, brighten textures or swap types, uncheck sRGB, and accept the warnings
+        cursorImg.sprite = Resources.Load<Sprite>("cursors/" + name);
+        cursorImg.gameObject.SetActive(true);
+        Cursor.visible = false;
         Bookkeeper.bk.setCurrentCursor(name);
+    }
+    public void hideCursor(){
+        cursorImg.gameObject.SetActive(false);
+        Cursor.visible = true;
+        Bookkeeper.bk.clearCurrentCursor();
+    }
+
+    public void tempFunction(){
+        Debug.Log("temp");
     }
 }

@@ -5,15 +5,20 @@ public class Inventory : MonoBehaviour
 {
     public static Inventory inv;
 
-    private List<string> looseItems; //unfound items
-    private List<string> currItems; //display
-    private List<string> usedItems; //do not display
+    public List<string> looseItems; //unfound items
+    public List<string> currItems; //display
+    public List<string> usedItems; //do not display
 
     void Start(){
         inv = this;
-        looseItems = new List<string>{"inventory/junk_item4"};
-        currItems = new List<string>{"inventory/junk_item1", "inventory/junk_item2", "inventory/junk_item3", "inventory/junk_item4", "inventory/junk_item5", "inventory/junk_item5"};
-        usedItems = new List<string>{"inventory/junk_item5"};
+        if (SaveData.sd.wasDataLoaded()){
+            looseItems = new List<string>(SaveData.sd.getLooseItems());
+            currItems = new List<string>(SaveData.sd.getCurrItems());
+            usedItems = new List<string>(SaveData.sd.getUsedItems());
+        }
+        else{
+            clearLists();
+        }
     }
 
     protected internal List<string> getLooseItems(){
@@ -45,11 +50,18 @@ public class Inventory : MonoBehaviour
         usedItems.Add(path);
     }
     protected internal void looseToCurrItem(string path){
-        looseItems.Add(path);
+        looseItems.Remove(path);
         addCurrItem(path);
+        InventoryScene.isc.addItemToDisplay(path, path.Split("/", 2)[1]);
     }
     protected internal void currToUsedItem(string path){
         currItems.Remove(path);
         addUsedItem(path);
+    }
+
+    protected internal void clearLists(){
+        looseItems = new List<string>{};
+        currItems = new List<string>{};
+        usedItems = new List<string>{};
     }
 }

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public class InventoryScene : MonoBehaviour
 {
     // handle items scattered around the scene and the inventory ui in a scene
+    public static InventoryScene isc;
 
     public List<string> itemPaths = new List<string>{};
     public List<GameObject> itemObjects = new List<GameObject>{};
@@ -17,6 +18,7 @@ public class InventoryScene : MonoBehaviour
     private int yPad = 220;
 
     void Start(){
+        isc = this;
         for (int i=0; i<itemPaths.Count; i++){
             itemObjects[i].SetActive(Inventory.inv.isItemLoose(itemPaths[i]));
         }

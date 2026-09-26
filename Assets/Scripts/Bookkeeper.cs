@@ -13,10 +13,16 @@ public class Bookkeeper : MonoBehaviour
     public List<string> openScenes = new List<string>(){"Components"};
     private List<string> allItems = new List<string>{}; //path
     private bool[] endings = new bool[6];
+    private int[] points = new int[6];
     private string cursor = "";
+    private string directionEnteredFrom = "";
+    private string previousRoom = "";
 
     void Start(){
         bk = this;
+
+        endings = SaveData.sd.getAchievedEndings();
+        points = SaveData.sd.getPoints();
     }
 
     protected internal void addOpenScene(string scene){
@@ -35,8 +41,24 @@ public class Bookkeeper : MonoBehaviour
         return openScenes[openScenes.Count-1];
     }
 
+    protected internal void finishEnding(int index){
+        endings[index] = true;
+    }
     protected internal bool[] getEndings(){
         return endings;
+    }
+    protected internal void clearEndings(){
+        endings = new bool[6];
+    }
+
+    protected internal void addPoints(int index, int pts){
+        points[index] += pts;
+    }
+    protected internal int[] getPoints(){
+        return points;
+    }
+    protected internal void clearPoints(){
+        points = new int[6];
     }
 
     protected internal Camera getCamera(){
@@ -51,5 +73,16 @@ public class Bookkeeper : MonoBehaviour
     }
     protected internal void clearCurrentCursor(){
         cursor = "";
+    }
+
+    protected internal void setDirectionEnteredFrom(string direction){
+        directionEnteredFrom = direction;
+        previousRoom = getCurrentScene();
+    }
+    protected internal string getDirectionEnteredFrom(){
+        return directionEnteredFrom;
+    }
+    protected internal string getPreviousRoom(){
+        return previousRoom;
     }
 }

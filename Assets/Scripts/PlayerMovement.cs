@@ -39,4 +39,8 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("Walk", false);
         walking = false;
     }
+
+    protected internal bool getWalking(){
+        return walking;
+    }
 }

@@ -15,6 +15,7 @@ public class ButtonFunctions : MonoBehaviour
     }
 
     public void startNewGame(){
+        clearData();
         Scenes.sc.closeScene("Start");
         Scenes.sc.openScene("Cabin");
     }
@@ -48,11 +49,13 @@ public class ButtonFunctions : MonoBehaviour
         // this needs to be passed somewhere for later display
     }
 
-    public void changeCursor(string name){
+    public void changeCursor(string name, bool swapBookkeeper=true){
         cursorImg.sprite = Resources.Load<Sprite>("cursors/" + name);
         cursorImg.gameObject.SetActive(true);
         Cursor.visible = false;
-        Bookkeeper.bk.setCurrentCursor(name);
+        if (swapBookkeeper){
+            Bookkeeper.bk.setCurrentCursor(name);
+        }
     }
     public void hideCursor(){
         cursorImg.gameObject.SetActive(false);
@@ -62,5 +65,12 @@ public class ButtonFunctions : MonoBehaviour
 
     public void tempFunction(){
         Debug.Log("temp");
+    }
+
+    private void clearData(){
+        SaveData.sd.clearSaveData();
+        Inventory.inv.clearLists();
+        Bookkeeper.bk.clearEndings();
+        Bookkeeper.bk.clearPoints();
     }
 }

@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 
 public class ClickMovement : MonoBehaviour, IPointerClickHandler
 {
+    public static ClickMovement cm;
+
     public GameObject player;
     public int maxStandingX = 1600; //not 1920 because of inventory + centered player sprite
     public int minStandingX = 0;
@@ -13,6 +15,7 @@ public class ClickMovement : MonoBehaviour, IPointerClickHandler
     private Camera cam;
 
     void Start(){
+        cm = this;
         cam = Bookkeeper.bk.getCamera();
     }
 

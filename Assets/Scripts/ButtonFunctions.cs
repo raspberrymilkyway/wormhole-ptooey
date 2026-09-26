@@ -8,6 +8,7 @@ public class ButtonFunctions : MonoBehaviour
 {
     public static ButtonFunctions bf;
     public Image cursorImg;
+    public string currentRoom;
 
     void Start(){
         bf = this;
@@ -36,8 +37,9 @@ public class ButtonFunctions : MonoBehaviour
         Scene_Start.sc_st.disableEndings();
     }
 
-    public void swapRoom(string current, string goingTo){
-        Scenes.sc.swapRooms(current, goingTo);
+    public void swapRoom(string goingTo){
+        Scenes.sc.swapRooms(currentRoom, goingTo);
+        hideCursor();
     }
 
     public void blurb(string blot){

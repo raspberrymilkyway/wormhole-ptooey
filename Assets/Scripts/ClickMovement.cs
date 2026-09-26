@@ -31,6 +31,5 @@ public class ClickMovement : MonoBehaviour, IPointerClickHandler
             endPoint.y = minStandingY;
         }
         PlayerMovement.pm.walk(new Vector3(endPoint.x, endPoint.y, 0));
-        // player.GetComponent<RectTransform>().position = new Vector3(endPoint.x, endPoint.y, 0);
     }
 }

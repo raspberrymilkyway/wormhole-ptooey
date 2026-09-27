@@ -39,6 +39,7 @@ public class SaveData : MonoBehaviour
         updateHadFlashback();
         updateDefusedBomb();
         updateIntros();
+        updatePuzzleRooms();
         string data = JsonUtility.ToJson(progress);
         File.WriteAllText(path, data);
     }
@@ -73,6 +74,9 @@ public class SaveData : MonoBehaviour
     }
     protected internal void updateSpokenTo(){
         progress.spokenTo = Bookkeeper.bk.getSpokenTo().ToArray();
+    }
+    protected internal void updatePuzzleRooms(){
+        progress.spokenTo = Bookkeeper.bk.getPuzzlesSolved().ToArray();
     }
     protected internal void updateHadFlashback(){
         progress.hadFlashback = Bookkeeper.bk.getHadFlashback();
@@ -125,6 +129,10 @@ public class SaveData : MonoBehaviour
         return progress.defusedBomb;
     }
 
+    protected internal string[] getPuzzlesSolved(){
+        return progress.puzzleRoomsSolved;
+    }
+
     protected internal void clearSaveData(){
         clearData();
         progress.achievedEndings = new bool[6];
@@ -136,6 +144,7 @@ public class SaveData : MonoBehaviour
         progress.currInvData = new string[]{};
         progress.usedInvData = new string[]{};
         progress.spokenTo = new string[]{};
+        progress.puzzleRoomsSolved = new string[]{};
         progress.currentRoom = "Cabin";
         progress.previousRoom = "";
         progress.defusedBomb = false;
@@ -152,6 +161,7 @@ public class Progress
     public string[] currInvData;
     public string[] usedInvData;
     public string[] spokenTo;
+    public string[] puzzleRoomsSolved;
     public bool[] achievedEndings;
     public bool[] introsFinished;
     public string currentRoom;

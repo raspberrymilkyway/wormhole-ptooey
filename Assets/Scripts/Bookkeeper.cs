@@ -12,6 +12,7 @@ public class Bookkeeper : MonoBehaviour
 
     public List<string> openScenes = new List<string>(){"Components"};
     private List<string> spokenTo = new List<string>{};
+    private List<string> puzzleRoomsSolved = new List<string>{};
     private bool[] endings = new bool[6];
     private int[] points = new int[6];
     private string cursor = "";
@@ -33,6 +34,7 @@ public class Bookkeeper : MonoBehaviour
         spokenTo = new List<string>(SaveData.sd.getSpokenTo());
         defusedBomb = SaveData.sd.getDefusedBomb();
         intros = SaveData.sd.getIntrosFinished();
+        puzzleRoomsSolved = new List<string>(SaveData.sd.getPuzzlesSolved());
     }
 
     protected internal void addOpenScene(string scene){
@@ -159,6 +161,19 @@ public class Bookkeeper : MonoBehaviour
         hadFlashback = false;
     }
 
+    protected internal void setPuzzleSolved(string room){
+        puzzleRoomsSolved.Add(room);
+    }
+    protected internal bool isPuzzleSolved(string room){
+        return puzzleRoomsSolved.Contains(room);
+    }
+    protected internal List<string> getPuzzlesSolved(){
+        return puzzleRoomsSolved;
+    }
+    protected internal void resetPuzzleStates(){
+        puzzleRoomsSolved = new List<string>{};
+    }
+
     protected internal bool checkWin(){
         // verify no other win conditions (any other way to get bracelet)
         if (getCurrentScene().Equals("StorageBay") && Inventory.inv.isItemCurr("bracelet")){
@@ -173,6 +188,7 @@ public class Bookkeeper : MonoBehaviour
         resetSpokenTo();
         resetCabinState();
         resetFlashback();
+        resetPuzzleStates();
         clearPoints();
         setPreviousRoom("");
         setDirectionEnteredFrom("");

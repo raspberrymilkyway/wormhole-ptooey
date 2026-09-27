@@ -20,8 +20,7 @@ public class ClickableClick : MonoBehaviour, IPointerClickHandler
                     this.gameObject.SetActive(false);
                 }
                 else if (puzzleOpener){
-                    // open puzzle, but also check if it's solved
-                    Debug.Log("puzzle window should open");
+                    PuzzleFunctions.pf.showPuzzleWindow();
                 }
             }
         }

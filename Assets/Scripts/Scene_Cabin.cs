@@ -27,9 +27,11 @@ public class Scene_Cabin : MonoBehaviour
             slime.SetActive(false);
         }
 
-        Debug.Log(Bookkeeper.bk.getPreviousRoom());
         if (Bookkeeper.bk.getPreviousRoom().Equals("Start") || Bookkeeper.bk.getPreviousRoom().Equals("Components")){
             player.transform.position = new Vector2(1920/2, 1080/2);
+        }
+        if (!Bookkeeper.bk.isIntroFinished("Cabin")){
+            Bookkeeper.bk.finishIntro("Cabin");
         }
     }
 }

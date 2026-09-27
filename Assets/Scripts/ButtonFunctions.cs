@@ -72,6 +72,10 @@ public class ButtonFunctions : MonoBehaviour
         Bookkeeper.bk.clearCurrentCursor();
     }
 
+    public bool isPuzzleSolved(){
+        return Bookkeeper.bk.isPuzzleSolved(currentRoom);
+    }
+
     public void tempFunction(){
         Debug.Log("temp");
     }

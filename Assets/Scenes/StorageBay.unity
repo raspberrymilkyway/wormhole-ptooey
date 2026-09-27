@@ -1044,8 +1044,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: Ten whole years of flight logs, in one tiny drawer. Either these are backups
-    of backups or this ship has done very little flying over the last decade.
+  blurb: The ship's navigation system is so messed up that all the flight logs for
+    the last ten years can be found in this one tiny drawer.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 

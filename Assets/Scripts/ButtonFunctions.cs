@@ -56,7 +56,6 @@ public class ButtonFunctions : MonoBehaviour
     }
 
     public void blurb(string blot){
-        Debug.Log(blot);
         DialogueHandler.dh.showDialogueBox(new List<string>{blot});
         // this needs to be passed somewhere for later display
     }

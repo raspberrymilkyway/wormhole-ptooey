@@ -5303,7 +5303,7 @@ MonoBehaviour:
   - Follow them quietly, uncertain as to what to do.
   - Try to snatch the bracelet.
   pretext:
-  - You hurry after the crew member with the bracelet.
+  - You close in on the crew member.
   points: 0a0000000a0000000a0000000a0000000a000000
 --- !u!114 &1873029212
 MonoBehaviour:

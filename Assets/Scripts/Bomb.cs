@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using System.Collections.Generic;
 
 public class Bomb : MonoBehaviour, IPointerClickHandler
 {
@@ -21,6 +22,9 @@ public class Bomb : MonoBehaviour, IPointerClickHandler
     public void defuse(){
         Bookkeeper.bk.addPoints(5, -1000); // defused!
         Bookkeeper.bk.defuseBomb();
+        ((ClickableClick)this.gameObject.GetComponent("ClickableClick")).enabled = false;
+        PuzzleFunctions.pf.hidePuzzleWindow();
+        DialogueHandler.dh.showDialogueBox(new List<string>{"You've successfully defused the bomb! Whew."});
     }
     
     public void detonate(){

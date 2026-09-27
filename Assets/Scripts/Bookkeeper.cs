@@ -119,6 +119,7 @@ public class Bookkeeper : MonoBehaviour
     }
     protected internal void defuseBomb(){
         defusedBomb = true;
+        setPuzzleSolved("Bridge");
     }
     protected internal (bool, bool) getBombStatus(){
         return (detonatedBomb, defusedBomb);

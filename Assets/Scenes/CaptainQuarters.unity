@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorImg: {fileID: 1546421620}
-  currentRoom: Cabin
+  currentRoom: CaptainQuarters
 --- !u!114 &16967674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1098,7 +1098,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: 
+  blurb: An armoire. Probably full of things that don't fit you, unless this does
+    happen to be your room... Maybe you should check it out. Just for curiosity's
+    sake.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
@@ -2075,8 +2077,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: A box of what you think is candy. You open it, but the only thing inside
-    is slime.
+  blurb: A dresser. There's nothing atop to look at, but you can stare into the rug
+    instead.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
@@ -3434,6 +3436,7 @@ GameObject:
   - component: {fileID: 1953769433}
   - component: {fileID: 1953769432}
   - component: {fileID: 1953769434}
+  - component: {fileID: 1953769435}
   m_Layer: 5
   m_Name: Door
   m_TagString: Untagged
@@ -3512,6 +3515,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: arrow-s
   roomToGoTo: Hallway
+--- !u!114 &1953769435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953769429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab990d39126554295471fc7f8f2352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2079941413
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 6aa961c75ab5fa24f95e14839a03f292
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6457521782494923310
+    second: bomb-purple-text_0
+  - first:
+      213: -8748860613161546171
+    second: bomb-purple-text_1
+  - first:
+      213: -4290910465943126169
+    second: bomb-purple-text_2
+  - first:
+      213: 2328708176545098460
+    second: bomb-purple-text_3
+  - first:
+      213: -2007210341338387724
+    second: bomb-purple-text_4
+  - first:
+      213: 8077032907384180052
+    second: bomb-purple-text_5
+  - first:
+      213: -6226107072615072641
+    second: bomb-purple-text_6
+  - first:
+      213: 5100386464959364662
+    second: bomb-purple-text_7
+  - first:
+      213: 1402948771508269457
+    second: bomb-purple-text_8
+  - first:
+      213: -8062626551296838063
+    second: bomb-purple-text_9
+  - first:
+      213: -3617965636726468205
+    second: bomb-purple-text_10
+  - first:
+      213: -2673991702746161965
+    second: bomb-purple-text_11
+  - first:
+      213: 5081200988826401774
+    second: bomb-purple-text_12
+  - first:
+      213: 6539615005071064887
+    second: bomb-purple-text_13
+  - first:
+      213: 7943387879118075087
+    second: bomb-purple-text_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bomb-purple-text_0
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 804
+        width: 72
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a05f609d9bd9950800000000000000
+      internalID: 6457521782494923310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_1
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 779
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e891330adc59680800000000000000
+      internalID: -8748860613161546171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_2
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 787
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f347a5aaf9374c0800000000000000
+      internalID: -4290910465943126169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 675
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaa480afbb315020800000000000000
+      internalID: 2328708176545098460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_4
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 678
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fae80744d4f424e0800000000000000
+      internalID: -2007210341338387724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_5
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 681
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d46c3a2a2671070800000000000000
+      internalID: 8077032907384180052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_6
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 690
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c3b33da9c6899a0800000000000000
+      internalID: -6226107072615072641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_7
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 699
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63efc15877638c640800000000000000
+      internalID: 5100386464959364662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_8
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 704
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19132db7976487310800000000000000
+      internalID: 1402948771508269457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_9
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 704
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156b1558edbcb1090800000000000000
+      internalID: -8062626551296838063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_10
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 617
+        width: 70
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39159551c676acdc0800000000000000
+      internalID: -3617965636726468205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_11
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 540
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc1979b6b214ead0800000000000000
+      internalID: -2673991702746161965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_12
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 542
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb7c53c06d048640800000000000000
+      internalID: 5081200988826401774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_13
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 338
+        width: 101
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f3311e23161ca50800000000000000
+      internalID: 6539615005071064887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb-purple-text_14
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 351
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4f9ffa0359c3e60800000000000000
+      internalID: 7943387879118075087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bomb-purple-text_0: 6457521782494923310
+      bomb-purple-text_1: -8748860613161546171
+      bomb-purple-text_10: -3617965636726468205
+      bomb-purple-text_11: -2673991702746161965
+      bomb-purple-text_12: 5081200988826401774
+      bomb-purple-text_13: 6539615005071064887
+      bomb-purple-text_14: 7943387879118075087
+      bomb-purple-text_2: -4290910465943126169
+      bomb-purple-text_3: 2328708176545098460
+      bomb-purple-text_4: -2007210341338387724
+      bomb-purple-text_5: 8077032907384180052
+      bomb-purple-text_6: -6226107072615072641
+      bomb-purple-text_7: 5100386464959364662
+      bomb-purple-text_8: 1402948771508269457
+      bomb-purple-text_9: -8062626551296838063
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

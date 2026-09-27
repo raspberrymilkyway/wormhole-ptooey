@@ -11,7 +11,6 @@ public class Bookkeeper : MonoBehaviour
     public Camera cam;
 
     public List<string> openScenes = new List<string>(){"Components"};
-    private List<string> allItems = new List<string>{}; //path
     private List<string> spokenTo = new List<string>{};
     private bool[] endings = new bool[6];
     private int[] points = new int[6];
@@ -19,6 +18,7 @@ public class Bookkeeper : MonoBehaviour
     private string directionEnteredFrom = "";
     private string previousRoom = "";
     private bool detonatedBomb = false;
+    private bool canEnterCabin = true;
 
     void Start(){
         bk = this;
@@ -117,5 +117,24 @@ public class Bookkeeper : MonoBehaviour
     }
     protected internal void resetSpokenTo(){
         spokenTo = new List<string>{};
+    }
+
+    protected internal bool getCabinState(){
+        return canEnterCabin;
+    }
+    protected internal void removeCabin(){
+        canEnterCabin = false;
+    }
+    protected internal void resetCabinState(){
+        canEnterCabin = true;
+    }
+
+    protected internal void resetBookkeeperStats(){
+        resetBomb();
+        resetSpokenTo();
+        resetCabinState();
+        clearPoints();
+        setPreviousRoom("");
+        setDirectionEnteredFrom("");
     }
 }

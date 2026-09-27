@@ -1166,6 +1166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: arrow_north
   roomToGoTo: Hallway
+  isCabinEntry: 0
 --- !u!1 &744993671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1820,6 +1821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: arrow_northeast
   roomToGoTo: End
+  isCabinEntry: 0
 --- !u!1 &996284003
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,6 +2323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: arrow_northwest
   roomToGoTo: Cabin
+  isCabinEntry: 1
 --- !u!1 &1474420891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2411,6 +2414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: arrow_southeast
   roomToGoTo: Hallway
+  isCabinEntry: 0
 --- !u!1 &1488970228
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,6 +2735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: arrow_southwest
   roomToGoTo: Medbay
+  isCabinEntry: 0
 --- !u!1 &1707330406
 GameObject:
   m_ObjectHideFlags: 0
@@ -3859,6 +3864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: arrow_south
   roomToGoTo: Hallway
+  isCabinEntry: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

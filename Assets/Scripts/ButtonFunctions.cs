@@ -27,9 +27,7 @@ public class ButtonFunctions : MonoBehaviour
         }
         else{
             SaveData.sd.clearData();
-            Bookkeeper.bk.clearPoints();
-            Bookkeeper.bk.resetBomb();
-            Bookkeeper.bk.resetSpokenTo();
+            Bookkeeper.bk.resetBookkeeperStats();
             Scenes.sc.openScene("Cabin");
         }
     }
@@ -82,8 +80,6 @@ public class ButtonFunctions : MonoBehaviour
         SaveData.sd.clearSaveData();
         Inventory.inv.clearLists();
         Bookkeeper.bk.clearEndings();
-        Bookkeeper.bk.clearPoints();
-        Bookkeeper.bk.resetBomb();
-        Bookkeeper.bk.resetSpokenTo();
+        Bookkeeper.bk.resetBookkeeperStats();
     }
 }

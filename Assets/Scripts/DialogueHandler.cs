@@ -44,9 +44,16 @@ public class DialogueHandler : MonoBehaviour
         handleDialogue();
     }
     public void hideDialogueBox(){
-        blocker.gameObject.SetActive(false);
-        dialogueStyle.SetActive(false);
-        holder.blocksRaycasts = true;
+        if (Bookkeeper.bk.getCurrentScene().Equals("Cabin")){
+            // the only dialogue is with the slime, i think
+            Bookkeeper.bk.removeCabin();
+            ButtonFunctions.bf.swapRoom("Hallway");
+        }
+        else{
+            blocker.gameObject.SetActive(false);
+            dialogueStyle.SetActive(false);
+            holder.blocksRaycasts = true;
+        }
     }
 
     public void handleDialogue(){

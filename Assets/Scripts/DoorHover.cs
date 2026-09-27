@@ -6,6 +6,14 @@ public class DoorHover : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
     public string direction;
     public string roomToGoTo;
     private bool movingToDoor;
+    private bool canGoIn = true;
+
+    void Start(){
+        if (roomToGoTo.Equals("Cabin") && !Bookkeeper.bk.getCabinState()){
+            direction = "x";
+            canGoIn = false;
+        }
+    }
 
     void Update(){
         if (movingToDoor){
@@ -30,8 +38,11 @@ public class DoorHover : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
     }
 
     public void OnPointerClick(PointerEventData eventData){
-        movingToDoor = true;
-        Bookkeeper.bk.setDirectionEnteredFrom(direction);
-        ClickMovement.cm.OnPointerClick(eventData);
+        if (canGoIn){
+            movingToDoor = true;
+            Bookkeeper.bk.setDirectionEnteredFrom(direction);
+            ClickMovement.cm.OnPointerClick(eventData);
+        }
+        // else thought bubble "i'm not going back in there."
     }
 }

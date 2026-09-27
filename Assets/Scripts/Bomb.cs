@@ -7,4 +7,8 @@ public class Bomb : MonoBehaviour, IPointerClickHandler
         Bookkeeper.bk.addPoints(5, 1000); // b o m b e n d i n g
         // unless you defuse!
     }
+
+    public void defuse(){
+        Bookkeeper.bk.addPoints(5, -1000); // defused!
+    }
 }

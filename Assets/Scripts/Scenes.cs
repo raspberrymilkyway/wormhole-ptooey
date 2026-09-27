@@ -30,7 +30,7 @@ public class Scenes : MonoBehaviour
             openScene("Hallway");
         }
         else{
-            closeScene("MessHall");
+            closeScene("MessHall4");
             openScene("Flashback");
         }
     }

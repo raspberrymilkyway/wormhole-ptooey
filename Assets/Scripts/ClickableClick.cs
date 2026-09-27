@@ -6,6 +6,8 @@ public class ClickableClick : MonoBehaviour, IPointerClickHandler
 {
     public string blurb = "";
     public bool inventoryItem = false;
+    public bool puzzleOpener = false;
+    public string inventoryItemPath = "";
     private bool movingToClickable;
 
     void Update(){
@@ -14,8 +16,12 @@ public class ClickableClick : MonoBehaviour, IPointerClickHandler
                 movingToClickable = false;
                 ButtonFunctions.bf.blurb(blurb);
                 if (inventoryItem){
-                    Inventory.inv.looseToCurrItem("inventory/" + this.GetComponent<Image>().sprite.name);
+                    Inventory.inv.looseToCurrItem(inventoryItemPath);
                     this.gameObject.SetActive(false);
+                }
+                else if (puzzleOpener){
+                    // open puzzle, but also check if it's solved
+                    Debug.Log("puzzle window should open");
                 }
             }
         }

@@ -350,8 +350,6 @@ MonoBehaviour:
   cam: {fileID: 519420031}
   openScenes:
   - Components
-  endings: 000000000000
-  points: 000000000000000000000000000000000000000000000000
 --- !u!114 &579401500
 MonoBehaviour:
   m_ObjectHideFlags: 0

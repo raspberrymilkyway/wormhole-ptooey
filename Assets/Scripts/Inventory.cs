@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 public class Inventory : MonoBehaviour
 {
+    // Fill out lists from ClearData(), not Inspector
     public static Inventory inv;
 
     public List<string> looseItems; //unfound items
@@ -68,7 +69,7 @@ public class Inventory : MonoBehaviour
     }
 
     protected internal void clearLists(){
-        looseItems = new List<string>{};
+        looseItems = new List<string>{"inventory/bracelet", "inventory/recipe-book"};
         currItems = new List<string>{};
         usedItems = new List<string>{};
     }

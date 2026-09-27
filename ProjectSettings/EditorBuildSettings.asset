@@ -32,6 +32,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StorageBay.unity
     guid: 5753be51ca1fc654194e8f9a0f9f70ba
+  - enabled: 1
+    path: Assets/Scenes/MessHall1.unity
+    guid: f80b0c2e3e97bf947bfaf5ea0806c960
+  - enabled: 1
+    path: Assets/Scenes/MessHall2.unity
+    guid: 8c7110c1deeb47e43926349fbd2d7231
+  - enabled: 1
+    path: Assets/Scenes/MessHall3.unity
+    guid: 320f3852588afbd428e342536f0a722f
+  - enabled: 1
+    path: Assets/Scenes/MessHall4.unity
+    guid: 7c693fea9e66fc34285c008e3f581a16
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

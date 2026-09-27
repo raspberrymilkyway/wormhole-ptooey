@@ -36,6 +36,8 @@ public class SaveData : MonoBehaviour
         updatePoints();
         updateEndings();
         updateSpokenTo();
+        updateHadFlashback();
+        updateDefusedBomb();
         string data = JsonUtility.ToJson(progress);
         File.WriteAllText(path, data);
     }
@@ -71,6 +73,12 @@ public class SaveData : MonoBehaviour
     protected internal void updateSpokenTo(){
         progress.spokenTo = Bookkeeper.bk.getSpokenTo().ToArray();
     }
+    protected internal void updateHadFlashback(){
+        progress.hadFlashback = Bookkeeper.bk.getHadFlashback();
+    }
+    protected internal void updateDefusedBomb(){
+        progress.defusedBomb = Bookkeeper.bk.getBombStatus().Item2;
+    }
 
     protected internal string[] getLooseItems(){
         return progress.looseInvData;
@@ -101,6 +109,14 @@ public class SaveData : MonoBehaviour
         return progress.spokenTo;
     }
 
+    protected internal bool getHadFlashback(){
+        return progress.hadFlashback;
+    }
+
+    protected internal bool getDefusedBomb(){
+        return progress.defusedBomb;
+    }
+
     protected internal void clearSaveData(){
         clearData();
         deleteSaveData();
@@ -113,6 +129,8 @@ public class SaveData : MonoBehaviour
         progress.spokenTo = new string[]{};
         progress.currentRoom = "Cabin";
         progress.previousRoom = "";
+        progress.defusedBomb = false;
+        progress.hadFlashback = false;
     }
 }
 
@@ -127,5 +145,7 @@ public class Progress
     public bool[] achievedEndings;
     public string currentRoom;
     public string previousRoom;
+    public bool hadFlashback;
+    public bool defusedBomb;
     //do we need like. a dialogue saver? how are our interactions interacting?
 }

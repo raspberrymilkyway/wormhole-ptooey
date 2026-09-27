@@ -1,0 +1,2938 @@
+fileFormatVersion: 2
+guid: c11ea7d1c59a11b40890afcca8375e1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1910333774239505483
+    second: storage-purple-text_0
+  - first:
+      213: -5757540552021283510
+    second: storage-purple-text_1
+  - first:
+      213: -7785537942346933807
+    second: storage-purple-text_2
+  - first:
+      213: 7262686743368772765
+    second: storage-purple-text_3
+  - first:
+      213: -8600434439162567602
+    second: storage-purple-text_4
+  - first:
+      213: -4735998157421114327
+    second: storage-purple-text_5
+  - first:
+      213: 1669634512471164494
+    second: storage-purple-text_6
+  - first:
+      213: 7276208035926189872
+    second: storage-purple-text_7
+  - first:
+      213: -5394451256792577308
+    second: storage-purple-text_8
+  - first:
+      213: -8314294194298238121
+    second: storage-purple-text_9
+  - first:
+      213: -159279720574245095
+    second: storage-purple-text_10
+  - first:
+      213: 8909950818108706493
+    second: storage-purple-text_11
+  - first:
+      213: -6345915364467428092
+    second: storage-purple-text_12
+  - first:
+      213: 1227257078056810237
+    second: storage-purple-text_13
+  - first:
+      213: 396330805307934290
+    second: storage-purple-text_14
+  - first:
+      213: 3972700048652955613
+    second: storage-purple-text_15
+  - first:
+      213: 7443718387298272335
+    second: storage-purple-text_16
+  - first:
+      213: 4802352066312925313
+    second: storage-purple-text_17
+  - first:
+      213: 6468708379031946528
+    second: storage-purple-text_18
+  - first:
+      213: -6332851383494456876
+    second: storage-purple-text_19
+  - first:
+      213: -5399692190692655666
+    second: storage-purple-text_20
+  - first:
+      213: 396727319669153954
+    second: storage-purple-text_21
+  - first:
+      213: 8711671756746936155
+    second: storage-purple-text_22
+  - first:
+      213: -7866959665156198370
+    second: storage-purple-text_23
+  - first:
+      213: -8196393812858571629
+    second: storage-purple-text_24
+  - first:
+      213: -111695502134950666
+    second: storage-purple-text_25
+  - first:
+      213: 6414335088380046264
+    second: storage-purple-text_26
+  - first:
+      213: -5059530851309921822
+    second: storage-purple-text_27
+  - first:
+      213: 8265578398276784410
+    second: storage-purple-text_28
+  - first:
+      213: -1543107113179652974
+    second: storage-purple-text_29
+  - first:
+      213: 1688100279363249266
+    second: storage-purple-text_30
+  - first:
+      213: -5769673798511173228
+    second: storage-purple-text_31
+  - first:
+      213: 598906898286835816
+    second: storage-purple-text_32
+  - first:
+      213: -8455557756722033321
+    second: storage-purple-text_33
+  - first:
+      213: -173385037319848131
+    second: storage-purple-text_34
+  - first:
+      213: 161738490402746643
+    second: storage-purple-text_35
+  - first:
+      213: 2511208893988979772
+    second: storage-purple-text_36
+  - first:
+      213: -8027198743070759381
+    second: storage-purple-text_37
+  - first:
+      213: -6963975040233363075
+    second: storage-purple-text_38
+  - first:
+      213: 1274814792584838911
+    second: storage-purple-text_39
+  - first:
+      213: 960661073333999712
+    second: storage-purple-text_40
+  - first:
+      213: 1412470902039473574
+    second: storage-purple-text_41
+  - first:
+      213: 6313234859601217276
+    second: storage-purple-text_42
+  - first:
+      213: -2055683378155643812
+    second: storage-purple-text_43
+  - first:
+      213: 3943516005769897030
+    second: storage-purple-text_44
+  - first:
+      213: 706541949261405284
+    second: storage-purple-text_45
+  - first:
+      213: 3196965064008493029
+    second: storage-purple-text_46
+  - first:
+      213: 1767969899659928845
+    second: storage-purple-text_47
+  - first:
+      213: 6055131335258318608
+    second: storage-purple-text_48
+  - first:
+      213: 1844453920599229158
+    second: storage-purple-text_49
+  - first:
+      213: 6090132300431663873
+    second: storage-purple-text_50
+  - first:
+      213: 1243699979224270036
+    second: storage-purple-text_51
+  - first:
+      213: -2775210271192504913
+    second: storage-purple-text_52
+  - first:
+      213: -2219111731262960087
+    second: storage-purple-text_53
+  - first:
+      213: -8668846333862227900
+    second: storage-purple-text_54
+  - first:
+      213: 6973022279023535859
+    second: storage-purple-text_55
+  - first:
+      213: 5554510090288101224
+    second: storage-purple-text_56
+  - first:
+      213: 1842325564465178423
+    second: storage-purple-text_57
+  - first:
+      213: 656393766850569250
+    second: storage-purple-text_58
+  - first:
+      213: 4288178129386229867
+    second: storage-purple-text_59
+  - first:
+      213: 6694099376761399241
+    second: storage-purple-text_60
+  - first:
+      213: 7367871895462224849
+    second: storage-purple-text_61
+  - first:
+      213: 2667050760567907345
+    second: storage-purple-text_62
+  - first:
+      213: -7388803692767025335
+    second: storage-purple-text_63
+  - first:
+      213: -5782094336496801234
+    second: storage-purple-text_64
+  - first:
+      213: -5549008237925312098
+    second: storage-purple-text_65
+  - first:
+      213: 9021008700556925793
+    second: storage-purple-text_66
+  - first:
+      213: -5697123017179763963
+    second: storage-purple-text_67
+  - first:
+      213: 7977525099614744565
+    second: storage-purple-text_68
+  - first:
+      213: -2644721352292279048
+    second: storage-purple-text_69
+  - first:
+      213: -6587261773059782566
+    second: storage-purple-text_70
+  - first:
+      213: -7702504980414858661
+    second: storage-purple-text_71
+  - first:
+      213: 207479354179344662
+    second: storage-purple-text_72
+  - first:
+      213: 1138741456673941203
+    second: storage-purple-text_73
+  - first:
+      213: -411522577174036990
+    second: storage-purple-text_74
+  - first:
+      213: -3841721522797815196
+    second: storage-purple-text_75
+  - first:
+      213: 3454932961070882043
+    second: storage-purple-text_76
+  - first:
+      213: 632053095960321435
+    second: storage-purple-text_77
+  - first:
+      213: 8530478510393937725
+    second: storage-purple-text_78
+  - first:
+      213: -7294001655685360954
+    second: storage-purple-text_79
+  - first:
+      213: -2095954610970092583
+    second: storage-purple-text_80
+  - first:
+      213: -8437815842140999131
+    second: storage-purple-text_81
+  - first:
+      213: -4855246616726847567
+    second: storage-purple-text_82
+  - first:
+      213: -4206284816980850824
+    second: storage-purple-text_83
+  - first:
+      213: -4124608260920112942
+    second: storage-purple-text_84
+  - first:
+      213: -1335589383049954454
+    second: storage-purple-text_85
+  - first:
+      213: 9092685476006349538
+    second: storage-purple-text_86
+  - first:
+      213: 2638531233847552714
+    second: storage-purple-text_87
+  - first:
+      213: 9168679845517837699
+    second: storage-purple-text_88
+  - first:
+      213: 6834257056912386235
+    second: storage-purple-text_89
+  - first:
+      213: -2625422278535394578
+    second: storage-purple-text_90
+  - first:
+      213: -8510069644657708375
+    second: storage-purple-text_91
+  - first:
+      213: -2361482088497366230
+    second: storage-purple-text_92
+  - first:
+      213: 8290911498522559977
+    second: storage-purple-text_93
+  - first:
+      213: 666799361285668731
+    second: storage-purple-text_94
+  - first:
+      213: -92045531769159889
+    second: storage-purple-text_95
+  - first:
+      213: -5347479763647585318
+    second: storage-purple-text_96
+  - first:
+      213: -5451260515569886515
+    second: storage-purple-text_97
+  - first:
+      213: 9199314277350316958
+    second: storage-purple-text_98
+  - first:
+      213: -6587821437588377411
+    second: storage-purple-text_99
+  - first:
+      213: -2297137649548594561
+    second: storage-purple-text_100
+  - first:
+      213: 4145123651457274216
+    second: storage-purple-text_101
+  - first:
+      213: 8315410556878402747
+    second: storage-purple-text_102
+  - first:
+      213: -3426164024972999264
+    second: storage-purple-text_103
+  - first:
+      213: 442996555353354515
+    second: storage-purple-text_104
+  - first:
+      213: -1415408217636771499
+    second: storage-purple-text_105
+  - first:
+      213: 7592136462744034951
+    second: storage-purple-text_106
+  - first:
+      213: 2654351053518921483
+    second: storage-purple-text_107
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: storage-purple-text_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 998
+        width: 32
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3e500cd812d75e0800000000000000
+      internalID: -1910333774239505483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1001
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d6dd86f5b1910b0800000000000000
+      internalID: -5757540552021283510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1035
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9d511bd7634f390800000000000000
+      internalID: -7785537942346933807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_3
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1015
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c2f6d1d1f3ac460800000000000000
+      internalID: 7262686743368772765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_4
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1032
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44eda3d17e15a880800000000000000
+      internalID: -8600434439162567602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_5
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1049
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c820aa4ca564eb0800000000000000
+      internalID: -4735998157421114327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_6
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1025
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4683943ebbbb2710800000000000000
+      internalID: 1669634512471164494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_7
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1053
+        width: 57
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037293d58a84af460800000000000000
+      internalID: 7276208035926189872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_8
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 1031
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea08b8b92f0325b0800000000000000
+      internalID: -5394451256792577308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_9
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 976
+        width: 63
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bc2c63b71bd9c80800000000000000
+      internalID: -8314294194298238121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 993
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917af3320ff1acdf0800000000000000
+      internalID: -159279720574245095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_11
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 988
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe0297ef0186ab70800000000000000
+      internalID: 8909950818108706493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_12
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1006
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405b93e1997cee7a0800000000000000
+      internalID: -6345915364467428092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_13
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 986
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6f8a96fc7180110800000000000000
+      internalID: 1227257078056810237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_14
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 976
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2568cef74cc008500800000000000000
+      internalID: 396330805307934290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_15
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1003
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfe22f55add12730800000000000000
+      internalID: 3972700048652955613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_16
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 985
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4405fa4f666d4760800000000000000
+      internalID: 7443718387298272335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_17
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 893
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180f1f6a2c165a240800000000000000
+      internalID: 4802352066312925313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 974
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025cacf7ff775c950800000000000000
+      internalID: 6468708379031946528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_19
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 951
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9c87738313d18a0800000000000000
+      internalID: -6332851383494456876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_20
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 974
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd3055bf807015b0800000000000000
+      internalID: -5399692190692655666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_21
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 928
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0a2913565718500800000000000000
+      internalID: 396727319669153954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_22
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 949
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f44bc6e4316e870800000000000000
+      internalID: 8711671756746936155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 925
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10f9009dd1f2d290800000000000000
+      internalID: -7866959665156198370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_24
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 924
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394fa59e04f804e80800000000000000
+      internalID: -8196393812858571629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_25
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 936
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4cc38588d237ef0800000000000000
+      internalID: -111695502134950666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_26
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 934
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb673d37cb440950800000000000000
+      internalID: 6414335088380046264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_27
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 882
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9da8d4f7fe8c9b0800000000000000
+      internalID: -5059530851309921822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 882
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a111e64a2cb35b270800000000000000
+      internalID: 8265578398276784410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_29
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 846
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c5c8c9148c59ae0800000000000000
+      internalID: -1543107113179652974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_30
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 865
+        width: 82
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2742fa892465d6710800000000000000
+      internalID: 1688100279363249266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_31
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 820
+        width: 127
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491ecd1df300eefa0800000000000000
+      internalID: -5769673798511173228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_32
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 881
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868faed96aebf4800800000000000000
+      internalID: 598906898286835816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_33
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 857
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dc8cc0503d7aa80800000000000000
+      internalID: -8455557756722033321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_34
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 851
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fbe292a33089df0800000000000000
+      internalID: -173385037319848131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_35
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 861
+        width: 109
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311b6f2dc4c9e3200800000000000000
+      internalID: 161738490402746643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_36
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 879
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34c3032f2b99d220800000000000000
+      internalID: 2511208893988979772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_37
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 793
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b262ec9e549a99090800000000000000
+      internalID: -8027198743070759381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_38
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 815
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79243ef89dfa5f90800000000000000
+      internalID: -6963975040233363075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_39
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 832
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffebe62bc4d01b110800000000000000
+      internalID: 1274814792584838911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_40
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 806
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0685e990824f45d00800000000000000
+      internalID: 960661073333999712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_41
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 767
+        width: 83
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad63a34dca1a9310800000000000000
+      internalID: 1412470902039473574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_42
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 748
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6c426e7ad1d9750800000000000000
+      internalID: 6313234859601217276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_43
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 760
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c9b5aebdeb873e0800000000000000
+      internalID: -2055683378155643812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_44
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 771
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6446bf1e9ee2ab630800000000000000
+      internalID: 3943516005769897030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_45
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 773
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c53a0d8242ec900800000000000000
+      internalID: 706541949261405284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_46
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 770
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e76f8799c6ed5c20800000000000000
+      internalID: 3196965064008493029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_47
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 764
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0520d2b147198810800000000000000
+      internalID: 1767969899659928845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_48
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 733
+        width: 53
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017a8623ed5280450800000000000000
+      internalID: 6055131335258318608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_49
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 738
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2c4e58111d89910800000000000000
+      internalID: 1844453920599229158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_50
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 738
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103ac527f0f748450800000000000000
+      internalID: 6090132300431663873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_51
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 713
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4c2dcaa82824110800000000000000
+      internalID: 1243699979224270036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_52
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 732
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa52e8846f87c79d0800000000000000
+      internalID: -2775210271192504913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_53
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 740
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e4b2543a12431e0800000000000000
+      internalID: -2219111731262960087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_54
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 743
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440d1b9503212b780800000000000000
+      internalID: -8668846333862227900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_55
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 721
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6251071d625c060800000000000000
+      internalID: 6973022279023535859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_56
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 704
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867f1f08f75951d40800000000000000
+      internalID: 5554510090288101224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_57
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 711
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737619ef651419910800000000000000
+      internalID: 1842325564465178423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_58
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 711
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224a8e937aafb1900800000000000000
+      internalID: 656393766850569250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_59
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 709
+        width: 59
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b605aa7f94ba28b30800000000000000
+      internalID: 4288178129386229867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_60
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 719
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7e6039ae736ec50800000000000000
+      internalID: 6694099376761399241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_61
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 701
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d32c97c370ff3660800000000000000
+      internalID: 7367871895462224849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_62
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 695
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114e59d3984430520800000000000000
+      internalID: 2667050760567907345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_63
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 714
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947e6816032b57990800000000000000
+      internalID: -7388803692767025335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_64
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 715
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a6f47f5dfd1cfa0800000000000000
+      internalID: -5782094336496801234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_65
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 657
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99deb25866fdf2b0800000000000000
+      internalID: -5549008237925312098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_66
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 700
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b57682e9f013d70800000000000000
+      internalID: 9021008700556925793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_67
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 700
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b6c4fecc0cfe0b0800000000000000
+      internalID: -5697123017179763963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_68
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 666
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffac45bfccd5be60800000000000000
+      internalID: 7977525099614744565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_69
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 651
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc5ab241ff0c4bd0800000000000000
+      internalID: -2644721352292279048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_70
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 686
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58034671585594a0800000000000000
+      internalID: -6587261773059782566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_71
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 597
+        width: 35
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5af1b9a7843b1590800000000000000
+      internalID: -7702504980414858661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_72
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 596
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61956149f5d11e200800000000000000
+      internalID: 207479354179344662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_73
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 666
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6af00525f9dcf00800000000000000
+      internalID: 1138741456673941203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_74
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 605
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20efc7a756af94af0800000000000000
+      internalID: -411522577174036990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_75
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 600
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ad9ab11a67faac0800000000000000
+      internalID: -3841721522797815196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_76
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 616
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc1b6b193362ff20800000000000000
+      internalID: 3454932961070882043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_77
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 606
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d96e721f085c800800000000000000
+      internalID: 632053095960321435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_78
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 588
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f42204209526670800000000000000
+      internalID: 8530478510393937725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_79
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 594
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c253c1b32086ca90800000000000000
+      internalID: -7294001655685360954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_80
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 377
+        width: 36
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db19cbd26ca9e2e0800000000000000
+      internalID: -2095954610970092583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_81
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 557
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522b501723bd6ea80800000000000000
+      internalID: -8437815842140999131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_82
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 542
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf34112de2be9cb0800000000000000
+      internalID: -4855246616726847567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_83
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 553
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877ccbbae3640a5c0800000000000000
+      internalID: -4206284816980850824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 326
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8073ac3a272c6c0800000000000000
+      internalID: -4124608260920112942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_85
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 347
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b36894888077de0800000000000000
+      internalID: -1335589383049954454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_86
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 274
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea46bbe345bf2e70800000000000000
+      internalID: 9092685476006349538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_87
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 280
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaa14a7d22fd9420800000000000000
+      internalID: 2638531233847552714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_88
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 283
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385cf53edb1bd3f70800000000000000
+      internalID: 9168679845517837699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_89
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 133
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb828f4759828de50800000000000000
+      internalID: 6834257056912386235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_90
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 54
+        width: 84
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea40860950a09bd0800000000000000
+      internalID: -2625422278535394578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_91
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 59
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2b7581fb826e980800000000000000
+      internalID: -8510069644657708375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_92
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 5
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bbaab5d845a3fd0800000000000000
+      internalID: -2361482088497366230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_93
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 53
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e583ada41c3f0370800000000000000
+      internalID: 8290911498522559977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_94
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 76
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fb3e97c72f04900800000000000000
+      internalID: 666799361285668731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_95
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 69
+        width: 55
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fbcb7931df8bef0800000000000000
+      internalID: -92045531769159889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_96
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 63
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad32234bc7fe9c5b0800000000000000
+      internalID: -5347479763647585318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_97
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 54
+        width: 27
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca185f617b3954b0800000000000000
+      internalID: -5451260515569886515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_98
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 39
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b15ae58978aaf70800000000000000
+      internalID: 9199314277350316958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_99
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 66
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db077d86e4b5394a0800000000000000
+      internalID: -6587821437588377411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_100
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 36
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72fa7e7a7dee10e0800000000000000
+      internalID: -2297137649548594561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_101
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 41
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8615e2bcfff668930800000000000000
+      internalID: 4145123651457274216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_102
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 35
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4354438d5466370800000000000000
+      internalID: 8315410556878402747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_103
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 36
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5034dc8f1d370d0800000000000000
+      internalID: -3426164024972999264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_104
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 4
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311fe8e1507d52600800000000000000
+      internalID: 442996555353354515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_105
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 13
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5596797a9b57b5ce0800000000000000
+      internalID: -1415408217636771499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_106
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 8
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e162453efac5960800000000000000
+      internalID: 7592136462744034951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-purple-text_107
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 3
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fdd26483626d420800000000000000
+      internalID: 2654351053518921483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      storage-purple-text_0: -1910333774239505483
+      storage-purple-text_1: -5757540552021283510
+      storage-purple-text_10: -159279720574245095
+      storage-purple-text_100: -2297137649548594561
+      storage-purple-text_101: 4145123651457274216
+      storage-purple-text_102: 8315410556878402747
+      storage-purple-text_103: -3426164024972999264
+      storage-purple-text_104: 442996555353354515
+      storage-purple-text_105: -1415408217636771499
+      storage-purple-text_106: 7592136462744034951
+      storage-purple-text_107: 2654351053518921483
+      storage-purple-text_11: 8909950818108706493
+      storage-purple-text_12: -6345915364467428092
+      storage-purple-text_13: 1227257078056810237
+      storage-purple-text_14: 396330805307934290
+      storage-purple-text_15: 3972700048652955613
+      storage-purple-text_16: 7443718387298272335
+      storage-purple-text_17: 4802352066312925313
+      storage-purple-text_18: 6468708379031946528
+      storage-purple-text_19: -6332851383494456876
+      storage-purple-text_2: -7785537942346933807
+      storage-purple-text_20: -5399692190692655666
+      storage-purple-text_21: 396727319669153954
+      storage-purple-text_22: 8711671756746936155
+      storage-purple-text_23: -7866959665156198370
+      storage-purple-text_24: -8196393812858571629
+      storage-purple-text_25: -111695502134950666
+      storage-purple-text_26: 6414335088380046264
+      storage-purple-text_27: -5059530851309921822
+      storage-purple-text_28: 8265578398276784410
+      storage-purple-text_29: -1543107113179652974
+      storage-purple-text_3: 7262686743368772765
+      storage-purple-text_30: 1688100279363249266
+      storage-purple-text_31: -5769673798511173228
+      storage-purple-text_32: 598906898286835816
+      storage-purple-text_33: -8455557756722033321
+      storage-purple-text_34: -173385037319848131
+      storage-purple-text_35: 161738490402746643
+      storage-purple-text_36: 2511208893988979772
+      storage-purple-text_37: -8027198743070759381
+      storage-purple-text_38: -6963975040233363075
+      storage-purple-text_39: 1274814792584838911
+      storage-purple-text_4: -8600434439162567602
+      storage-purple-text_40: 960661073333999712
+      storage-purple-text_41: 1412470902039473574
+      storage-purple-text_42: 6313234859601217276
+      storage-purple-text_43: -2055683378155643812
+      storage-purple-text_44: 3943516005769897030
+      storage-purple-text_45: 706541949261405284
+      storage-purple-text_46: 3196965064008493029
+      storage-purple-text_47: 1767969899659928845
+      storage-purple-text_48: 6055131335258318608
+      storage-purple-text_49: 1844453920599229158
+      storage-purple-text_5: -4735998157421114327
+      storage-purple-text_50: 6090132300431663873
+      storage-purple-text_51: 1243699979224270036
+      storage-purple-text_52: -2775210271192504913
+      storage-purple-text_53: -2219111731262960087
+      storage-purple-text_54: -8668846333862227900
+      storage-purple-text_55: 6973022279023535859
+      storage-purple-text_56: 5554510090288101224
+      storage-purple-text_57: 1842325564465178423
+      storage-purple-text_58: 656393766850569250
+      storage-purple-text_59: 4288178129386229867
+      storage-purple-text_6: 1669634512471164494
+      storage-purple-text_60: 6694099376761399241
+      storage-purple-text_61: 7367871895462224849
+      storage-purple-text_62: 2667050760567907345
+      storage-purple-text_63: -7388803692767025335
+      storage-purple-text_64: -5782094336496801234
+      storage-purple-text_65: -5549008237925312098
+      storage-purple-text_66: 9021008700556925793
+      storage-purple-text_67: -5697123017179763963
+      storage-purple-text_68: 7977525099614744565
+      storage-purple-text_69: -2644721352292279048
+      storage-purple-text_7: 7276208035926189872
+      storage-purple-text_70: -6587261773059782566
+      storage-purple-text_71: -7702504980414858661
+      storage-purple-text_72: 207479354179344662
+      storage-purple-text_73: 1138741456673941203
+      storage-purple-text_74: -411522577174036990
+      storage-purple-text_75: -3841721522797815196
+      storage-purple-text_76: 3454932961070882043
+      storage-purple-text_77: 632053095960321435
+      storage-purple-text_78: 8530478510393937725
+      storage-purple-text_79: -7294001655685360954
+      storage-purple-text_8: -5394451256792577308
+      storage-purple-text_80: -2095954610970092583
+      storage-purple-text_81: -8437815842140999131
+      storage-purple-text_82: -4855246616726847567
+      storage-purple-text_83: -4206284816980850824
+      storage-purple-text_84: -4124608260920112942
+      storage-purple-text_85: -1335589383049954454
+      storage-purple-text_86: 9092685476006349538
+      storage-purple-text_87: 2638531233847552714
+      storage-purple-text_88: 9168679845517837699
+      storage-purple-text_89: 6834257056912386235
+      storage-purple-text_9: -8314294194298238121
+      storage-purple-text_90: -2625422278535394578
+      storage-purple-text_91: -8510069644657708375
+      storage-purple-text_92: -2361482088497366230
+      storage-purple-text_93: 8290911498522559977
+      storage-purple-text_94: 666799361285668731
+      storage-purple-text_95: -92045531769159889
+      storage-purple-text_96: -5347479763647585318
+      storage-purple-text_97: -5451260515569886515
+      storage-purple-text_98: 9199314277350316958
+      storage-purple-text_99: -6587821437588377411
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

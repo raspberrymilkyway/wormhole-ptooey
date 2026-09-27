@@ -34,6 +34,7 @@ public class Scene_Flashback : MonoBehaviour
             index++;
         }
         else{
+            Bookkeeper.bk.haveFlashback();
             Scenes.sc.swapFlashback(true);
         }
     }

@@ -23,8 +23,8 @@ public class Scene_End : MonoBehaviour
 
     void Start(){
         Bookkeeper.bk.setPreviousRoom("End");
-        bool bomb = Bookkeeper.bk.getBombStatus();
-        if (bomb){
+        (bool det, bool def) bomb = Bookkeeper.bk.getBombStatus();
+        if (bomb.det && !bomb.def){
             //ending failed to disarm
             currentEnding = 6;
         }

@@ -39,6 +39,14 @@ public class Inventory : MonoBehaviour
         }
         return false;
     }
+    protected internal bool isItemCurr(string item){
+        for (int i=0; i<currItems.Count; i++){
+            if (currItems[i].Equals(item)){
+                return true;
+            }
+        }
+        return false;
+    }
 
     protected internal void addLooseItem(string path){
         looseItems.Add(path);

@@ -18,7 +18,9 @@ public class Bookkeeper : MonoBehaviour
     private string directionEnteredFrom = "";
     private string previousRoom = "";
     private bool detonatedBomb = false;
+    private bool defusedBomb = false;
     private bool canEnterCabin = true;
+    private bool hadFlashback = false;
 
     void Start(){
         bk = this;
@@ -27,6 +29,7 @@ public class Bookkeeper : MonoBehaviour
         points = SaveData.sd.getPoints();
         previousRoom = SaveData.sd.getPreviousRoom();
         spokenTo = new List<string>(SaveData.sd.getSpokenTo());
+        defusedBomb = SaveData.sd.getDefusedBomb();
     }
 
     protected internal void addOpenScene(string scene){
@@ -93,17 +96,18 @@ public class Bookkeeper : MonoBehaviour
         previousRoom = room;
     }
 
-    protected internal void triggerBomb(){
-        points[5] = 1000000;
-    }
     protected internal void detonateBomb(){
         detonatedBomb = true;
     }
-    protected internal bool getBombStatus(){
-        return detonatedBomb;
+    protected internal void defuseBomb(){
+        defusedBomb = true;
+    }
+    protected internal (bool, bool) getBombStatus(){
+        return (detonatedBomb, defusedBomb);
     }
     protected internal void resetBomb(){
         detonatedBomb = false;
+        defusedBomb = false;
     }
 
     protected internal void addSpokenTo(string character){
@@ -129,10 +133,30 @@ public class Bookkeeper : MonoBehaviour
         canEnterCabin = true;
     }
 
+    protected internal bool getHadFlashback(){
+        return hadFlashback;
+    }
+    protected internal void haveFlashback(){
+        hadFlashback = true;
+    }
+    protected internal void resetFlashback(){
+        hadFlashback = false;
+    }
+
+    protected internal bool checkWin(){
+        // verify no other win conditions (any other way to get bracelet)
+        if (getCurrentScene().Equals("StorageBay") && Inventory.inv.isItemCurr("bracelet")){
+            Debug.Log("won!");
+            return true;
+        }
+        return false;
+    }
+
     protected internal void resetBookkeeperStats(){
         resetBomb();
         resetSpokenTo();
         resetCabinState();
+        resetFlashback();
         clearPoints();
         setPreviousRoom("");
         setDirectionEnteredFrom("");

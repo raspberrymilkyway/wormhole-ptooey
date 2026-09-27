@@ -19,7 +19,12 @@ public class DoorHover : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
         if (movingToDoor){
             if (!PlayerMovement.pm.getWalking()){
                 movingToDoor = false;
-                ButtonFunctions.bf.swapRoom(roomToGoTo);
+                if (Bookkeeper.bk.checkWin()){
+                    ButtonFunctions.bf.swapRoom("End");
+                }
+                else{
+                    ButtonFunctions.bf.swapRoom(roomToGoTo);
+                }
             }
         }
     }

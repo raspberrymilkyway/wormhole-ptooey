@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 36f0a7d389ab58a458e850be44f09666
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1503559984783934086
+    second: mess-hall-tables_0
+  - first:
+      213: -2130646110858348121
+    second: mess-hall-tables_1
+  - first:
+      213: 6519133464505509284
+    second: mess-hall-tables_2
+  - first:
+      213: -4157282117597819656
+    second: mess-hall-tables_3
+  - first:
+      213: 5082361256502657916
+    second: mess-hall-tables_4
+  - first:
+      213: 2361435091979307931
+    second: mess-hall-tables_5
+  - first:
+      213: 8589962205774908802
+    second: mess-hall-tables_6
+  - first:
+      213: 6947645303828986317
+    second: mess-hall-tables_7
+  - first:
+      213: 3517732687640134282
+    second: mess-hall-tables_8
+  - first:
+      213: -3181798849015004893
+    second: mess-hall-tables_9
+  - first:
+      213: 3843200579923467985
+    second: mess-hall-tables_10
+  - first:
+      213: -1925913530560744528
+    second: mess-hall-tables_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mess-hall-tables_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 656
+        width: 134
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d3678f828422be0800000000000000
+      internalID: -1503559984783934086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 653
+        width: 371
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9783c96ac6e62e0800000000000000
+      internalID: -2130646110858348121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_2
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 671
+        width: 134
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5663b985d987a50800000000000000
+      internalID: 6519133464505509284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_3
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 652
+        width: 135
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc8f75b0fd5e46c0800000000000000
+      internalID: -4157282117597819656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_4
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 648
+        width: 374
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c738c02a2ac288640800000000000000
+      internalID: 5082361256502657916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_5
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 667
+        width: 136
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b819964b085c020800000000000000
+      internalID: 2361435091979307931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 32
+        width: 145
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d8e355d1da53770800000000000000
+      internalID: 8589962205774908802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 28
+        width: 402
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc93328f79efa6060800000000000000
+      internalID: 6947645303828986317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_8
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 48
+        width: 145
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82029ddd3f71d030800000000000000
+      internalID: 3517732687640134282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_9
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 39
+        width: 145
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321c6b10ecaf7d3d0800000000000000
+      internalID: -3181798849015004893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_10
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 35
+        width: 402
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ded9e6b09ac55530800000000000000
+      internalID: 3843200579923467985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mess-hall-tables_11
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 55
+        width: 145
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3fece09d7c545e0800000000000000
+      internalID: -1925913530560744528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mess-hall-tables_0: -1503559984783934086
+      mess-hall-tables_1: -2130646110858348121
+      mess-hall-tables_10: 3843200579923467985
+      mess-hall-tables_11: -1925913530560744528
+      mess-hall-tables_2: 6519133464505509284
+      mess-hall-tables_3: -4157282117597819656
+      mess-hall-tables_4: 5082361256502657916
+      mess-hall-tables_5: 2361435091979307931
+      mess-hall-tables_6: 8589962205774908802
+      mess-hall-tables_7: 6947645303828986317
+      mess-hall-tables_8: 3517732687640134282
+      mess-hall-tables_9: -3181798849015004893
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

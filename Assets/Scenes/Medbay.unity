@@ -998,7 +998,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -60, y: -357}
   m_SizeDelta: {x: 200, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &371460635
@@ -3037,7 +3037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b25d0d7aab99547418a10a5987bd3cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: arrow_south
+  direction: arrow-s
   roomToGoTo: Hallway
 --- !u!1 &1421729846
 GameObject:

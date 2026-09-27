@@ -1,0 +1,2574 @@
+fileFormatVersion: 2
+guid: cf15170ff034ee0489f85d0b7eaef03c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7227137747523390485
+    second: storage-red-text_0
+  - first:
+      213: -9164344719166063097
+    second: storage-red-text_1
+  - first:
+      213: 3493050559119228817
+    second: storage-red-text_2
+  - first:
+      213: -2552075809840979957
+    second: storage-red-text_3
+  - first:
+      213: 7857508066842692912
+    second: storage-red-text_4
+  - first:
+      213: -4316988706904452498
+    second: storage-red-text_5
+  - first:
+      213: 60337909573770634
+    second: storage-red-text_6
+  - first:
+      213: -2295177108865116487
+    second: storage-red-text_7
+  - first:
+      213: -4121773771692269744
+    second: storage-red-text_8
+  - first:
+      213: 1823708981047137127
+    second: storage-red-text_9
+  - first:
+      213: -5110923384523719462
+    second: storage-red-text_10
+  - first:
+      213: -8494338678763611831
+    second: storage-red-text_11
+  - first:
+      213: 6744822975284244785
+    second: storage-red-text_12
+  - first:
+      213: -713213716237641908
+    second: storage-red-text_13
+  - first:
+      213: -5018084956935482815
+    second: storage-red-text_14
+  - first:
+      213: -1010147349892125726
+    second: storage-red-text_15
+  - first:
+      213: 5111255247443961288
+    second: storage-red-text_16
+  - first:
+      213: 3035657482663952125
+    second: storage-red-text_17
+  - first:
+      213: -9212596089605117203
+    second: storage-red-text_18
+  - first:
+      213: -3745816865441241689
+    second: storage-red-text_19
+  - first:
+      213: -3687333585516931419
+    second: storage-red-text_20
+  - first:
+      213: 2970395718953020080
+    second: storage-red-text_21
+  - first:
+      213: -6233072914975690689
+    second: storage-red-text_22
+  - first:
+      213: 3107965741578588666
+    second: storage-red-text_23
+  - first:
+      213: -1520976433338827461
+    second: storage-red-text_24
+  - first:
+      213: 8269785072749940836
+    second: storage-red-text_25
+  - first:
+      213: -3029386410414149686
+    second: storage-red-text_26
+  - first:
+      213: 5626389325075648438
+    second: storage-red-text_27
+  - first:
+      213: -8830394867287947686
+    second: storage-red-text_28
+  - first:
+      213: 84534756880293362
+    second: storage-red-text_29
+  - first:
+      213: 8596411123636411054
+    second: storage-red-text_30
+  - first:
+      213: -7220037723212761605
+    second: storage-red-text_31
+  - first:
+      213: -1273806035786064769
+    second: storage-red-text_32
+  - first:
+      213: -7478060826276070390
+    second: storage-red-text_33
+  - first:
+      213: -8732217998671894403
+    second: storage-red-text_34
+  - first:
+      213: 6467935306624890740
+    second: storage-red-text_35
+  - first:
+      213: -2123751267431921211
+    second: storage-red-text_36
+  - first:
+      213: -1103008253518816330
+    second: storage-red-text_37
+  - first:
+      213: 699852837770100056
+    second: storage-red-text_38
+  - first:
+      213: -4609537106086060792
+    second: storage-red-text_39
+  - first:
+      213: 6634759619353947251
+    second: storage-red-text_40
+  - first:
+      213: 6357103646660164013
+    second: storage-red-text_41
+  - first:
+      213: -3095367669876135264
+    second: storage-red-text_42
+  - first:
+      213: 5258268862040686777
+    second: storage-red-text_43
+  - first:
+      213: -4559756689586371623
+    second: storage-red-text_44
+  - first:
+      213: 2643988956429267035
+    second: storage-red-text_45
+  - first:
+      213: -2698689821496372161
+    second: storage-red-text_46
+  - first:
+      213: 9195901763004660875
+    second: storage-red-text_47
+  - first:
+      213: -2631844036508603885
+    second: storage-red-text_48
+  - first:
+      213: -5778300795641042475
+    second: storage-red-text_49
+  - first:
+      213: -1170705099912489050
+    second: storage-red-text_50
+  - first:
+      213: -5481104440777189225
+    second: storage-red-text_51
+  - first:
+      213: 5936244572313377387
+    second: storage-red-text_52
+  - first:
+      213: 845490952938406195
+    second: storage-red-text_53
+  - first:
+      213: 5305296990141684825
+    second: storage-red-text_54
+  - first:
+      213: 9073948817532007799
+    second: storage-red-text_55
+  - first:
+      213: 8539746343048622037
+    second: storage-red-text_56
+  - first:
+      213: 3694327932665056619
+    second: storage-red-text_57
+  - first:
+      213: -2136858765942901872
+    second: storage-red-text_58
+  - first:
+      213: -2053629026747680827
+    second: storage-red-text_59
+  - first:
+      213: -3151744459035154227
+    second: storage-red-text_60
+  - first:
+      213: -23148574640997134
+    second: storage-red-text_61
+  - first:
+      213: 3551950967204801611
+    second: storage-red-text_62
+  - first:
+      213: -2630963139089165721
+    second: storage-red-text_63
+  - first:
+      213: -6075078901297115827
+    second: storage-red-text_64
+  - first:
+      213: -1972124799659246853
+    second: storage-red-text_65
+  - first:
+      213: -1654666358316228949
+    second: storage-red-text_66
+  - first:
+      213: 7133175092602661984
+    second: storage-red-text_67
+  - first:
+      213: 2988566027003473736
+    second: storage-red-text_68
+  - first:
+      213: -7920667179474882325
+    second: storage-red-text_69
+  - first:
+      213: 8289687675865283310
+    second: storage-red-text_70
+  - first:
+      213: -8296856896857248058
+    second: storage-red-text_71
+  - first:
+      213: 5027979412374039745
+    second: storage-red-text_72
+  - first:
+      213: -4538112678199789195
+    second: storage-red-text_73
+  - first:
+      213: 4806766389465843156
+    second: storage-red-text_74
+  - first:
+      213: 7548091002454926082
+    second: storage-red-text_75
+  - first:
+      213: 2175467968677782077
+    second: storage-red-text_76
+  - first:
+      213: 6262278065934546781
+    second: storage-red-text_77
+  - first:
+      213: 6353226559089494714
+    second: storage-red-text_78
+  - first:
+      213: -5476229551161208937
+    second: storage-red-text_79
+  - first:
+      213: -3224693168242984543
+    second: storage-red-text_80
+  - first:
+      213: -4575514436075262664
+    second: storage-red-text_81
+  - first:
+      213: -5734758565741919824
+    second: storage-red-text_82
+  - first:
+      213: -6187098220283157557
+    second: storage-red-text_83
+  - first:
+      213: 1814579868585728713
+    second: storage-red-text_84
+  - first:
+      213: -2454643431194517249
+    second: storage-red-text_85
+  - first:
+      213: -8404966777343782345
+    second: storage-red-text_86
+  - first:
+      213: 4202084299255956391
+    second: storage-red-text_87
+  - first:
+      213: -8179790035236407289
+    second: storage-red-text_88
+  - first:
+      213: 8956101251334155340
+    second: storage-red-text_89
+  - first:
+      213: -8060475393111573946
+    second: storage-red-text_90
+  - first:
+      213: 3386050812712391056
+    second: storage-red-text_91
+  - first:
+      213: 1293264647811185367
+    second: storage-red-text_92
+  - first:
+      213: 4993178982133000750
+    second: storage-red-text_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: storage-red-text_0
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1004
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51cc2f78d73fb4460800000000000000
+      internalID: 7227137747523390485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 995
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e31ee5805b1d080800000000000000
+      internalID: -9164344719166063097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_2
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1001
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ff7cef9fec97030800000000000000
+      internalID: 3493050559119228817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 942
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00af8a8294359cd0800000000000000
+      internalID: -2552075809840979957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_4
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 966
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dcce7b4f97b0d60800000000000000
+      internalID: 7857508066842692912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_5
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 975
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e625699b4a9f614c0800000000000000
+      internalID: -4316988706904452498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_6
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 974
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d52a2520d56d000800000000000000
+      internalID: 60337909573770634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_7
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 965
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b69c717494e520e0800000000000000
+      internalID: -2295177108865116487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_8
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 967
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f92cdb7948cc6c0800000000000000
+      internalID: -4121773771692269744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 927
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7631105e7ad1f4910800000000000000
+      internalID: 1823708981047137127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_10
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 892
+        width: 65
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcf937b24a5219b0800000000000000
+      internalID: -5110923384523719462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_11
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 924
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9491f620afb0e1a80800000000000000
+      internalID: -8494338678763611831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_12
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 926
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131f5baa2cc6a9d50800000000000000
+      internalID: 6744822975284244785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_13
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 923
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4718b267e72a16f0800000000000000
+      internalID: -713213716237641908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_14
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 928
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1421121915e2c5ab0800000000000000
+      internalID: -5018084956935482815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_15
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 889
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eba0e6565c3bf1f0800000000000000
+      internalID: -1010147349892125726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_16
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 894
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5af342193dee640800000000000000
+      internalID: 5111255247443961288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_17
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 919
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfef0f99562d02a20800000000000000
+      internalID: 3035657482663952125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_18
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 910
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea2febbaa8462080800000000000000
+      internalID: -9212596089605117203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_19
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 899
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a525b5386f240cc0800000000000000
+      internalID: -3745816865441241689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_20
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 905
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a655eae3a5f3dcc0800000000000000
+      internalID: -3687333585516931419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_21
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 906
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba29862b27f83920800000000000000
+      internalID: 2970395718953020080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_22
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 865
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30f3c3453daf79a0800000000000000
+      internalID: -6233072914975690689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_23
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 871
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af110e01066b12b20800000000000000
+      internalID: 3107965741578588666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_24
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 865
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d391b0ef764eae0800000000000000
+      internalID: -1520976433338827461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_25
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 866
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460961e55bd24c270800000000000000
+      internalID: 8269785072749940836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_26
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 865
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf6edf2c1575f5d0800000000000000
+      internalID: -3029386410414149686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_27
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 828
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf0f210843f41e40800000000000000
+      internalID: 5626389325075648438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_28
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 842
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a568ed457a2247580800000000000000
+      internalID: -8830394867287947686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_29
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 826
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd160bd9e35c2100800000000000000
+      internalID: 84534756880293362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_30
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 836
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa90970f569c4770800000000000000
+      internalID: 8596411123636411054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_31
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 828
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5bbf2b1f54dcb90800000000000000
+      internalID: -7220037723212761605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_32
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 832
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c193cc828825ee0800000000000000
+      internalID: -1273806035786064769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_33
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 827
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cfc098c47983890800000000000000
+      internalID: -7478060826276070390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_34
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 803
+        width: 98
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78a3e7defde0d680800000000000000
+      internalID: -8732217998671894403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_35
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 817
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477759d84e8b2c950800000000000000
+      internalID: 6467935306624890740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_36
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 817
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c94f61797be682e0800000000000000
+      internalID: -2123751267431921211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_37
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 790
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbdfa066d351b0f0800000000000000
+      internalID: -1103008253518816330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_38
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 803
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85df55ea27066b900800000000000000
+      internalID: 699852837770100056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_39
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 789
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d12c4ac62a700c0800000000000000
+      internalID: -4609537106086060792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_40
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 782
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ca2b9a8b6631c50800000000000000
+      internalID: 6634759619353947251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_41
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 785
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9f483d518f83850800000000000000
+      internalID: 6357103646660164013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_42
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 786
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aaedc3118b0b05d0800000000000000
+      internalID: -3095367669876135264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_43
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 757
+        width: 78
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0ce67abaf19f840800000000000000
+      internalID: 5258268862040686777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_44
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 768
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d34efe037d78b0c0800000000000000
+      internalID: -4559756689586371623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_45
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 793
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50b50a82f551b420800000000000000
+      internalID: 2643988956429267035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_46
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 765
+        width: 82
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f341fb6d7e35c8ad0800000000000000
+      internalID: -2698689821496372161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_47
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 791
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cf7457ee76e9f70800000000000000
+      internalID: 9195901763004660875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_48
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 767
+        width: 114
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31aacabfacfc97bd0800000000000000
+      internalID: -2631844036508603885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_49
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 755
+        width: 90
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d965768a0a5fcfa0800000000000000
+      internalID: -5778300795641042475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_50
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 778
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a75afe0ae1d0cfe0800000000000000
+      internalID: -1170705099912489050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_51
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 766
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798d8ae1d843fe3b0800000000000000
+      internalID: -5481104440777189225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_52
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 774
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a5498acf6c16250800000000000000
+      internalID: 5936244572313377387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_53
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 756
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33143b6ca89cbbb00800000000000000
+      internalID: 845490952938406195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_54
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 775
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c185df08330a940800000000000000
+      internalID: 5305296990141684825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_55
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 746
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775321baf542ded70800000000000000
+      internalID: 9073948817532007799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_56
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 762
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfaa51bd06438670800000000000000
+      internalID: 8539746343048622037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_57
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 749
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6dcd4e6ea3e44330800000000000000
+      internalID: 3694327932665056619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_58
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 762
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0933bc0264a5852e0800000000000000
+      internalID: -2136858765942901872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_59
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 749
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7f540e74b0083e0800000000000000
+      internalID: -2053629026747680827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_60
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 737
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc86768fc11c244d0800000000000000
+      internalID: -3151744459035154227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_61
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 753
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc77777e72cdaff0800000000000000
+      internalID: -23148574640997134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_62
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 719
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ce8dbe5901b4130800000000000000
+      internalID: 3551950967204801611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_63
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 720
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7629175e6f0fc7bd0800000000000000
+      internalID: -2630963139089165721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_64
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 694
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d07b92debf0bba0800000000000000
+      internalID: -6075078901297115827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_65
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 710
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa729781fa91a4e0800000000000000
+      internalID: -1972124799659246853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_66
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 673
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae95c2c6b17909e0800000000000000
+      internalID: -1654666358316228949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 686
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cee3b14f02ef260800000000000000
+      internalID: 7133175092602661984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_68
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 650
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fa75ba7f4897920800000000000000
+      internalID: 2988566027003473736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_69
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 521
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0fd4f6a23241290800000000000000
+      internalID: -7920667179474882325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_70
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 521
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea32e24503ea0370800000000000000
+      internalID: 8289687675865283310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_71
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 531
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cee2966c94abdc80800000000000000
+      internalID: -8296856896857248058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_72
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 521
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc288cd2a8f6c540800000000000000
+      internalID: 5027979412374039745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_73
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 509
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579743920926501c0800000000000000
+      internalID: -4538112678199789195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_74
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 447
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5066a509015b240800000000000000
+      internalID: 4806766389465843156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_75
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 418
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203e5a576c430c860800000000000000
+      internalID: 7548091002454926082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_76
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 293
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32a7456790d03e10800000000000000
+      internalID: 2175467968677782077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_77
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 265
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57bfb4d8b418e650800000000000000
+      internalID: 6262278065934546781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_78
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 234
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aba4b1805e13b2850800000000000000
+      internalID: 6353226559089494714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_79
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 218
+        width: 28
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f0a8ecc368004b0800000000000000
+      internalID: -5476229551161208937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_80
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 213
+        width: 26
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a97f3d06a69f33d0800000000000000
+      internalID: -3224693168242984543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_81
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 198
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83def0dccd18080c0800000000000000
+      internalID: -4575514436075262664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_82
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 204
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b10350f77b0a60b0800000000000000
+      internalID: -5734758565741919824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_83
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 199
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3229503f2032aa0800000000000000
+      internalID: -6187098220283157557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_84
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 32
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca90a3c6ceae2910800000000000000
+      internalID: 1814579868585728713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_85
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 68
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0a769fdca5fedd0800000000000000
+      internalID: -2454643431194517249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_86
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 46
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732d6775f3f8b5b80800000000000000
+      internalID: -8404966777343782345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_87
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 59
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3c565186dc05a30800000000000000
+      internalID: 4202084299255956391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_88
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 59
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70834742d4c8b7e80800000000000000
+      internalID: -8179790035236407289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_89
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 58
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c243af2a67a4c70800000000000000
+      internalID: 8956101251334155340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_90
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 38
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64abec01650732090800000000000000
+      internalID: -8060475393111573946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_91
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 34
+        width: 45
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091152b264badfe20800000000000000
+      internalID: 3386050812712391056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_92
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 49
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da3b5d585992f110800000000000000
+      internalID: 1293264647811185367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: storage-red-text_93
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 22
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2aebf944d55b4540800000000000000
+      internalID: 4993178982133000750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      storage-red-text_0: 7227137747523390485
+      storage-red-text_1: -9164344719166063097
+      storage-red-text_10: -5110923384523719462
+      storage-red-text_11: -8494338678763611831
+      storage-red-text_12: 6744822975284244785
+      storage-red-text_13: -713213716237641908
+      storage-red-text_14: -5018084956935482815
+      storage-red-text_15: -1010147349892125726
+      storage-red-text_16: 5111255247443961288
+      storage-red-text_17: 3035657482663952125
+      storage-red-text_18: -9212596089605117203
+      storage-red-text_19: -3745816865441241689
+      storage-red-text_2: 3493050559119228817
+      storage-red-text_20: -3687333585516931419
+      storage-red-text_21: 2970395718953020080
+      storage-red-text_22: -6233072914975690689
+      storage-red-text_23: 3107965741578588666
+      storage-red-text_24: -1520976433338827461
+      storage-red-text_25: 8269785072749940836
+      storage-red-text_26: -3029386410414149686
+      storage-red-text_27: 5626389325075648438
+      storage-red-text_28: -8830394867287947686
+      storage-red-text_29: 84534756880293362
+      storage-red-text_3: -2552075809840979957
+      storage-red-text_30: 8596411123636411054
+      storage-red-text_31: -7220037723212761605
+      storage-red-text_32: -1273806035786064769
+      storage-red-text_33: -7478060826276070390
+      storage-red-text_34: -8732217998671894403
+      storage-red-text_35: 6467935306624890740
+      storage-red-text_36: -2123751267431921211
+      storage-red-text_37: -1103008253518816330
+      storage-red-text_38: 699852837770100056
+      storage-red-text_39: -4609537106086060792
+      storage-red-text_4: 7857508066842692912
+      storage-red-text_40: 6634759619353947251
+      storage-red-text_41: 6357103646660164013
+      storage-red-text_42: -3095367669876135264
+      storage-red-text_43: 5258268862040686777
+      storage-red-text_44: -4559756689586371623
+      storage-red-text_45: 2643988956429267035
+      storage-red-text_46: -2698689821496372161
+      storage-red-text_47: 9195901763004660875
+      storage-red-text_48: -2631844036508603885
+      storage-red-text_49: -5778300795641042475
+      storage-red-text_5: -4316988706904452498
+      storage-red-text_50: -1170705099912489050
+      storage-red-text_51: -5481104440777189225
+      storage-red-text_52: 5936244572313377387
+      storage-red-text_53: 845490952938406195
+      storage-red-text_54: 5305296990141684825
+      storage-red-text_55: 9073948817532007799
+      storage-red-text_56: 8539746343048622037
+      storage-red-text_57: 3694327932665056619
+      storage-red-text_58: -2136858765942901872
+      storage-red-text_59: -2053629026747680827
+      storage-red-text_6: 60337909573770634
+      storage-red-text_60: -3151744459035154227
+      storage-red-text_61: -23148574640997134
+      storage-red-text_62: 3551950967204801611
+      storage-red-text_63: -2630963139089165721
+      storage-red-text_64: -6075078901297115827
+      storage-red-text_65: -1972124799659246853
+      storage-red-text_66: -1654666358316228949
+      storage-red-text_67: 7133175092602661984
+      storage-red-text_68: 2988566027003473736
+      storage-red-text_69: -7920667179474882325
+      storage-red-text_7: -2295177108865116487
+      storage-red-text_70: 8289687675865283310
+      storage-red-text_71: -8296856896857248058
+      storage-red-text_72: 5027979412374039745
+      storage-red-text_73: -4538112678199789195
+      storage-red-text_74: 4806766389465843156
+      storage-red-text_75: 7548091002454926082
+      storage-red-text_76: 2175467968677782077
+      storage-red-text_77: 6262278065934546781
+      storage-red-text_78: 6353226559089494714
+      storage-red-text_79: -5476229551161208937
+      storage-red-text_8: -4121773771692269744
+      storage-red-text_80: -3224693168242984543
+      storage-red-text_81: -4575514436075262664
+      storage-red-text_82: -5734758565741919824
+      storage-red-text_83: -6187098220283157557
+      storage-red-text_84: 1814579868585728713
+      storage-red-text_85: -2454643431194517249
+      storage-red-text_86: -8404966777343782345
+      storage-red-text_87: 4202084299255956391
+      storage-red-text_88: -8179790035236407289
+      storage-red-text_89: 8956101251334155340
+      storage-red-text_9: 1823708981047137127
+      storage-red-text_90: -8060475393111573946
+      storage-red-text_91: 3386050812712391056
+      storage-red-text_92: 1293264647811185367
+      storage-red-text_93: 4993178982133000750
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

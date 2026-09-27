@@ -34,4 +34,8 @@ public class Scenes : MonoBehaviour
             openScene("Flashback");
         }
     }
+    protected internal void swapCabin(){
+        closeScene("IntroSequence");
+        openScene("Cabin");
+    }
 }

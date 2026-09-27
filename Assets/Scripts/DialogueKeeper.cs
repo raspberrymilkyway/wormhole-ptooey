@@ -20,6 +20,9 @@ public class DialogueKeeper : MonoBehaviour, IPointerClickHandler
     [Header("Flavor")]
     public List<string> flavors = new List<string>{"", "", "", "", ""};
     
+    [Header("Pretext")]
+    public List<string> pretext = new List<string>{};
+
     [Header("Points")]
     public int[] points = new int[5]{10, 10, 10, 10, 10};
 
@@ -31,7 +34,8 @@ public class DialogueKeeper : MonoBehaviour, IPointerClickHandler
     }
 
     public void OnPointerClick(PointerEventData eventData){
-        DialogueHandler.dh.showDialogueStyle(flavors, new List<List<string>>{style1, style2, style3, style4, style5}, points);
+        // DialogueHandler.dh.showDialogueStyle(flavors, new List<List<string>>{style1, style2, style3, style4, style5}, points);
+        DialogueHandler.dh.preInput(pretext, flavors, new List<List<string>>{style1, style2, style3, style4, style5}, points);
         Bookkeeper.bk.addSpokenTo(characterName);
         this.enabled = false;
     }

@@ -1374,8 +1374,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 425, y: 0}
-  m_SizeDelta: {x: -1550, y: -200}
+  m_AnchoredPosition: {x: -120, y: -387.5}
+  m_SizeDelta: {x: -300, y: -775}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &842394676
 CanvasGroup:
@@ -1440,7 +1440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: arrow-w
-  roomToGoTo: MessHall3
+  roomToGoTo: MessHall2
 --- !u!114 &851396156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1606,6 +1606,7 @@ MonoBehaviour:
     your room.
   - Back away and try to leave.
   - Fight the slime.
+  pretext: []
   points: 0a0000000a0000000a0000000a0000000a000000
 --- !u!114 &968397420
 MonoBehaviour:
@@ -2295,7 +2296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: arrow-w
-  roomToGoTo: MessHall3
+  roomToGoTo: MessHall2
 --- !u!114 &1347202852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2826,8 +2827,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1380, y: 300}
+  m_AnchoredPosition: {x: -120, y: 0}
+  m_SizeDelta: {x: 1620, y: 300}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1633192916
 MonoBehaviour:

@@ -17,7 +17,7 @@ public class ButtonFunctions : MonoBehaviour
     public void startNewGame(){
         clearData();
         Scenes.sc.closeScene("Start");
-        Scenes.sc.openScene("Cabin");
+        Scenes.sc.openScene("IntroSequence");
     }
 
     public void continueGame(){
@@ -28,7 +28,7 @@ public class ButtonFunctions : MonoBehaviour
         else{
             SaveData.sd.clearData();
             Bookkeeper.bk.resetBookkeeperStats();
-            Scenes.sc.openScene("Cabin");
+            Scenes.sc.openScene("IntroSequence");
         }
     }
 

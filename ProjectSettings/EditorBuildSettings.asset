@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/End.unity
     guid: 4fd87c075d94cfe41a74f8e136e6966b
   - enabled: 1
-    path: Assets/Scenes/Flashback.unity
+    path: Assets/Scenes/IntroSequence.unity
     guid: fa79d688bf9aacd419b65fa7d4f2c314
   - enabled: 1
     path: Assets/Scenes/Bridge.unity
@@ -44,6 +44,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MessHall4.unity
     guid: 7c693fea9e66fc34285c008e3f581a16
+  - enabled: 1
+    path: Assets/Scenes/IntroSequence.unity
+    guid: 5d261af59d83a7a4186df0a09e6ae741
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -328,6 +328,7 @@ MonoBehaviour:
     you know where to look.
   inventoryItem: 0
   puzzleOpener: 0
+  inventoryItemPath: 
 --- !u!1 &82933895
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,6 +645,7 @@ MonoBehaviour:
   blurb: '"My face doesn''t look like that vase!" ...But does yours?'
   inventoryItem: 0
   puzzleOpener: 0
+  inventoryItemPath: 
 --- !u!1 &308451176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,6 +1048,7 @@ MonoBehaviour:
     of backups or this ship has done very little flying over the last decade.
   inventoryItem: 0
   puzzleOpener: 0
+  inventoryItemPath: 
 --- !u!1 &567201125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1890,8 +1893,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 425, y: 0}
-  m_SizeDelta: {x: -1550, y: -200}
+  m_AnchoredPosition: {x: -120, y: -387.5}
+  m_SizeDelta: {x: -300, y: -775}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &842394676
 CanvasGroup:
@@ -2009,6 +2012,7 @@ MonoBehaviour:
   blurb: You don't know how to read this label. You decide not to poke through it.
   inventoryItem: 0
   puzzleOpener: 0
+  inventoryItemPath: 
 --- !u!1 &941477556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2747,6 +2751,7 @@ MonoBehaviour:
     these containers.
   inventoryItem: 0
   puzzleOpener: 0
+  inventoryItemPath: 
 --- !u!1 &1539177046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2851,6 +2856,7 @@ MonoBehaviour:
   blurb: This is a bucket of... grass? It doesn't look very friendly.
   inventoryItem: 0
   puzzleOpener: 0
+  inventoryItemPath: 
 --- !u!1 &1546421619
 GameObject:
   m_ObjectHideFlags: 0
@@ -3043,6 +3049,7 @@ MonoBehaviour:
   blurb: Aha! You've found the bracelet! You pick it up.
   inventoryItem: 1
   puzzleOpener: 0
+  inventoryItemPath: 
 --- !u!1 &1611302540
 GameObject:
   m_ObjectHideFlags: 0
@@ -3211,8 +3218,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1380, y: 300}
+  m_AnchoredPosition: {x: -120, y: 0}
+  m_SizeDelta: {x: 1620, y: 300}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1633192916
 MonoBehaviour:
@@ -3357,6 +3364,7 @@ MonoBehaviour:
     here.
   inventoryItem: 0
   puzzleOpener: 0
+  inventoryItemPath: 
 --- !u!1 &1747368746
 GameObject:
   m_ObjectHideFlags: 0
@@ -3874,6 +3882,7 @@ MonoBehaviour:
     these containers.
   inventoryItem: 0
   puzzleOpener: 0
+  inventoryItemPath: 
 --- !u!1 &1837389312
 GameObject:
   m_ObjectHideFlags: 0

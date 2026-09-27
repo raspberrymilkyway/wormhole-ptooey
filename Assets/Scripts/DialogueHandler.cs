@@ -16,6 +16,8 @@ public class DialogueHandler : MonoBehaviour
     private List<List<string>> all;
     private int[] points;
     private List<string> dialogue;
+    private List<string> flavors;
+    private bool pre;
 
     void Start(){
         dh = this;
@@ -25,22 +27,23 @@ public class DialogueHandler : MonoBehaviour
         dialogueStyle.SetActive(false);
     }
 
-    public void showDialogueStyle(List<string> flavors, List<List<string>> strings, int[] pts){
+    public void showDialogueStyle(){
         for (int i=0; i<flavors.Count; i++){
             styleFlavorText[i].text = flavors[i];
         }
         dialogueStyle.SetActive(true);
+        blocker.gameObject.SetActive(false);
         holder.blocksRaycasts = false;
-        all = strings;
-        points = pts;
     }
 
-    public void showDialogueBox(List<string> dialog, int index){
+    public void showDialogueBox(List<string> dialog, int index=-1){
         dialogue = dialog;
         dialogueStyle.SetActive(false);
         blocker.gameObject.SetActive(true);
         holder.blocksRaycasts = false;
-        Bookkeeper.bk.addPoints(index, points[index]);
+        if (index > -1){
+            Bookkeeper.bk.addPoints(index, points[index]);
+        }
         handleDialogue();
     }
     public void hideDialogueBox(){
@@ -61,6 +64,10 @@ public class DialogueHandler : MonoBehaviour
             dialogueBox.text = dialogue[0];
             dialogue.RemoveAt(0);
         }
+        else if (pre){
+            showDialogueStyle();
+            pre = false;
+        }
         else{
             hideDialogueBox();
         }
@@ -68,5 +75,16 @@ public class DialogueHandler : MonoBehaviour
 
     public void setStyle(int style){
         showDialogueBox(all[style], style);
+    }
+
+    public void preInput(List<string> pretext, List<string> flav, List<List<string>> strings, int[] pts){
+        blocker.gameObject.SetActive(true);
+        holder.blocksRaycasts = false;
+        dialogue = pretext;
+        pre = true;
+        all = strings;
+        points = pts;
+        flavors = flav;
+        handleDialogue();
     }
 }

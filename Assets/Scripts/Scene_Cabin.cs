@@ -7,6 +7,7 @@ public class Scene_Cabin : MonoBehaviour
 
     public CanvasGroup holder;
     public GameObject slime;
+    public GameObject player;
 
     // if prev in hallway
     // add slime. can only click slime and door (leave)
@@ -24,6 +25,11 @@ public class Scene_Cabin : MonoBehaviour
         }
         else{
             slime.SetActive(false);
+        }
+
+        Debug.Log(Bookkeeper.bk.getPreviousRoom());
+        if (Bookkeeper.bk.getPreviousRoom().Equals("Start") || Bookkeeper.bk.getPreviousRoom().Equals("Components")){
+            player.transform.position = new Vector2(1920/2, 1080/2);
         }
     }
 }

@@ -21,6 +21,8 @@ public class Bookkeeper : MonoBehaviour
     private bool defusedBomb = false;
     private bool canEnterCabin = true;
     private bool hadFlashback = false;
+    private bool[] intros = new bool[7];
+    private Dictionary<string, int> introRooms = new Dictionary<string, int>{{"Cabin", 0}, {"CaptainQuarters", 1}, {"StorageBay", 2}, {"Medbay", 3}, {"MessHall1", 4}, {"MessHall2", 4}, {"MessHall3", 4}, {"MessHall4", 4}, {"Bridge", 5}, {"Hallway", 6}}; //should the messhalls be the same value?
 
     void Start(){
         bk = this;
@@ -30,6 +32,7 @@ public class Bookkeeper : MonoBehaviour
         previousRoom = SaveData.sd.getPreviousRoom();
         spokenTo = new List<string>(SaveData.sd.getSpokenTo());
         defusedBomb = SaveData.sd.getDefusedBomb();
+        intros = SaveData.sd.getIntrosFinished();
     }
 
     protected internal void addOpenScene(string scene){
@@ -46,6 +49,19 @@ public class Bookkeeper : MonoBehaviour
     }
     protected internal string getCurrentScene(){
         return openScenes[openScenes.Count-1];
+    }
+
+    protected internal void finishIntro(string room){
+        intros[introRooms[room]] = true;
+    }
+    protected internal bool isIntroFinished(string room){
+        return intros[introRooms[room]];
+    }
+    protected internal bool[] getIntrosFinished(){
+        return intros;
+    }
+    protected internal void resetFinishedIntros(){
+        intros = new bool[7];
     }
 
     protected internal void finishEnding(int index){
@@ -160,5 +176,6 @@ public class Bookkeeper : MonoBehaviour
         clearPoints();
         setPreviousRoom("");
         setDirectionEnteredFrom("");
+        resetFinishedIntros();
     }
 }

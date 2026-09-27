@@ -35,6 +35,7 @@ public class SaveData : MonoBehaviour
         updatePreviousRoom();
         updatePoints();
         updateEndings();
+        updateSpokenTo();
         string data = JsonUtility.ToJson(progress);
         File.WriteAllText(path, data);
     }
@@ -67,6 +68,9 @@ public class SaveData : MonoBehaviour
     protected internal void updateEndings(){
         progress.achievedEndings = Bookkeeper.bk.getEndings();
     }
+    protected internal void updateSpokenTo(){
+        progress.spokenTo = Bookkeeper.bk.getSpokenTo().ToArray();
+    }
 
     protected internal string[] getLooseItems(){
         return progress.looseInvData;
@@ -92,6 +96,10 @@ public class SaveData : MonoBehaviour
     protected internal string getPreviousRoom(){
         return progress.previousRoom;
     }
+    
+    protected internal string[] getSpokenTo(){
+        return progress.spokenTo;
+    }
 
     protected internal void clearSaveData(){
         clearData();
@@ -102,6 +110,7 @@ public class SaveData : MonoBehaviour
         progress.looseInvData = new string[]{};
         progress.currInvData = new string[]{};
         progress.usedInvData = new string[]{};
+        progress.spokenTo = new string[]{};
         progress.currentRoom = "Cabin";
         progress.previousRoom = "";
     }
@@ -114,6 +123,7 @@ public class Progress
     public string[] looseInvData;
     public string[] currInvData;
     public string[] usedInvData;
+    public string[] spokenTo;
     public bool[] achievedEndings;
     public string currentRoom;
     public string previousRoom;

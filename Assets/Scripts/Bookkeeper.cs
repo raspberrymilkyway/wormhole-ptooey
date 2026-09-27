@@ -12,6 +12,7 @@ public class Bookkeeper : MonoBehaviour
 
     public List<string> openScenes = new List<string>(){"Components"};
     private List<string> allItems = new List<string>{}; //path
+    private List<string> spokenTo = new List<string>{};
     private bool[] endings = new bool[6];
     private int[] points = new int[6];
     private string cursor = "";
@@ -25,6 +26,7 @@ public class Bookkeeper : MonoBehaviour
         endings = SaveData.sd.getAchievedEndings();
         points = SaveData.sd.getPoints();
         previousRoom = SaveData.sd.getPreviousRoom();
+        spokenTo = new List<string>(SaveData.sd.getSpokenTo());
     }
 
     protected internal void addOpenScene(string scene){
@@ -102,5 +104,18 @@ public class Bookkeeper : MonoBehaviour
     }
     protected internal void resetBomb(){
         detonatedBomb = false;
+    }
+
+    protected internal void addSpokenTo(string character){
+        spokenTo.Add(character);
+    }
+    protected internal bool alreadySpokenTo(string character){
+        return spokenTo.Contains(character);
+    }
+    protected internal List<string> getSpokenTo(){
+        return spokenTo;
+    }
+    protected internal void resetSpokenTo(){
+        spokenTo = new List<string>{};
     }
 }

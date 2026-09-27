@@ -21,8 +21,6 @@ public class ButtonFunctions : MonoBehaviour
     }
 
     public void continueGame(){
-        Debug.Log(Bookkeeper.bk.getPreviousRoom());
-        Debug.Log(SaveData.sd.getCurrentRoom());
         Scenes.sc.closeScene("Start");
         if (!Bookkeeper.bk.getPreviousRoom().Equals("End")){
             Scenes.sc.openScene(SaveData.sd.getCurrentRoom());
@@ -31,6 +29,7 @@ public class ButtonFunctions : MonoBehaviour
             SaveData.sd.clearData();
             Bookkeeper.bk.clearPoints();
             Bookkeeper.bk.resetBomb();
+            Bookkeeper.bk.resetSpokenTo();
             Scenes.sc.openScene("Cabin");
         }
     }
@@ -85,5 +84,6 @@ public class ButtonFunctions : MonoBehaviour
         Bookkeeper.bk.clearEndings();
         Bookkeeper.bk.clearPoints();
         Bookkeeper.bk.resetBomb();
+        Bookkeeper.bk.resetSpokenTo();
     }
 }

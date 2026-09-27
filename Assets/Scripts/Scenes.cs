@@ -24,4 +24,14 @@ public class Scenes : MonoBehaviour
         openScene(goTo);
         SaveData.sd.saveData(); //should we save every time a room is swapped? check resource use
     }
+    protected internal void swapFlashback(bool inFlashback){
+        if (inFlashback){
+            closeScene("Flashback");
+            openScene("Hallway");
+        }
+        else{
+            closeScene("MessHall");
+            openScene("Flashback");
+        }
+    }
 }

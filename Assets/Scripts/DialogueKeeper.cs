@@ -8,6 +8,7 @@ using System.Collections.Generic;
 public class DialogueKeeper : MonoBehaviour, IPointerClickHandler
 {
     public static DialogueKeeper dk;
+    public string characterName;
 
     [Header("Strings")]
     public List<string> style1;
@@ -16,28 +17,22 @@ public class DialogueKeeper : MonoBehaviour, IPointerClickHandler
     public List<string> style4;
     public List<string> style5;
 
-    [Header("Using the Strings?")]
-    public bool string1;
-    public bool string2;
-    public bool string3;
-    public bool string4;
-    public bool string5;
+    [Header("Flavor")]
+    public List<string> flavors = new List<string>{"", "", "", "", ""};
+    
+    [Header("Points")]
+    public int[] points = new int[5]{10, 10, 10, 10, 10};
 
     void Start(){
         dk = this;
+        if (Bookkeeper.bk.alreadySpokenTo(characterName)){
+            this.enabled = false;
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData){
-        if (string1){
-            DialogueHandler.dh.showDialogueBox(style1);
-        } else if (string2){
-            DialogueHandler.dh.showDialogueBox(style2);
-        } else if (string2){
-            DialogueHandler.dh.showDialogueBox(style3);
-        } else if (string2){
-            DialogueHandler.dh.showDialogueBox(style4);
-        } else {
-            DialogueHandler.dh.showDialogueBox(style5);
-        }
+        DialogueHandler.dh.showDialogueStyle(flavors, new List<List<string>>{style1, style2, style3, style4, style5}, points);
+        Bookkeeper.bk.addSpokenTo(characterName);
+        this.enabled = false;
     }
 }

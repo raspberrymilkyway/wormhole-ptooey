@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9aa528079720fda45b920c6aa916ef5c
+guid: fa31ef7be36edcb46b57e54ef0a9762d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5730329722594039454
-    second: IMG_2328_0
+      213: 3357112790803906331
+    second: numbers-five_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_2328_0
+      name: numbers-five_0
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 577
-        width: 71
-        height: 74
+        x: 1320
+        y: 700
+        width: 40
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2696be65a77c970b0800000000000000
-      internalID: -5730329722594039454
+      spriteID: b1f79c6eb4cd69e20800000000000000
+      internalID: 3357112790803906331
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_2328_0: -5730329722594039454
+      numbers-five_0: 3357112790803906331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

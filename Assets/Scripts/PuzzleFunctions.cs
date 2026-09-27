@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PuzzleFunctions : MonoBehaviour
 {
@@ -9,15 +10,23 @@ public class PuzzleFunctions : MonoBehaviour
     public GameObject puzzleBgGlasses;
     public GameObject bomb;
     public GameObject wave;
+    public GameObject[] microNum = new GameObject[3];
 
     protected internal bool alreadySolved;
 
     private bool open = true;
+    private string cookTime = "";
+    private Image[] microNumImg = new Image[3];
 
     void Start(){
         pf = this;
         puzzles.SetActive(false);
         alreadySolved = ButtonFunctions.bf.isPuzzleSolved();
+        if (microNum[0] != null){
+            for (int i=0; i<microNum.Length; i++){
+                microNumImg[i] = microNum[i].GetComponent<Image>();
+            }
+        }
     }
 
     public void showPuzzleWindow(){
@@ -75,10 +84,18 @@ public class PuzzleFunctions : MonoBehaviour
         // open or close door
         open = !open;
     }
-    public void microwaveButton(){
-        //
+    public void microwaveButtonSans(){
+        // do i need these? does interact interactable work?
+    }
+    public void microwaveButton(string num){
+        cookTime += num;
+        // swap timer
+    }
+    public void microwaveStart(){
+        // on correct, do. something. we don't have visuals for this
+        //      solve puzzle
     }
     public void addFood(){
-        //
+        //???
     }
 }

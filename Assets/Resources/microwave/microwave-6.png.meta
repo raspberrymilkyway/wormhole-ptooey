@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dc938f352c4a16547a0da2c7f110a207
+guid: 390861d4dc446e04d99029abeb8251c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1246068839235029145
-    second: IMG_2329_0
+      213: 5903858036499384169
+    second: microwave-6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_2329_0
+      name: microwave-6_0
       rect:
         serializedVersion: 2
-        x: 1303
-        y: 576
-        width: 71
-        height: 77
+        x: 1369
+        y: 443
+        width: 56
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76776bf1ef215bee0800000000000000
-      internalID: -1246068839235029145
+      spriteID: 96781edaa97bee150800000000000000
+      internalID: 5903858036499384169
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IMG_2329_0: -1246068839235029145
+      microwave-6_0: 5903858036499384169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

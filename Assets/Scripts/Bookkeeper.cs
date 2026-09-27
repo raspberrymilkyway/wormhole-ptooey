@@ -17,12 +17,14 @@ public class Bookkeeper : MonoBehaviour
     private string cursor = "";
     private string directionEnteredFrom = "";
     private string previousRoom = "";
+    private bool detonatedBomb = false;
 
     void Start(){
         bk = this;
 
         endings = SaveData.sd.getAchievedEndings();
         points = SaveData.sd.getPoints();
+        previousRoom = SaveData.sd.getPreviousRoom();
     }
 
     protected internal void addOpenScene(string scene){
@@ -84,5 +86,21 @@ public class Bookkeeper : MonoBehaviour
     }
     protected internal string getPreviousRoom(){
         return previousRoom;
+    }
+    protected internal void setPreviousRoom(string room){
+        previousRoom = room;
+    }
+
+    protected internal void triggerBomb(){
+        points[5] = 1000000;
+    }
+    protected internal void detonateBomb(){
+        detonatedBomb = true;
+    }
+    protected internal bool getBombStatus(){
+        return detonatedBomb;
+    }
+    protected internal void resetBomb(){
+        detonatedBomb = false;
     }
 }

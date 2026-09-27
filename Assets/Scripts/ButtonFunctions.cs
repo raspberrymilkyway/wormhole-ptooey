@@ -21,8 +21,18 @@ public class ButtonFunctions : MonoBehaviour
     }
 
     public void continueGame(){
+        Debug.Log(Bookkeeper.bk.getPreviousRoom());
+        Debug.Log(SaveData.sd.getCurrentRoom());
         Scenes.sc.closeScene("Start");
-        Scenes.sc.openScene(SaveData.sd.getCurrentRoom());
+        if (!Bookkeeper.bk.getPreviousRoom().Equals("End")){
+            Scenes.sc.openScene(SaveData.sd.getCurrentRoom());
+        }
+        else{
+            SaveData.sd.clearData();
+            Bookkeeper.bk.clearPoints();
+            Bookkeeper.bk.resetBomb();
+            Scenes.sc.openScene("Cabin");
+        }
     }
 
     public void credits(){
@@ -58,8 +68,10 @@ public class ButtonFunctions : MonoBehaviour
         }
     }
     public void hideCursor(){
-        cursorImg.gameObject.SetActive(false);
-        Cursor.visible = true;
+        if (cursorImg != null){
+            cursorImg.gameObject.SetActive(false);
+            Cursor.visible = true;
+        }
         Bookkeeper.bk.clearCurrentCursor();
     }
 
@@ -72,5 +84,6 @@ public class ButtonFunctions : MonoBehaviour
         Inventory.inv.clearLists();
         Bookkeeper.bk.clearEndings();
         Bookkeeper.bk.clearPoints();
+        Bookkeeper.bk.resetBomb();
     }
 }

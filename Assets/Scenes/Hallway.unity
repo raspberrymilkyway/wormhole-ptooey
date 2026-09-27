@@ -751,7 +751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: arrow_northeast
-  roomToGoTo: Hallway
+  roomToGoTo: End
 --- !u!1 &996284003
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,12 +21,8 @@ public class SaveData : MonoBehaviour
             loadSaveData();
         }
         else{
-            progress.points = new int[6];
-            progress.looseInvData = new string[]{};
-            progress.currInvData = new string[]{};
-            progress.usedInvData = new string[]{};
+            clearData();
             progress.achievedEndings = new bool[6];
-            progress.currentRoom = "Cabin";
         }
     }
 
@@ -36,6 +32,7 @@ public class SaveData : MonoBehaviour
         }
         updateInventory();
         updateCurrentRoom();
+        updatePreviousRoom();
         updatePoints();
         updateEndings();
         string data = JsonUtility.ToJson(progress);
@@ -60,6 +57,9 @@ public class SaveData : MonoBehaviour
     }
     protected internal void updateCurrentRoom(){
         progress.currentRoom = Bookkeeper.bk.getCurrentScene();
+    }
+    protected internal void updatePreviousRoom(){
+        progress.previousRoom = Bookkeeper.bk.getPreviousRoom();
     }
     protected internal void updatePoints(){
         progress.points = Bookkeeper.bk.getPoints();
@@ -89,15 +89,21 @@ public class SaveData : MonoBehaviour
     protected internal string getCurrentRoom(){
         return progress.currentRoom;
     }
+    protected internal string getPreviousRoom(){
+        return progress.previousRoom;
+    }
 
     protected internal void clearSaveData(){
+        clearData();
+        deleteSaveData();
+    }
+    protected internal void clearData(){
         progress.points = new int[6];
         progress.looseInvData = new string[]{};
         progress.currInvData = new string[]{};
         progress.usedInvData = new string[]{};
-        progress.achievedEndings = new bool[6];
         progress.currentRoom = "Cabin";
-        deleteSaveData();
+        progress.previousRoom = "";
     }
 }
 
@@ -110,5 +116,6 @@ public class Progress
     public string[] usedInvData;
     public bool[] achievedEndings;
     public string currentRoom;
+    public string previousRoom;
     //do we need like. a dialogue saver? how are our interactions interacting?
 }

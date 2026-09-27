@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
+using System.Collections.Generic;
 
 // Is it great design to put literally all button functions in one file? No. Am I going to do it anyway? :)
 
@@ -40,7 +40,12 @@ public class ButtonFunctions : MonoBehaviour
         Scene_Start.sc_st.enableEndings();
     }
 
+    public void start(){
+        Scene_Start.sc_st.enableStartPop();
+    }
+
     public void startBack(){
+        Scene_Start.sc_st.disableStartPop();
         Scene_Start.sc_st.disableCredits();
         Scene_Start.sc_st.disableEndings();
     }
@@ -51,8 +56,8 @@ public class ButtonFunctions : MonoBehaviour
     }
 
     public void blurb(string blot){
-        // spoken or thought?
         Debug.Log(blot);
+        DialogueHandler.dh.showDialogueBox(new List<string>{blot});
         // this needs to be passed somewhere for later display
     }
 

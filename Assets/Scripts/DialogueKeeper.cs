@@ -39,4 +39,10 @@ public class DialogueKeeper : MonoBehaviour, IPointerClickHandler
         Bookkeeper.bk.addSpokenTo(characterName);
         this.enabled = false;
     }
+
+    public void click(){
+        DialogueHandler.dh.preInput(pretext, flavors, new List<List<string>>{style1, style2, style3, style4, style5}, points);
+        Bookkeeper.bk.addSpokenTo(characterName);
+        this.enabled = false;
+    }
 }

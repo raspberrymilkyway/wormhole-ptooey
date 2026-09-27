@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using System.Collections.Generic;
 
 public class DoorHover : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
@@ -7,6 +8,7 @@ public class DoorHover : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
     public string roomToGoTo;
     private bool movingToDoor;
     private bool canGoIn = true;
+    private bool dialogue = false;
 
     void Start(){
         if (roomToGoTo.Equals("Cabin") && !Bookkeeper.bk.getCabinState()){
@@ -21,6 +23,10 @@ public class DoorHover : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
                 movingToDoor = false;
                 if (Bookkeeper.bk.checkWin()){
                     ButtonFunctions.bf.swapRoom("End");
+                }
+                else if (dialogue){
+                    movingToDoor = true;
+                    DialogueKeeper.dk.click();
                 }
                 else{
                     ButtonFunctions.bf.swapRoom(roomToGoTo);
@@ -48,6 +54,8 @@ public class DoorHover : MonoBehaviour, IPointerClickHandler, IPointerEnterHandl
             Bookkeeper.bk.setDirectionEnteredFrom(direction);
             ClickMovement.cm.OnPointerClick(eventData);
         }
-        // else thought bubble "i'm not going back in there."
+        else{
+            DialogueHandler.dh.showDialogueBox(new List<string>{"You're not going back in there."});
+        }
     }
 }

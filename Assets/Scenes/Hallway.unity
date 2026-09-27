@@ -365,7 +365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954b371c4c5541749a64482e6904f94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door4: {fileID: 349637363}
+  door4: {fileID: 2086949659}
+  snob: {fileID: 1873029209}
 --- !u!114 &16967677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,7 +776,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 16967675}
         m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
         m_MethodName: setStyle
         m_Mode: 3
@@ -837,13 +838,14 @@ GameObject:
   - component: {fileID: 349637367}
   - component: {fileID: 349637366}
   - component: {fileID: 349637365}
+  - component: {fileID: 349637368}
   m_Layer: 5
   m_Name: Door4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &349637364
 RectTransform:
   m_ObjectHideFlags: 0
@@ -915,6 +917,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349637363}
   m_CullTransparentMesh: 1
+--- !u!114 &349637368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349637363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b30be7afae079b499303176a7d752e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: StorageBayDoor
+  style1:
+  - "The departing crew member looks a bit surprised but you don\u2019t acknowledge
+    it, and as the door closes behind them, you\u2019re left with full access to
+    the small storage bay."
+  style2:
+  - "They give you an annoyed hiss and quickly grab what they need before exiting,
+    grumbling about lazy fools as they go, and while they\u2019ll definitely remember
+    your face now, you\u2019ve gotten access to the location your bracelet is in,
+    so you decide it was a success, if a middling one."
+  style3:
+  - They try to speak and you loom over them with a cocky grin, and after trembling
+    for a moment they scamper to obey, opening the door and quickly fleeing as you
+    saunter in and begin to peruse the storage room, immediately disappointed at
+    the lack of actually valuable items.
+  style4:
+  - "Once the conversation has reached a natural end, which you\u2019re very grateful
+    for considering they\u2019re rambling about fuel alternatives and you\u2019re
+    a little lost despite the broad questions you posed that made their fur literally
+    light up with excitement, you meander off and rifle through a cabinet until they
+    take their leave, and then the storage bay is all yours."
+  style5:
+  - "No one notices, at least, and the room is empty since you\u2019d been watching
+    for awhile, so you have the storage bay entirely to yourself. Let the search
+    begin."
+  flavors:
+  - You watch for a bit, then confidently enter as someone leaves, nodding your thanks
+    as they hold the door open.
+  - You follow someone in so closely you nearly trip them.
+  - You engage a scientist in conversation and casually walk in with them.
+  - You sneak in before the door fully closes behind someone exiting.
+  - You swagger up to a puny scientist and tell them you lost your key and need them
+    to open the door.
+  pretext:
+  - You need that bracelet, and so you need to enter the locked storage bay.
+  points: 0a0000000a0000000a0000000a0000000a000000
 --- !u!1 &367932302
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,7 +1048,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 16967675}
         m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
         m_MethodName: setStyle
         m_Mode: 3
@@ -1255,7 +1305,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 16967675}
         m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
         m_MethodName: setStyle
         m_Mode: 3
@@ -1887,7 +1937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: arrow-n
-  roomToGoTo: End
+  roomToGoTo: Bridge
 --- !u!1 &744993671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2364,7 +2414,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 300, y: 150}
-  m_Spacing: {x: 0, y: 20}
+  m_Spacing: {x: 5, y: 20}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &805110909
@@ -2724,7 +2774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &997172369
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3639,7 +3689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: arrow-se
-  roomToGoTo: Hallway
+  roomToGoTo: CaptainQuarters
 --- !u!1 &1488970228
 GameObject:
   m_ObjectHideFlags: 0
@@ -3847,6 +3897,8 @@ RectTransform:
   m_Children:
   - {fileID: 1747368747}
   - {fileID: 744993672}
+  - {fileID: 1873029210}
+  - {fileID: 1744216723}
   - {fileID: 371460634}
   - {fileID: 1488970229}
   - {fileID: 2083634637}
@@ -4250,7 +4302,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 16967675}
         m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
         m_MethodName: setStyle
         m_Mode: 3
@@ -4402,6 +4454,177 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &1744216722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1744216723}
+  - component: {fileID: 1744216727}
+  - component: {fileID: 1744216726}
+  - component: {fileID: 1744216725}
+  - component: {fileID: 1744216724}
+  m_Layer: 5
+  m_Name: Soldier
+  m_TagString: Clickable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1744216723
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744216722}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1612629123}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1744216724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744216722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b30be7afae079b499303176a7d752e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Soldier
+  style1:
+  - '"Do you know who I am?" You repeat when they just stare at you.'
+  - Their hair waves oddly, and to your complete confusion, they incline their head.
+    "I apologize for any offense I have caused."
+  - That... isn't helpful. You frown and again repeat your question, and the alien
+    soldier's hair raises and sort of trembles and they apologize again and then
+    scamper away before you can try asking another way.
+  - You gleaned nothing from that interaction, except that their species is either
+    meek or yours is fearsome.
+  - You don't... feel particularly fearsome? Hm.
+  style2:
+  - '"The same place we have been going for far too long," they say, long hair raising
+    as if in a breeze.'
+  - '"That''s not really an answer," you blurt.'
+  - Their hair begins to wave and flutter. "Our fool of a navigator claims the ship's
+    system malfunctioned a decade ago, so we went the opposite direction to the one
+    we should have," they say tersely. "If the diplomat we are escorting were not
+    of such a long-lived species, we may well have caused a war by now."
+  - '"...but where are we going?" You press.'
+  - Their hair splays behind them dramatically. "To --."
+  - You blink at them and decide you physically cannot pronounce the odd sound they
+    just made, and the soldier alien elects to take their leave, hair waving gently
+    in their wake.
+  style3:
+  - You decide to play it safe and make small talk, unwilling to alert them to the
+    fact that you may be an intruder.
+  - The crew member, it seems, is having a spat with the lead engineer, who insists
+    the climate control is set to be comfortable for all species aboard the ship,
+    nevermind that the alien you're speaking to holds up their arm to show you their...
+    uh... prickly hairs?
+  - '"My species does not grow hair," they hiss. "I am reverting to an archaic adaptation
+    because this ship is entirely too frigid!" The glare back at the long hair waving
+    in a nonexistent breeze behind them.'
+  - You look between the small hairs and the livid face. "Have you... tried wearing
+    a jacket?"
+  - An annoyed snarl, and they abruptly turn down a hall and vanish, the long hair
+    atop their head flowing in their wake and apparently done with this conversation.
+  - Well then.
+  style4:
+  - "The crew member eventually whirls to face you, hair waving erratically. \u201CWhat
+    do you want, fool?\u201D"
+  - "You freeze. \u201CI\u2026 just, uh\u2026 am going where you\u2019re going?\u201D"
+  - "\u201CI am going to my personal quarters,\u201D the soldier-esque alien hisses.
+    \u201CI have already spent far too long on what should have been a simple mission
+    because our navigator is more fool than you are, so begone.\u201D"
+  - You scamper away lest your so far very short life end early.
+  style5:
+  - "It\u2019s instinct, really, something about the soldier uniform, maybe, but
+    you\u2019re still reeling from whatever took your memories, and they\u2019re
+    unfortunately skilled, and you find yourself on your behind on the metal floor
+    entirely too quickly."
+  - "\u201CIf you wish to spar, you are supposed to request it, and do so in the
+    training hall,\u201D the alien says coolly, arms crossed. \u201CI recognize no
+    one has defeated me in several years now, but even so, this tactic is cowardly
+    and foolish, so I suggest you stay out of my sight for the next several years
+    lest I decided to spar with you properly.\u201D"
+  - "A sharp smile, and they take their leave, and you idly decide you narrowly avoided
+    death, and most likely by being so incompetent they didn\u2019t see you as a
+    threat, which is kind of insulting even if you are still feeling a little lightheaded."
+  flavors:
+  - Ask them who you are.
+  - Ask them where the ship is going.
+  - Make small talk.
+  - Follow them silently, uncertain as to what to say.
+  - Try to knock them out.
+  pretext:
+  - You trot to catch up to the soldier.
+  - Thankfully, they speak your language, albeit a bit stiffly.
+  points: 0a0000000a0000000a0000000a0000000a000000
+--- !u!114 &1744216725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744216722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab990d39126554295471fc7f8f2352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1744216726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744216722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 03e4d7a7e2a346d43b77ecadf54c5b10, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1744216727
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744216722}
+  m_CullTransparentMesh: 1
 --- !u!1 &1747368746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4961,6 +5184,177 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845338892}
   m_CullTransparentMesh: 1
+--- !u!1 &1873029209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1873029210}
+  - component: {fileID: 1873029214}
+  - component: {fileID: 1873029213}
+  - component: {fileID: 1873029212}
+  - component: {fileID: 1873029211}
+  m_Layer: 5
+  m_Name: Snob
+  m_TagString: Clickable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1873029210
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873029209}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1612629123}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1873029211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873029209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b30be7afae079b499303176a7d752e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: Snob
+  style1:
+  - "A large eye blinks at you, and antennae wave curiously. \u201CThis is being
+    moved from the lab to the storage room,\u201D the alien says, voice monotone.
+    \u201CWe are still researching it; I cannot give it away.\u201D"
+  - "\u201CIsn\u2019t it just a bracelet?\u201D You try with a charming smile."
+  - "\u201CNegative,\u201D the alien says, facing forward once more. \u201CIt has
+    a strange energy we cannot place, and we have enough time remaining on our journey
+    to discover the mysteries it contains.\u201D What may be a smile. \u201CIf I
+    had not had this to study all these years, I may well have made a snack out of
+    our incompetent navigator.\u201D"
+  - You elect to make idle chitchat after that lest this crew member make a snack
+    of you, though you at least learn the bracelet is being kept in the storage bay.
+  style2:
+  - "An aggrieved gasp. \u201CI do not judge items by aesthetics but by functionality,\u201D
+    the alien says, clearly indignant. The box is held aloft, and a reverent, one-eyed
+    gaze fixes on the item inside. \u201CI have yet to discover this accessory\u2019s
+    purpose, but the energy readings I have gotten\u2026 ohh\u2026\u201D A full-body
+    shiver."
+  - "This alien is very attached to your bracelet, and also breathing oddly now and
+    cradling the box close like a lover, and you keep walking beside them and doing
+    your best not to comment on it until they reach the storage bay, drawling you
+    don\u2019t have access and shutting the door in your face."
+  - What a lovely personality.
+  style3:
+  - "A dreamy sigh, and a clawed hand stroking the clear box your bracelet is in.
+    \u201CI have spent seven day cycles studying this lovely relic, and sadly must
+    sleep for three now,\u201D the alien says, voice forlorn and antennae drooping.
+    \u201COh, what I could discover if only I could go longer without recharge. Woe
+    am I, to be born to a warrior species!\u201D"
+  - "The crew member complains so much you can\u2019t really get a word in after
+    that, but they wave goodbye to you before going into the storage bay to secure
+    the bracelet, which you now know will be there for a few days, so you consider
+    the interaction a success."
+  style4:
+  - "The alien doesn\u2019t notice you trailing after them, too fixated on the bracelet
+    within the box and overtly shielding it from even those walking close to the
+    opposite wall in the wide hallways, occasionally hissing as they do."
+  - "You peek around a corner and see them vanish into a storage bay, and when they
+    leave empty-handed you pray to whatever divinity will listen that they\u2019ll
+    be gone awhile."
+  style5:
+  - You fail, because of course you do, your gaze so desperately fixated on the box
+    that you fail to realize just how many legs its holder has, and you trip over
+    them and go sprawling on the floor, the alien none the wiser.
+  - "Just as you climb to your feet, swaying and mumbling curses, you see a crew
+    member in what must be the ship\u2019s soldier uniform brush against the alien
+    with the box, and then they\u2019re quickly dodging when a spiked tail lunges
+    at them."
+  - "\u201CYou fool,\u201D the alien hisses, cradling the box with your bracelet
+    close and the soldier already scurrying back and muttering about testy scientists.
+    \u201CWhat if I had dropped this mysterious relic? I have not even discovered
+    its secrets yet and you\u2026 you\u2026\u201D"
+  - "The soldier wisely flees, a strange purple cloud appearing around the alien,
+    and a second later the ship isolates them with clear barriers as the air is cleaned,
+    the scientist sighing and stroking the box, mumbling to in a language you don\u2019t
+    know as the ship cleans what the barriers are warning is \u2018lethal poison
+    mist\u2019."
+  - You elect to follow from afar after that, relieved to see the alien who for some
+    reason became a scientist instead of an elite soldier leaving the bracelet in
+    the storage bay.
+  flavors:
+  - Catch up and ask for the bracelet.
+  - Race up and ask what's with the ugly bracelet.
+  - Match their pace and ask how their simulated day cycle has been.
+  - Follow them quietly, uncertain as to what to do.
+  - Try to snatch the bracelet.
+  pretext:
+  - You hurry after the crew member with the bracelet.
+  points: 0a0000000a0000000a0000000a0000000a000000
+--- !u!114 &1873029212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873029209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab990d39126554295471fc7f8f2352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1873029213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873029209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: fa8f26900d7d06d488d7724fcae68a88, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1873029214
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873029209}
+  m_CullTransparentMesh: 1
 --- !u!1 &1882990042
 GameObject:
   m_ObjectHideFlags: 0
@@ -5123,7 +5517,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 16967675}
         m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
         m_MethodName: setStyle
         m_Mode: 3
@@ -5364,6 +5758,7 @@ GameObject:
   - component: {fileID: 2086949663}
   - component: {fileID: 2086949662}
   - component: {fileID: 2086949664}
+  - component: {fileID: 2086949665}
   m_Layer: 5
   m_Name: Door2
   m_TagString: Untagged
@@ -5441,7 +5836,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: arrow-s
-  roomToGoTo: Bridge
+  roomToGoTo: StorageBay
+--- !u!114 &2086949665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086949659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b30be7afae079b499303176a7d752e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterName: StorageBayDoor
+  style1:
+  - "The departing crew member looks a bit surprised but you don\u2019t acknowledge
+    it, and as the door closes behind them, you\u2019re left with full access to
+    the small storage bay."
+  style2:
+  - "They give you an annoyed hiss and quickly grab what they need before exiting,
+    grumbling about lazy fools as they go, and while they\u2019ll definitely remember
+    your face now, you\u2019ve gotten access to the location your bracelet is in,
+    so you decide it was a success, if a middling one."
+  style3:
+  - They try to speak and you loom over them with a cocky grin, and after trembling
+    for a moment they scamper to obey, opening the door and quickly fleeing as you
+    saunter in and begin to peruse the storage room, immediately disappointed at
+    the lack of actually valuable items.
+  style4:
+  - "Once the conversation has reached a natural end, which you\u2019re very grateful
+    for considering they\u2019re rambling about fuel alternatives and you\u2019re
+    a little lost despite the broad questions you posed that made their fur literally
+    light up with excitement, you meander off and rifle through a cabinet until they
+    take their leave, and then the storage bay is all yours."
+  style5:
+  - "No one notices, at least, and the room is empty since you\u2019d been watching
+    for awhile, so you have the storage bay entirely to yourself. Let the search
+    begin."
+  flavors:
+  - You watch for a bit, then confidently enter as someone leaves, nodding your thanks
+    as they hold the door open.
+  - You follow someone in so closely you nearly trip them.
+  - You engage a scientist in conversation and casually walk in with them.
+  - You sneak in before the door fully closes behind someone exiting.
+  - You swagger up to a puny scientist and tell them you lost your key and need them
+    to open the door.
+  pretext:
+  - You need that bracelet, and so you need to enter the locked storage bay.
+  points: 0a0000000a0000000a0000000a0000000a000000
 --- !u!1 &2127030067
 GameObject:
   m_ObjectHideFlags: 0

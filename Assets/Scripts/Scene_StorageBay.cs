@@ -6,8 +6,6 @@ public class Scene_StorageBay : MonoBehaviour{
     public GameObject extraneousLabelButtons;
     public GameObject initial;
 
-    private List<string> intro = new List<string>{"You need that bracelet, and so you need to enter the locked storage bay."};
-
     void Start(){
         if (Inventory.inv.isItemCurr("glasses")){ //placeholder name
             initial.SetActive(false);
@@ -21,7 +19,6 @@ public class Scene_StorageBay : MonoBehaviour{
         }
 
         if (!Bookkeeper.bk.isIntroFinished("StorageBay")){
-            DialogueHandler.dh.showDialogueBox(intro);
             Bookkeeper.bk.finishIntro("StorageBay");
         }
     }

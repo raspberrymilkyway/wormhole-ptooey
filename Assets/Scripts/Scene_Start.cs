@@ -8,6 +8,7 @@ public class Scene_Start : MonoBehaviour
 
     public GameObject endings;
     public GameObject credits;
+    public GameObject start;
     public Button cont;
     public TMP_Text[] endingText = new TMP_Text[6];
     public Image[] endingImg = new Image[6];
@@ -17,6 +18,7 @@ public class Scene_Start : MonoBehaviour
 
         disableCredits();
         disableEndings();
+        disableStartPop();
 
         if (!SaveData.sd.wasDataLoaded()){
             cont.interactable = false;
@@ -27,7 +29,7 @@ public class Scene_Start : MonoBehaviour
         for (int i=0; i<ends.Length; i++){
             if (!ends[i]){
                 endingText[i].text = "???";
-                endingImg[i].sprite = Resources.Load<Sprite>("junk/questionMark");
+                endingImg[i].sprite = Resources.Load<Sprite>("q");
             }
         }
     }
@@ -43,5 +45,11 @@ public class Scene_Start : MonoBehaviour
     }
     protected internal void disableEndings(){
         endings.SetActive(false);
+    }
+    protected internal void enableStartPop(){
+        start.SetActive(true);
+    }
+    protected internal void disableStartPop(){
+        start.SetActive(false);
     }
 }

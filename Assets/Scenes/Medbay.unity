@@ -396,7 +396,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 16967675}
         m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
         m_MethodName: setStyle
         m_Mode: 3
@@ -634,7 +634,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 16967675}
         m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
         m_MethodName: setStyle
         m_Mode: 3
@@ -903,7 +903,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 16967675}
         m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
         m_MethodName: setStyle
         m_Mode: 3
@@ -1160,7 +1160,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 16967675}
         m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
         m_MethodName: setStyle
         m_Mode: 3
@@ -1383,7 +1383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &472396349
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2733,7 +2733,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 16967675}
         m_TargetAssemblyTypeName: DialogueHandler, Assembly-CSharp
         m_MethodName: setStyle
         m_Mode: 3
@@ -3997,7 +3997,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 300, y: 150}
-  m_Spacing: {x: 0, y: 20}
+  m_Spacing: {x: 5, y: 20}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &1616908903

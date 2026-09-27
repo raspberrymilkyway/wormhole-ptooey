@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     void Update(){
         if (walking){
             // idk if linear interpolation is the best way to do this, since you always start with a jump...
-            trans.position = Vector3.Lerp(trans.position, endPoint, 0.01f);
+            trans.position = Vector3.Lerp(trans.position, endPoint, 0.07f);
             if (Vector3.Distance(trans.position, endPoint) < 10f){
                 trans.position = endPoint;
                 endWalk();

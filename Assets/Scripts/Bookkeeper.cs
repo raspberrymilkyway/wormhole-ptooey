@@ -176,7 +176,7 @@ public class Bookkeeper : MonoBehaviour
 
     protected internal bool checkWin(){
         // verify no other win conditions (any other way to get bracelet)
-        if (getCurrentScene().Equals("StorageBay") && Inventory.inv.isItemCurr("bracelet")){
+        if (Inventory.inv.isItemCurr("inventory/bracelet") || Inventory.inv.isItemCurr("bracelet")){
             Debug.Log("won!");
             return true;
         }

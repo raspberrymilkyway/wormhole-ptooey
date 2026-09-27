@@ -1534,7 +1534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &828380189
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1721,7 +1721,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 300, y: 150}
-  m_Spacing: {x: 0, y: 20}
+  m_Spacing: {x: 5, y: 20}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &842394673
@@ -3722,8 +3722,8 @@ MonoBehaviour:
   player: {fileID: 371460633}
   maxStandingX: 1670
   minStandingX: 0
-  maxStandingY: 995
-  minStandingY: 120
+  maxStandingY: 700
+  minStandingY: 385
 --- !u!1 &1753780068
 GameObject:
   m_ObjectHideFlags: 0

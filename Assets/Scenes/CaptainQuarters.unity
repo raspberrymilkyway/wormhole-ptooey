@@ -1011,7 +1011,7 @@ GameObject:
   - component: {fileID: 829780198}
   - component: {fileID: 829780202}
   m_Layer: 5
-  m_Name: PhotoPlush
+  m_Name: Armoire
   m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1291,7 +1291,7 @@ GameObject:
   - component: {fileID: 1041394387}
   - component: {fileID: 1041394386}
   m_Layer: 5
-  m_Name: PhotoPlush (1)
+  m_Name: Bed
   m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1990,7 +1990,7 @@ GameObject:
   - component: {fileID: 1591207878}
   - component: {fileID: 1591207874}
   m_Layer: 5
-  m_Name: CandyBox
+  m_Name: Dresser
   m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2305,7 +2305,7 @@ GameObject:
   - component: {fileID: 1671675675}
   - component: {fileID: 1671675674}
   m_Layer: 5
-  m_Name: PhotoPlush (2)
+  m_Name: Desk
   m_TagString: Clickable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

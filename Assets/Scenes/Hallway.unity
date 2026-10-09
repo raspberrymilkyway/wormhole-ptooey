@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 954b371c4c5541749a64482e6904f94c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door4: {fileID: 2086949659}
+  door4: {fileID: 349637363}
   snob: {fileID: 1873029209}
 --- !u!114 &16967677
 MonoBehaviour:
@@ -383,6 +383,10 @@ MonoBehaviour:
   puzzleBgGlasses: {fileID: 1680547495}
   bomb: {fileID: 0}
   wave: {fileID: 783451616}
+  microNum:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &37541121
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,7 +849,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &349637364
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4569,7 +4573,7 @@ MonoBehaviour:
   - Ask them who you are.
   - Ask them where the ship is going.
   - Make small talk.
-  - Follow them silently, uncertain as to what to say.
+  - Follow them silently.
   - Try to knock them out.
   pretext:
   - You trot to catch up to the soldier.
@@ -5298,9 +5302,9 @@ MonoBehaviour:
     the storage bay.
   flavors:
   - Catch up and ask for the bracelet.
-  - Race up and ask what's with the ugly bracelet.
+  - Race up and ask about the ugly bracelet.
   - Match their pace and ask how their simulated day cycle has been.
-  - Follow them quietly, uncertain as to what to do.
+  - Follow them quietly.
   - Try to snatch the bracelet.
   pretext:
   - You close in on the crew member.

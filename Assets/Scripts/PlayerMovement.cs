@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private bool walking;
     private Vector3 endPoint;
     private RectTransform trans;
+    private float firstX;
 
     void Start(){
         pm = this;
@@ -32,6 +33,13 @@ public class PlayerMovement : MonoBehaviour
     public void walk(Vector3 end){
         anim.SetBool("Walk", true);
         walking = true;
+        firstX = trans.position.x;
+        if (firstX > end.x){
+            trans.localScale = new Vector3(-1, 1, 1);
+        }
+        else{
+            trans.localScale = new Vector3(1, 1, 1);
+        }
         endPoint = end;
     }
 

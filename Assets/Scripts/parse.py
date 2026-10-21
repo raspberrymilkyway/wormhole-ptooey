@@ -1,17 +1,21 @@
 import json
 
 def do():
+    readFile("itemDescriptions")
+    readFile("characterDescriptions")
+
+def readFile(filename):
     rooms = ["bridge", "cabin", "captain's quarters", "hallway", "medbay", "mess hall", "storage bay"]
     intRoom = "room 1"
-    itemEtDesc = {}
+    itemEtDesc = []
     roomIndex = 0
     started = False
     roomsCleared = 0
-
-    with open("itemDescriptions.md", "r", encoding="utf-8") as file:
+    
+    with open(filename + ".md", "r", encoding="utf-8") as file:
         lines = [line.rstrip() for line in file]
     
-    with open("itemDescriptions.json", "w") as fi:
+    with open(filename + ".json", "w") as fi:
         fi.write("{\n\"room\":[")
         for line in lines:
             if line == "" or line[0] == "(":
@@ -20,7 +24,7 @@ def do():
                 n = line[5:].strip(" *")
                 if "1" not in n:
                     serialize(fi, rooms[roomIndex], intRoom, itemEtDesc)
-                    itemEtDesc = {}
+                    itemEtDesc = []
                 intRoom = n
             elif "###" in line:
                 if started == True:
@@ -30,10 +34,9 @@ def do():
                     started = True
                 roomIndex = rooms.index(line[3:].strip(" *"))
                 intRoom = "room 1"
-                itemEtDesc = {}
+                itemEtDesc = []
             else:
-                desc = line.split(" - ", 1)
-                itemEtDesc[desc[0]] = desc[1]
+                itemEtDesc.append(line)
         
         serialize(fi, rooms[roomIndex], intRoom, itemEtDesc, True)
         fi.write("\n]\n}")

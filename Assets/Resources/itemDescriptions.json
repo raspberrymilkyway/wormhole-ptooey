@@ -1,92 +1,92 @@
 {
 "room":[{
     "name": "bridge",
-    "itemPlus": {
-        "Chair": "The Captain's chair! Cushy. You push a couple of buttons on the panels next to it, but nothing happens.",
-        "Bomb": "You\u2019re poking around and find an odd item, and as you\u2019re examining it, you slowly realize it\u2019s an explosive\u2014 at least a decade old, but definitely still viable, still volatile, and now you\u2019ve gone and touched it."
-    }
+    "itemPlus": [
+        "Chair - The Captain's chair! Cushy. You push a couple of buttons on the panels next to it, but nothing happens.",
+        "Bomb - You\u2019re poking around and find an odd item, and as you\u2019re examining it, you slowly realize it\u2019s an explosive\u2014 at least a decade old, but definitely still viable, still volatile, and now you\u2019ve gone and touched it."
+    ]
 },
 {
     "name": "cabin",
-    "itemPlus": {
-        "PhotoPlush": "You're not sure what this is. There's some sort of gelatinous food and a picture next to it, but the meaning escapes you.",
-        "CandyBox": "A box of what you think is candy. You open it, but the only thing inside is slime.",
-        "Flan": "Gelatin on a fancy plate! You consider eating it but don't know how it got there. Can you even eat gelatin?",
-        "Grabber": "A grabber thingamajig. What is this used for, and what is the puddle underneath it? Gross."
-    }
+    "itemPlus": [
+        "PhotoPlush - You're not sure what this is. There's some sort of gelatinous food and a picture next to it, but the meaning escapes you.",
+        "CandyBox - A box of what you think is candy. You open it, but the only thing inside is slime.",
+        "Flan - Gelatin on a fancy plate! You consider eating it but don't know how it got there. Can you even eat gelatin?",
+        "Grabber - A grabber thingamajig. What is this used for, and what is the puddle underneath it? Gross."
+    ]
 },
 {
     "name": "captain's quarters",
-    "itemPlus": {
-        "Armoire": "An armoire. Probably full of things that don't fit you, unless this does happen to be your room... Maybe you should check it out. Just for curiosity's sake.",
-        "Bed": "Plush!",
-        "Desk": "The desk has books and papers... Unfortunately, you can't read any of them.",
-        "Dresser": "A dresser. There's nothing atop to look at, but you can stare into the rug instead."
-    }
+    "itemPlus": [
+        "Armoire - An armoire. Probably full of things that don't fit you, unless this does happen to be your room... Maybe you should check it out. Just for curiosity's sake.",
+        "Bed - Plush!",
+        "Desk - The desk has books and papers... Unfortunately, you can't read any of them.",
+        "Dresser - A dresser. There's nothing atop to look at, but you can stare into the rug instead."
+    ]
 },
 {
     "name": "hallway",
-    "itemPlus": {}
+    "itemPlus": []
 },
 {
     "name": "medbay",
-    "itemPlus": {
-        "Posters": "A poster of a cat..?",
-        "Knickknacks": "These shelves are very busy.",
-        "JarCan": "Shiny, shimmery, splendid! Was someone painting in here or something?",
-        "Sink": "Keep your hands clean!",
-        "Microscope": "You can't seem to see anything through it.",
-        "Book": "A medical book... It was left open on a recipe for remembering things.",
-        "Computer": "A computer monitor. It should be able to turn on, but you don't see any way to do so."
-    }
+    "itemPlus": [
+        "Posters - A poster of a cat..?",
+        "Knickknacks - These shelves are very busy.",
+        "JarCan - Shiny, shimmery, splendid! Was someone painting in here or something?",
+        "Sink - Keep your hands clean!",
+        "Microscope - You can't seem to see anything through it.",
+        "Book - A medical book... It was left open on a recipe for remembering things.",
+        "Computer - A computer monitor. It should be able to turn on, but you don't see any way to do so."
+    ]
 },
 {
     "name": "mess hall 1",
-    "itemPlus": {
-        "CreepyPlant": "A budding plant. Looks creepy. You don't want to touch it.",
-        "Fizzy": "A fizzy drink(?). Given that you don't know what this is, you should probably not drink it.",
-        "Fruit": "This could be a watermelon, if a watermelon had innards that looked like a brain. Someone has scooped this one's meat out already.",
-        "Magma": "Hot! Hot! Do not touch! Who leaves magma just lying around?",
-        "NotBacon": "Some sort of meat strips. You wonder if it'd taste like bacon.",
-        "NotBrain": "The meat of the not-watermelon fruit looks like a mushy brain. Why, you wonder, does it glow?",
-        "TouchDie": "You don't know what these are, but you get the sense that they're very destructive."
-    }
+    "itemPlus": [
+        "CreepyPlant - A budding plant. Looks creepy. You don't want to touch it.",
+        "Fizzy - A fizzy drink(?). Given that you don't know what this is, you should probably not drink it.",
+        "Fruit - This could be a watermelon, if a watermelon had innards that looked like a brain. Someone has scooped this one's meat out already.",
+        "Magma - Hot! Hot! Do not touch! Who leaves magma just lying around?",
+        "NotBacon - Some sort of meat strips. You wonder if it'd taste like bacon.",
+        "NotBrain - The meat of the not-watermelon fruit looks like a mushy brain. Why, you wonder, does it glow?",
+        "TouchDie - You don't know what these are, but you get the sense that they're very destructive."
+    ]
 },
 {
     "name": "mess hall 2",
-    "itemPlus": {}
+    "itemPlus": []
 },
 {
     "name": "mess hall 3",
-    "itemPlus": {}
+    "itemPlus": []
 },
 {
     "name": "mess hall 4",
-    "itemPlus": {
-        "Bread": "A moldy loaf of bread.",
-        "Microwave": "A microwave. Looks far more old-fashioned than anything in a spaceship should.",
-        "EyeDrop": "I spy a crying eye.",
-        "Tree": "A potted tree..? Why is this on the counter? Does someone on this ship eat trees?",
-        "Grass": "A pot of normal grass. Apparently the artificial lighting in here is good enough for grass - who knew!",
-        "Plants": "A nice little display of fruit. Several items on this blanket look like pastries, but they're hand-picked from trees on Pas-IJ2.",
-        "Candy": "Someone left some candy here. You pop a piece in your mouth. Mmm, citrus.",
-        "Cascoons": "Are these... cocoons of some sort? Or just weirdly shaped candy? You poke one but still aren't sure."
-    }
+    "itemPlus": [
+        "Bread - A moldy loaf of bread.",
+        "Microwave - A microwave. Looks far more old-fashioned than anything in a spaceship should.",
+        "EyeDrop - I spy a crying eye.",
+        "Tree - A potted tree..? Why is this on the counter? Does someone on this ship eat trees?",
+        "Grass - A pot of normal grass. Apparently the artificial lighting in here is good enough for grass - who knew!",
+        "Plants - A nice little display of fruit. Several items on this blanket look like pastries, but they're hand-picked from trees on Pas-IJ2.",
+        "Candy - Someone left some candy here. You pop a piece in your mouth. Mmm, citrus.",
+        "Cascoons - Are these... cocoons of some sort? Or just weirdly shaped candy? You poke one but still aren't sure."
+    ]
 },
 {
     "name": "storage bay",
-    "itemPlus": {
-        "NoReason": ".",
-        "Bracelet": "Aha! You've found the bracelet! You pick it up.",
-        "Kaboom": "If you ever need a weapon of mass destruction (or a workplace violation), you know where to look.",
-        "Lunchbox": "Someone's missing their lunch. You wonder how long this lunchbox has been here.",
-        "FaceVase": "\"My face doesn't look like that vase!\" ...But does yours?",
-        "Shelves": "You don't know how to read any of these labels. You decide not to poke through these containers.",
-        "Drawers": "You don't know how to read any of these labels. You decide not to poke through these containers.",
-        "FlightLog": "The ship's navigation system is so messed up that all the flight logs for the last ten years can be found in this one tiny drawer.",
-        "Scary": "You don't know how to read this label. You decide not to poke through it.",
-        "Grass": "This is a bucket of... grass? It doesn't look very friendly."
-    }
+    "itemPlus": [
+        "NoReason - .",
+        "Bracelet - Aha! You've found the bracelet! You pick it up.",
+        "Kaboom - If you ever need a weapon of mass destruction (or a workplace violation), you know where to look.",
+        "Lunchbox - Someone's missing their lunch. You wonder how long this lunchbox has been here.",
+        "FaceVase - \"My face doesn't look like that vase!\" ...But does yours?",
+        "Shelves - You don't know how to read any of these labels. You decide not to poke through these containers.",
+        "Drawers - You don't know how to read any of these labels. You decide not to poke through these containers.",
+        "FlightLog - The ship's navigation system is so messed up that all the flight logs for the last ten years can be found in this one tiny drawer.",
+        "Scary - You don't know how to read this label. You decide not to poke through it.",
+        "Grass - This is a bucket of... grass? It doesn't look very friendly."
+    ]
 }
 ]
 }

@@ -1,0 +1,59 @@
+{
+"room":[{
+    "name": "bridge",
+    "itemPlus": [
+        "dark - This crew member(s?) is hard at work, though you find yourself feeling sleepy as you watch the orbs of darkness whirl about.",
+        "hedgehog - A strong musk hangs about this alien, the soil-and-rain scent very strange in the heart of a metal spaceship.",
+        "cloud - This crew member keeps grumbling and turning to glare at the alien at the center of the opposite console.",
+        "light - This alien is not working all that hard that you can tell, and watching them hurts your eyes.",
+        "navigator - \"I'm sorry, I'm sorry, our system glitched and I didn't realize,\" they mumble frantically when you draw near. Ah, this must be the navigator.",
+        "pupper - Zzzzz\u2026 You tiptoe away lest you disturb them."
+    ]
+},
+{
+    "name": "cabin",
+    "itemPlus": []
+},
+{
+    "name": "captain's quarters",
+    "itemPlus": []
+},
+{
+    "name": "hallway",
+    "itemPlus": []
+},
+{
+    "name": "medbay",
+    "itemPlus": []
+},
+{
+    "name": "mess hall 1",
+    "itemPlus": []
+},
+{
+    "name": "mess hall 2",
+    "itemPlus": [
+        "slurpee - The small soldier is too busy drinking magma through their proboscis to notice you ogling the bowl and wondering how it's intact.",
+        "chomper - You trip over one of their shiny purple boots as their extendable, pharyngeal jaw grabs some more glowing pink food, and are glad they're already eating lest your clumsiness mark you as suitable prey.",
+        "hazmat - The crew member covered head to toe in a strange green suit sits perfectly still, cradling a fruit and their mouth in a permanent, pointy grin. (Or\u2026 is that part of the suit?)",
+        "antennae - The faceless person in the soldier uniform dissects their meal with their antennae, and you silently muse they'd be excellent at torture as you watch a seed deep within the fruit be extracted with ease.",
+        "tiny eye - This fluffy, small version of the hovering eye at the back of the mess hall seems to be drinking the tears of the larger one. It even has its own miniature stool, how cute.",
+        "shaggy - This is the only person you've seen touch the moldy bread, though all you can see of them is their luscious orange fur.",
+        "shiny - You creep past this soldier but nearly laugh as you watch him devour a large piece of candy, wrapper and all.",
+        "gloop - This alien, despite being sort of soft and goop-like, is eating very prickly foods. And sort of melting off the stool, which you realize when your cloack gets caught in their\u2026 body? Tentacle? You tug yourself free and hasten your step."
+    ]
+},
+{
+    "name": "mess hall 3",
+    "itemPlus": []
+},
+{
+    "name": "mess hall 4",
+    "itemPlus": []
+},
+{
+    "name": "storage bay",
+    "itemPlus": []
+}
+]
+}

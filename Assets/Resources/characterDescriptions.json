@@ -40,12 +40,21 @@
         "Tiny Eye - This fluffy, small version of the hovering eye at the back of the mess hall seems to be drinking the tears of the larger one. It even has its own miniature stool, how cute.",
         "Shaggy - This is the only person you've seen touch the moldy bread, though all you can see of them is their luscious orange fur.",
         "Shiny - You creep past this soldier but nearly laugh as you watch him devour a large piece of candy, wrapper and all.",
-        "Gloop - This alien, despite being sort of soft and goop-like, is eating very prickly foods. And sort of melting off the stool, which you realize when your cloack gets caught in their\u2026 body? Tentacle? You tug yourself free and hasten your step."
+        "Gloop - This alien, despite being sort of soft and goop-like, is eating very prickly foods. And sort of melting off the stool, which you realize when your cloak gets caught in their\u2026 body? Tentacle? You tug yourself free and hasten your step."
     ]
 },
 {
     "name": "mess hall 3",
-    "itemPlus": []
+    "itemPlus": [
+        "Birdie - You meet her beady eyes and hurry along as a strange, instinctive sort of terror makes you feel weak and shaky, the pink alien watching you go with her unblinking gaze.",
+        "NomNom - This alien is casually munching on the most lethal food the mess hall offers, and you decide to play it safe and not attempt to interact with them lest they kill you by tapping you with one of their snacks. That'd be a sad way to die for sure.",
+        "Snek - She seems nice. Her many tentacles, small and large, slowly eating away at anything they touch seems\u2026 less nice, and you briefly feel bad for whoever has to do repairs on this ship as you sidestep an ever-growing hole in the metal floor.",
+        "Parasite or Pet - Is he dead? No, hm, he's definitely breathing, though when you step a bit closer, the strange hat on the not-corpse chitters at you and you scramble back. The not-hat is some kind of creature, and you perhaps are inept at realizing what is and is not alive.",
+        "Plant - This is a plant? It's\u2026 it's literally just a potted plant someone dressed in a soldier uniform? Well then. Going a decade in the wrong direction may have made a few crew members lose what little sanity they had left (no one sane embarks on a journey this deep into space, yourself included).",
+        "Bubble Boy - You watch a little too long as the fizzy bubbles from his drink go through the loopy straw, briefly vanish into his mouth, and then appear in his hat, or is that his brain? His hair looks kinda familiar, huh\u2026",
+        "Blue Bisexual - You ask where she found something so normal to eat, and she mumbles that her girlfriend made it for her in the all-mighty microwave, nodding towards the soldier across from her.",
+        "Red Lesbian - You try to ask how she made the sandwich she's eating, but she's too busy mumbling to herself about whether or not she's on a friend-date or a date-date."
+    ]
 },
 {
     "name": "mess hall 4",

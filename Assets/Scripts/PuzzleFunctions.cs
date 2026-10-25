@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+using System.Collections.Generic;
 
 public class PuzzleFunctions : MonoBehaviour
 {
@@ -15,7 +17,7 @@ public class PuzzleFunctions : MonoBehaviour
     protected internal bool alreadySolved;
 
     private bool open = true;
-    private string cookTime = "";
+    private List<string> cookTime = new List<string>{};
     private Image[] microNumImg = new Image[3];
 
     void Start(){
@@ -88,8 +90,17 @@ public class PuzzleFunctions : MonoBehaviour
         // do i need these? does interact interactable work?
     }
     public void microwaveButton(string num){
-        cookTime += num;
-        // swap timer
+        if (cookTime.Count >= 3){
+            return;
+            // what do microwaves do with too many numbers?
+            // would it be a better mechanic to just erase the highest number and move everything up?
+        }
+        cookTime.Insert(0, num);
+        
+        for (int i=0; i< cookTime.Count; i++){
+            Debug.Log("microwave/numbers/numbers-" + cookTime[i]);
+            microNumImg[2-i].sprite = Resources.Load<Sprite>("microwave/numbers/numbers-" + cookTime[i]);
+        }
     }
     public void microwaveStart(){
         // on correct, do. something. we don't have visuals for this

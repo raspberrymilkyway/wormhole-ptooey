@@ -380,11 +380,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: Sweet! A pair of tinted glasses, complete with extra eye lenses! These should
-    fit you perfectly. You take them.
   inventoryItem: 1
   puzzleOpener: 0
   inventoryItemPath: inventory/glasses
+  isSpoken: 0
+  isCharacter: 0
 --- !u!114 &214301504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -657,10 +657,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: These shelves are very busy.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!1 &323929582
 GameObject:
   m_ObjectHideFlags: 0
@@ -2156,10 +2157,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: A poster of a cat..?
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!1 &844629549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,10 +2263,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: You can't seem to see anything through it.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!1 &866530822
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,11 +2406,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: A standard-issue medical bed. You push a couple buttons and it turns on.
-    You lie down on it.
   inventoryItem: 0
   puzzleOpener: 1
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!114 &897699274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2476,9 +2479,9 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1747368747}
+  - {fileID: 1488970229}
   - {fileID: 744993672}
   - {fileID: 371460634}
-  - {fileID: 1488970229}
   - {fileID: 2083634637}
   - {fileID: 1324238655}
   - {fileID: 86851658}
@@ -2694,11 +2697,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: A computer monitor. It should be able to turn on, but you don't see any
-    way to do so.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!1 &1131622450
 GameObject:
   m_ObjectHideFlags: 0
@@ -3847,10 +3850,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: A medical book... It was left open on a recipe for remembering things.
   inventoryItem: 1
   puzzleOpener: 0
   inventoryItemPath: inventory/recipe-book
+  isSpoken: 0
+  isCharacter: 0
 --- !u!1 &1546421619
 GameObject:
   m_ObjectHideFlags: 0
@@ -4040,10 +4044,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: Shiny, shimmery, splendid! Was someone painting in here or something?
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!1 &1616908899
 GameObject:
   m_ObjectHideFlags: 0
@@ -4377,7 +4382,7 @@ MonoBehaviour:
   player: {fileID: 371460633}
   maxStandingX: 1600
   minStandingX: 315
-  maxStandingY: 995
+  maxStandingY: 725
   minStandingY: 0
 --- !u!1 &1773969635
 GameObject:
@@ -4695,10 +4700,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: Keep your hands clean!
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!1 &2036287725
 GameObject:
   m_ObjectHideFlags: 0

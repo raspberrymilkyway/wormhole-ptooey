@@ -9,9 +9,6 @@ public class Descriptions : MonoBehaviour
     private string itemFile = "itemDescriptions";
     private string characterFile = "characterDescriptions";
 
-    private OuterDesc itemsDesc;
-    private OuterDesc charsDesc;
-
     protected internal Dictionary<string, string> items = new Dictionary<string, string>{};
     protected internal Dictionary<string, string> chars = new Dictionary<string, string>{};
 
@@ -19,24 +16,17 @@ public class Descriptions : MonoBehaviour
         desc = this;
         
         TextAsset read = Resources.Load<TextAsset>(itemFile);
-        itemsDesc = JsonUtility.FromJson<OuterDesc>(read.text);
-        makeDict(true);
+        OuterDesc itemsDesc = JsonUtility.FromJson<OuterDesc>(read.text);
+        makeDict(itemsDesc, true);
         
         read = Resources.Load<TextAsset>(characterFile);
-        charsDesc = JsonUtility.FromJson<OuterDesc>(read.text);
-        makeDict(false);
+        itemsDesc = JsonUtility.FromJson<OuterDesc>(read.text);
+        makeDict(itemsDesc, false);
     }
     
-    private void makeDict(bool item){
-        if (item){
-            for (int i=0; i<itemsDesc.room.Length; i++){
-                eachDict(itemsDesc.room[i].itemPlus, item);
-            }
-        }
-        else{
-            for (int i=0; i<charsDesc.room.Length; i++){
-                eachDict(charsDesc.room[i].itemPlus, item);
-            }
+    private void makeDict(OuterDesc itemsDesc, bool item){
+        for (int i=0; i<itemsDesc.room.Length; i++){
+            eachDict(itemsDesc.room[i].itemPlus, item);
         }
     }
     private void eachDict(string[] itemPlus, bool item){

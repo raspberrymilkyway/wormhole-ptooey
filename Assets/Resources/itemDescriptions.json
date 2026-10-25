@@ -9,10 +9,12 @@
 {
     "name": "cabin",
     "itemPlus": [
-        "PhotoPlush - You're not sure what this is. There's some sort of gelatinous food and a picture next to it, but the meaning escapes you.",
-        "CandyBox - A box of what you think is candy. You open it, but the only thing inside is slime.",
+        "PhotoPlush - You're not sure what this is. There's some sort of gelatinous food and a picture next to it, but the meaning escapes you. Is it an offering? A snack? Strange decor?",
+        "CandyBox - The label shows that this is a box of candy. You open it, but the only thing inside is slime.",
         "Flan - Gelatin on a fancy plate! You consider eating it but don't know how it got there. Can you even eat gelatin?",
-        "Grabber - A grabber thingamajig. What is this used for, and what is the puddle underneath it? Gross."
+        "Grabber - A grabber thingamajig. What is this used for, and what is the puddle underneath it? Gross.",
+        "Dresser - A dresser. You try to open it but the drawers are held shut by some sort of glue-like goop. You don't think you'll be able to remove it.",
+        "Lamp - A spiky lamp sits atop a pointy wooden stand. You poke it - ouch! Blood wells up on your finger."
     ]
 },
 {
@@ -21,7 +23,8 @@
         "Armoire - An armoire. Probably full of things that don't fit you, unless this does happen to be your room... Maybe you should check it out. Just for curiosity's sake.",
         "Bed - Plush!",
         "Desk - The desk has books and papers... Unfortunately, you can't read any of them.",
-        "Dresser - A dresser. There's nothing atop to look at, but you can stare into the rug instead."
+        "Dresser - A dresser. There's nothing atop to look at, but you can stare into the rug instead.",
+        "Cabinet - A cabinet filled with odd curios. Through the glass, you can see doohickeys that whirr and spin, doodads that swing back and forth, thingamabobs that undulate in a sequence, and a pitch black vase-shaped void that you can't see so much as not see. You can't figure out how to open the cabinet to examine anything closer, though."
     ]
 },
 {
@@ -31,19 +34,21 @@
 {
     "name": "medbay",
     "itemPlus": [
-        "Posters - A poster of a cat..?",
-        "Knickknacks - These shelves are very busy.",
+        "Posters - A poster of a cat..? Hang in there, baby!",
+        "Knickknacks - These shelves have a lot of seemingly non-medical items on them. Either the medbay doesn't get much traffic or patients spend their time in here bored.",
         "JarCan - Shiny, shimmery, splendid! Was someone painting in here or something?",
         "Sink - Keep your hands clean!",
-        "Microscope - You can't seem to see anything through it.",
+        "Microscope - You can't seem to see anything through it, no matter which eye you use.",
         "Book - A medical book... It was left open on a recipe for remembering things.",
-        "Computer - A computer monitor. It should be able to turn on, but you don't see any way to do so."
+        "Computer - A computer monitor. It should be able to turn on, but you don't see any way to do so.",
+        "Medbed - A standard-issue medical bed. You push a couple buttons and it turns on. You lie down on it.",
+        "Glasses - Sweet! A pair of tinted glasses, complete with extra eye lenses! These should fit you perfectly. You take them."
     ]
 },
 {
     "name": "mess hall 1",
     "itemPlus": [
-        "CreepyPlant - A budding plant. Looks creepy. You don't want to touch it.",
+        "CreepyPlant - A budding plant, although it sort of resembles a bat hugging a plant. You're a bit worried about what touching it would do.",
         "Fizzy - A fizzy drink(?). Given that you don't know what this is, you should probably not drink it.",
         "Fruit - This could be a watermelon, if a watermelon had innards that looked like a brain. Someone has scooped this one's meat out already.",
         "Magma - Hot! Hot! Do not touch! Who leaves magma just lying around?",
@@ -63,7 +68,7 @@
 {
     "name": "mess hall 4",
     "itemPlus": [
-        "Bread - A moldy loaf of bread.",
+        "Bread - A loaf of moldy bread. A very small number of the ship's inhabitants supposedly go wild for fresh moldy bread.",
         "Microwave - A microwave. Looks far more old-fashioned than anything in a spaceship should.",
         "EyeDrop - I spy a crying eye.",
         "Tree - A potted tree..? Why is this on the counter? Does someone on this ship eat trees?",
@@ -85,7 +90,8 @@
         "Drawers - You don't know how to read any of these labels. You decide not to poke through these containers.",
         "FlightLog - The ship's navigation system is so messed up that all the flight logs for the last ten years can be found in this one tiny drawer.",
         "Scary - You don't know how to read this label. You decide not to poke through it.",
-        "Grass - This is a bucket of... grass? It doesn't look very friendly."
+        "Grass - This is a bucket of... grass? It doesn't look very friendly.",
+        "Medbed - A customized medbed, though you wonder whom it is customized for."
     ]
 }
 ]

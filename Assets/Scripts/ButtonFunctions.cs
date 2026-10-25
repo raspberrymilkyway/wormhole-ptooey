@@ -55,7 +55,8 @@ public class ButtonFunctions : MonoBehaviour
         hideCursor();
     }
 
-    public void blurb(string blot){
+    public void blurb(string blot, bool isSpoken){
+        // swap dialogue box image
         DialogueHandler.dh.showDialogueBox(new List<string>{blot});
         // this needs to be passed somewhere for later display
     }

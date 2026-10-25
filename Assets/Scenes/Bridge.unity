@@ -290,11 +290,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: '"I''m sorry, I''m sorry, our system glitched and I didn''t realize," they
-    mumble frantically when you draw near. Ah, this must be the navigator.'
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &34558043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1045,11 +1045,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: A strong musk hangs about this alien, the soil-and-rain scent very strange
-    in the heart of a metal spaceship.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &385573184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1328,11 +1328,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: This crew member keeps grumbling and turning to glare at the alien at the
-    center of the opposite console.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &458345458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1611,11 +1611,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: This alien is not working all that hard that you can tell, and watching
-    them hurts your eyes.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &519825638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2326,11 +2326,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: The Captain's chair! Cushy. You push a couple of buttons on the panels next
-    to it, but nothing happens.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!1 &842394671
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,10 +3007,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: "Zzzzz\u2026 You tiptoe away lest you disturb them."
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &1228379061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4294,11 +4295,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: This crew member(s?) is hard at work, though you find yourself feeling sleepy
-    as you watch the orbs of darkness whirl about.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &1671748182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5495,13 +5496,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: "You\u2019re poking around and find an odd item, and as you\u2019re examining
-    it, you slowly realize it\u2019s an explosive\u2014 at least a decade old, but
-    definitely still viable, still volatile, and now you\u2019ve gone and touched
-    it."
   inventoryItem: 0
   puzzleOpener: 1
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!1 &1882990042
 GameObject:
   m_ObjectHideFlags: 0

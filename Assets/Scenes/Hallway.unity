@@ -3616,6 +3616,7 @@ GameObject:
   - component: {fileID: 1474420895}
   - component: {fileID: 1474420894}
   - component: {fileID: 1474420896}
+  - component: {fileID: 1474420897}
   m_Layer: 5
   m_Name: Door3
   m_TagString: Untagged
@@ -3694,6 +3695,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: arrow-se
   roomToGoTo: CaptainQuarters
+--- !u!114 &1474420897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474420891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab990d39126554295471fc7f8f2352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1488970228
 GameObject:
   m_ObjectHideFlags: 0
@@ -3938,6 +3951,7 @@ GameObject:
   - component: {fileID: 1613517051}
   - component: {fileID: 1613517050}
   - component: {fileID: 1613517052}
+  - component: {fileID: 1613517053}
   m_Layer: 5
   m_Name: Door1
   m_TagString: Untagged
@@ -4016,6 +4030,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: arrow-sw
   roomToGoTo: Medbay
+--- !u!114 &1613517053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613517047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab990d39126554295471fc7f8f2352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1665265220
 GameObject:
   m_ObjectHideFlags: 0
@@ -4769,7 +4795,7 @@ MonoBehaviour:
   maxStandingX: 1670
   minStandingX: 0
   maxStandingY: 995
-  minStandingY: 0
+  minStandingY: 112
 --- !u!1 &1801362230
 GameObject:
   m_ObjectHideFlags: 0
@@ -5583,7 +5609,6 @@ GameObject:
   - component: {fileID: 2062463555}
   - component: {fileID: 2062463554}
   - component: {fileID: 2062463553}
-  - component: {fileID: 2062463552}
   m_Layer: 5
   m_Name: Background (1)
   m_TagString: Untagged
@@ -5610,23 +5635,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2062463552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2062463550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20b34a372ba8c6f4cbd87e08acd4f182, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 371460633}
-  maxStandingX: 1670
-  minStandingX: 0
-  maxStandingY: 995
-  minStandingY: 0
 --- !u!61 &2062463553
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5763,6 +5771,7 @@ GameObject:
   - component: {fileID: 2086949662}
   - component: {fileID: 2086949664}
   - component: {fileID: 2086949665}
+  - component: {fileID: 2086949666}
   m_Layer: 5
   m_Name: Door2
   m_TagString: Untagged
@@ -5889,6 +5898,18 @@ MonoBehaviour:
   pretext:
   - You need that bracelet, and so you need to enter the locked storage bay.
   points: 0a0000000a0000000a0000000a0000000a000000
+--- !u!114 &2086949666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086949659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdab990d39126554295471fc7f8f2352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2127030067
 GameObject:
   m_ObjectHideFlags: 0

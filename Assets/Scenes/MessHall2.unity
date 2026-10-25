@@ -673,12 +673,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: You trip over one of their shiny purple boots as their extendable, pharyngeal
-    jaw grabs some more glowing pink food, and are glad they're already eating lest
-    your clumsiness mark you as suitable prey.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &106686079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -916,12 +915,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: "The crew member covered head to toe in a strange green suit sits perfectly
-    still, cradling a fruit and their mouth in a permanent, pointy grin. (Or\u2026
-    is that part of the suit?)"
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &359875898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,13 +1145,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: "This alien, despite being sort of soft and goop-like, is eating very prickly
-    foods. And sort of melting off the stool, which you realize when your cloack
-    gets caught in their\u2026 body? Tentacle? You tug yourself free and hasten your
-    step."
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &387898461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2101,11 +2097,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: You creep past this soldier but nearly laugh as you watch him devour a large
-    piece of candy, wrapper and all.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &1204154275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2545,7 +2541,7 @@ GameObject:
   - component: {fileID: 1428734572}
   - component: {fileID: 1428734571}
   m_Layer: 5
-  m_Name: Eye
+  m_Name: Tiny Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2594,12 +2590,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: This fluffy, small version of the hovering eye at the back of the mess hall
-    seems to be drinking the tears of the larger one. It even has its own miniature
-    stool, how cute.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &1428734573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3991,11 +3986,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: The small soldier is too busy drinking magma through their proboscis to
-    notice you ogling the bowl and wondering how it's intact.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &1854560316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4097,12 +4092,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: The faceless person in the soldier uniform dissects their meal with their
-    antennae, and you silently muse they'd be excellent at torture as you watch a
-    seed deep within the fruit be extracted with ease.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &1870313360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4552,11 +4546,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: This is the only person you've seen touch the moldy bread, though all you
-    can see of them is their luscious orange fur.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 1
 --- !u!114 &1961800682
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ public class DialogueHandler : MonoBehaviour
     public CanvasGroup holder;
     public CanvasGroup blocker;
     public TMP_Text dialogueBox;
+    public Image dialogueBoxImage;
     public GameObject dialogueStyle;
     public TMP_Text[] styleFlavorText = new TMP_Text[5];
 
@@ -18,6 +19,8 @@ public class DialogueHandler : MonoBehaviour
     private List<string> dialogue;
     private List<string> flavors;
     private bool pre;
+    private Sprite thought;
+    private Sprite spoken;
 
     void Start(){
         dh = this;
@@ -25,6 +28,8 @@ public class DialogueHandler : MonoBehaviour
         blocker.gameObject.SetActive(false);
         holder.gameObject.SetActive(true);
         dialogueStyle.SetActive(false);
+        thought = Resources.Load<Sprite>("text-box-thought-bubble");
+        spoken = Resources.Load<Sprite>("text-box");
     }
 
     public void showDialogueStyle(){
@@ -36,8 +41,14 @@ public class DialogueHandler : MonoBehaviour
         holder.blocksRaycasts = false;
     }
 
-    public void showDialogueBox(List<string> dialog, int index=-1){
+    public void showDialogueBox(List<string> dialog, bool isSpoken=true, int index=-1){
         dialogue = dialog;
+        if (isSpoken){
+            dialogueBoxImage.sprite = spoken;
+        }
+        else{
+            dialogueBoxImage.sprite = thought;
+        }
         dialogueStyle.SetActive(false);
         blocker.gameObject.SetActive(true);
         holder.blocksRaycasts = false;
@@ -73,7 +84,7 @@ public class DialogueHandler : MonoBehaviour
     }
 
     public void setStyle(int style){
-        showDialogueBox(all[style], style);
+        showDialogueBox(all[style], true, style);
     }
 
     public void preInput(List<string> pretext, List<string> flav, List<List<string>> strings, int[] pts){

@@ -288,6 +288,7 @@ MonoBehaviour:
   holder: {fileID: 941477558}
   blocker: {fileID: 1281141549}
   dialogueBox: {fileID: 330183056}
+  dialogueBoxImage: {fileID: 1633192916}
   dialogueStyle: {fileID: 842394671}
   styleFlavorText:
   - {fileID: 1480591185}
@@ -359,7 +360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: arrow-e
-  roomToGoTo: MessHall4
+  roomToGoTo: MessHall3
 --- !u!114 &45383618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -676,7 +677,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &106686079
 MonoBehaviour:
@@ -750,7 +751,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 20}
+  m_AnchoredPosition: {x: 0, y: -15}
   m_SizeDelta: {x: 1300, y: 260}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &330183056
@@ -773,7 +774,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  m_text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -918,7 +919,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &359875898
 MonoBehaviour:
@@ -1148,7 +1149,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &387898461
 MonoBehaviour:
@@ -2100,7 +2101,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &1204154275
 MonoBehaviour:
@@ -2398,7 +2399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: arrow-e
-  roomToGoTo: MessHall4
+  roomToGoTo: MessHall3
 --- !u!114 &1325105294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2488,7 +2489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: arrow-e
-  roomToGoTo: MessHall4
+  roomToGoTo: MessHall3
 --- !u!114 &1347202852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2593,7 +2594,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &1428734573
 MonoBehaviour:
@@ -3989,7 +3990,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &1854560316
 MonoBehaviour:
@@ -4095,7 +4096,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &1870313360
 MonoBehaviour:
@@ -4549,7 +4550,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &1961800682
 MonoBehaviour:

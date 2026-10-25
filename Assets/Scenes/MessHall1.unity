@@ -199,6 +199,7 @@ MonoBehaviour:
   holder: {fileID: 941477558}
   blocker: {fileID: 1281141549}
   dialogueBox: {fileID: 330183056}
+  dialogueBoxImage: {fileID: 1633192916}
   dialogueStyle: {fileID: 842394671}
   styleFlavorText:
   - {fileID: 1480591185}
@@ -464,7 +465,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 20}
+  m_AnchoredPosition: {x: 0, y: -15}
   m_SizeDelta: {x: 1300, y: 260}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &330183056
@@ -487,7 +488,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  m_text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1127,11 +1128,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: A fizzy drink(?). Given that you don't know what this is, you should probably
-    not drink it.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!114 &780132143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1283,11 +1284,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: A budding plant, although it sort of resembles a bat hugging a plant. You're
-    a bit worried about what touching it would do.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!1 &842394671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,11 +1893,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: The meat of the not-watermelon fruit looks like a mushy brain. Why, you
-    wonder, does it glow?
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!114 &1281805677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2206,11 +2207,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: This could be a watermelon, if a watermelon had innards that looked like
-    a brain. Someone has scooped this one's meat out already.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!114 &1418216781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2312,10 +2313,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: Hot! Hot! Do not touch! Who leaves magma just lying around?
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!114 &1446856602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2938,10 +2940,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: Some sort of meat strips. You wonder if it'd taste like bacon.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!114 &1673386345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4173,10 +4176,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd1ded99d78fa54993dd40a1bd458b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blurb: You don't know what these are, but you get the sense that they're very destructive.
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
+  isSpoken: 0
+  isCharacter: 0
 --- !u!114 &1980663608
 MonoBehaviour:
   m_ObjectHideFlags: 0

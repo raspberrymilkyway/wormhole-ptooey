@@ -56,9 +56,7 @@ public class ButtonFunctions : MonoBehaviour
     }
 
     public void blurb(string blot, bool isSpoken){
-        // swap dialogue box image
-        DialogueHandler.dh.showDialogueBox(new List<string>{blot});
-        // this needs to be passed somewhere for later display
+        DialogueHandler.dh.showDialogueBox(new List<string>{blot}, isSpoken);
     }
 
     public void changeCursor(string name, bool swapBookkeeper=true){

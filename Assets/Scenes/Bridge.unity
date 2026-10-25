@@ -200,6 +200,7 @@ MonoBehaviour:
   holder: {fileID: 941477558}
   blocker: {fileID: 1281141549}
   dialogueBox: {fileID: 330183056}
+  dialogueBoxImage: {fileID: 1633192916}
   dialogueStyle: {fileID: 842394671}
   styleFlavorText:
   - {fileID: 1480591185}
@@ -293,7 +294,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &34558043
 MonoBehaviour:
@@ -768,7 +769,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 20}
+  m_AnchoredPosition: {x: 0, y: -15}
   m_SizeDelta: {x: 1300, y: 260}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &330183056
@@ -791,7 +792,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  m_text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1048,7 +1049,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &385573184
 MonoBehaviour:
@@ -1331,7 +1332,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &458345458
 MonoBehaviour:
@@ -1614,7 +1615,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &519825638
 MonoBehaviour:
@@ -3010,7 +3011,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &1228379061
 MonoBehaviour:
@@ -4298,7 +4299,7 @@ MonoBehaviour:
   inventoryItem: 0
   puzzleOpener: 0
   inventoryItemPath: 
-  isSpoken: 0
+  isSpoken: 1
   isCharacter: 1
 --- !u!114 &1671748182
 MonoBehaviour:

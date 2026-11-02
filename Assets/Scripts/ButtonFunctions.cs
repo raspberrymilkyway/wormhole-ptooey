@@ -83,6 +83,11 @@ public class ButtonFunctions : MonoBehaviour
         Debug.Log("temp");
     }
 
+    public void birdie(){
+        Debug.Log("birdie");
+        Inventory.inv.looseToCurrItem("inventory/inventory-feather");
+    }
+
     private void clearData(){
         SaveData.sd.clearSaveData();
         Inventory.inv.clearLists();

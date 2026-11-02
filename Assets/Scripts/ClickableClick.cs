@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 public class ClickableClick : MonoBehaviour, IPointerClickHandler
 {
     public bool inventoryItem = false;
+    public bool hideItemAfterClick = true;
     public bool puzzleOpener = false;
     public string inventoryItemPath = "";
     public bool isSpoken;
@@ -28,7 +29,13 @@ public class ClickableClick : MonoBehaviour, IPointerClickHandler
                 ButtonFunctions.bf.blurb(blurb, isSpoken);
                 if (inventoryItem){
                     Inventory.inv.looseToCurrItem(inventoryItemPath);
-                    this.gameObject.SetActive(false);
+                    if (hideItemAfterClick){
+                        this.gameObject.SetActive(false);
+                    }
+                    else{
+                        inventoryItem = false;
+                        this.enabled = false;
+                    }
                 }
                 else if (puzzleOpener){
                     PuzzleFunctions.pf.showPuzzleWindow();

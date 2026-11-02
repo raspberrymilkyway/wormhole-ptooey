@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 4b37c06025cbb6e4b869b00cb64dc73f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3903743122554622584
+    second: creepy-plant-gather_0
+  - first:
+      213: 5110166889408452062
+    second: creepy-plant-gather_1
+  - first:
+      213: 5135315915409929976
+    second: creepy-plant-gather_2
+  - first:
+      213: 1211631170291372696
+    second: creepy-plant-gather_3
+  - first:
+      213: 3735493354772983839
+    second: creepy-plant-gather_4
+  - first:
+      213: 1462964320522396314
+    second: creepy-plant-gather_5
+  - first:
+      213: -952987686543272284
+    second: creepy-plant-gather_6
+  - first:
+      213: 7948242241384518740
+    second: creepy-plant-gather_7
+  - first:
+      213: 8353922293882524729
+    second: creepy-plant-gather_8
+  - first:
+      213: -2893733654952278303
+    second: creepy-plant-gather_9
+  - first:
+      213: 3564760088481728124
+    second: creepy-plant-gather_10
+  - first:
+      213: -4493197341860825166
+    second: creepy-plant-gather_11
+  - first:
+      213: 4014456902616061250
+    second: creepy-plant-gather_12
+  - first:
+      213: 988823203822371077
+    second: creepy-plant-gather_13
+  - first:
+      213: -5862898084167163116
+    second: creepy-plant-gather_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: creepy-plant-gather_0
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 887
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88de1cd105e13d9c0800000000000000
+      internalID: -3903743122554622584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_1
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 876
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5572a06b5fae640800000000000000
+      internalID: 5110166889408452062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 824
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f63b63fd9e444740800000000000000
+      internalID: 5135315915409929976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 841
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8921200412490d010800000000000000
+      internalID: 1211631170291372696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 809
+        width: 63
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1073182a6327d330800000000000000
+      internalID: 3735493354772983839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 838
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92eec36c4e7d4410800000000000000
+      internalID: 1462964320522396314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_6
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 813
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6544c8fbe46c2f0800000000000000
+      internalID: -952987686543272284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_7
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 833
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4549a7af434dd4e60800000000000000
+      internalID: 7948242241384518740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_8
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 827
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9349518b0181fe370800000000000000
+      internalID: 8353922293882524729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_9
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 806
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e60afd829467d7d0800000000000000
+      internalID: -2893733654952278303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_10
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 819
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76817fd962987130800000000000000
+      internalID: 3564760088481728124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_11
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 816
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7f7a4d2d4f4a1c0800000000000000
+      internalID: -4493197341860825166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_12
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 822
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2459b8e884736b730800000000000000
+      internalID: 4014456902616061250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_13
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 801
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5010f71077109bd00800000000000000
+      internalID: 988823203822371077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepy-plant-gather_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 795
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413e5e2614dc2aea0800000000000000
+      internalID: -5862898084167163116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      creepy-plant-gather_0: -3903743122554622584
+      creepy-plant-gather_1: 5110166889408452062
+      creepy-plant-gather_10: 3564760088481728124
+      creepy-plant-gather_11: -4493197341860825166
+      creepy-plant-gather_12: 4014456902616061250
+      creepy-plant-gather_13: 988823203822371077
+      creepy-plant-gather_14: -5862898084167163116
+      creepy-plant-gather_2: 5135315915409929976
+      creepy-plant-gather_3: 1211631170291372696
+      creepy-plant-gather_4: 3735493354772983839
+      creepy-plant-gather_5: 1462964320522396314
+      creepy-plant-gather_6: -952987686543272284
+      creepy-plant-gather_7: 7948242241384518740
+      creepy-plant-gather_8: 8353922293882524729
+      creepy-plant-gather_9: -2893733654952278303
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,7 +15,7 @@ public class InventoryScene : MonoBehaviour
 
     private int invInd = 0;
     private int xMod = 0;
-    private int yPad = 220;
+    private int yPad = 190;
 
     void Start(){
         isc = this;
@@ -47,21 +47,28 @@ public class InventoryScene : MonoBehaviour
 
     protected internal void addItemToDisplay(string path, string name){
         GameObject item = new GameObject();
+        GameObject itemBg = new GameObject();
         item.name = name;
+        itemBg.name = name + "Bg";
 
         Image iimg = item.AddComponent<Image>();
+        Image bimg = itemBg.AddComponent<Image>();
         iimg.sprite = Resources.Load<Sprite>(path);
+        bimg.sprite = Resources.Load<Sprite>("inventory/inventory-square");
 
         Button ibut = item.AddComponent<Button>();
         ibut.onClick.AddListener(() => ButtonFunctions.bf.changeCursor(name));
 
         RectTransform irt = item.GetComponent<RectTransform>();
-        
+        RectTransform brt = itemBg.GetComponent<RectTransform>();
+        brt.SetParent(inventory.transform); //lower in hierarchy
         irt.SetParent(inventory.transform);
         irt.sizeDelta = new Vector3(150, 150, 0); //resize image
+        brt.sizeDelta = new Vector3(175, 175, 0);
         irt.position = new Vector3(inventory.transform.position.x + xMod, inventory.transform.position.y - yPad - 190*invInd, 0);
+        brt.position = new Vector3(inventory.transform.position.x + xMod, inventory.transform.position.y - yPad - 190*invInd, 0);
 
         item.SetActive(true);
-        // def need to set location, but let's see if this works first
+        itemBg.SetActive(true);
     }
 }

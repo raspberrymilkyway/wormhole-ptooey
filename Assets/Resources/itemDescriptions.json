@@ -24,6 +24,7 @@
         "Bed - Plush!",
         "Desk - The desk has books and papers... Unfortunately, you can't read any of them.",
         "Dresser - A dresser. There's nothing atop to look at, but you can stare into the rug instead.",
+        "Plant - A prickly plant. It looks lonely, so you decide to take it with you.",
         "Cabinet - A cabinet filled with odd curios. Through the glass, you can see doohickeys that whirr and spin, doodads that swing back and forth, thingamabobs that undulate in a sequence, and a pitch black vase-shaped void that you can't see so much as not see. You can't figure out how to open the cabinet to examine anything closer, though."
     ]
 },
@@ -35,14 +36,16 @@
     "name": "medbay",
     "itemPlus": [
         "Posters - A poster of a cat..? Hang in there, baby!",
-        "Knickknacks - These shelves have a lot of seemingly non-medical items on them. Either the medbay doesn't get much traffic or patients spend their time in here bored.",
+        "Knickknacks - These shelves have a lot of seemingly non-medical items on them. Either the medbay doesn't get much traffic or patients spend their time in here bored. You spot some medical-grade gloves and snag one, just in case you have to touch something without leaving evidence later.",
         "JarCan - Shiny, shimmery, splendid! Was someone painting in here or something?",
         "Sink - Keep your hands clean!",
         "Microscope - You can't seem to see anything through it, no matter which eye you use.",
         "Book - A medical book... It was left open on a recipe for remembering things.",
         "Computer - A computer monitor. It should be able to turn on, but you don't see any way to do so.",
         "Medbed - A standard-issue medical bed. You push a couple buttons and it turns on. You lie down on it.",
-        "Glasses - Sweet! A pair of tinted glasses, complete with extra eye lenses! These should fit you perfectly. You take them."
+        "Glasses - Sweet! A pair of tinted glasses, complete with extra eye lenses! These should fit you perfectly. You take them.",
+        "ScalpelLeft - You poke around a bit underneath the counters, and while there's a lot of things you're uninterested in you do find a scalpel. You take it with you.",
+        "ScalpelRight - You poke around a bit underneath the counters, and while there's a lot of things you're uninterested in you do find a scalpel. You take it with you."
     ]
 },
 {
@@ -74,7 +77,7 @@
         "Tree - A potted tree..? Why is this on the counter? Does someone on this ship eat trees?",
         "Grass - A pot of normal grass. Apparently the artificial lighting in here is good enough for grass - who knew!",
         "Plants - A nice little display of fruit. Several items on this blanket look like pastries, but they're hand-picked from trees on Pas-IJ2.",
-        "Candy - Someone left some candy here. You pop a piece in your mouth. Mmm, citrus.",
+        "Candy - Someone left some candy here. You snag some gummy worms - maybe you can go fishing in the air duct later.",
         "Cascoons - Are these... cocoons of some sort? Or just weirdly shaped candy? You poke one but still aren't sure."
     ]
 },
@@ -91,6 +94,7 @@
         "FlightLog - The ship's navigation system is so messed up that all the flight logs for the last ten years can be found in this one tiny drawer.",
         "Scary - You don't know how to read this label. You decide not to poke through it.",
         "Grass - This is a bucket of... grass? It doesn't look very friendly.",
+        "LostNFound - What cute little jars! They need a home, just like you.",
         "Medbed - A customized medbed, though you wonder whom it is customized for."
     ]
 }

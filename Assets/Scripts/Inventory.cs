@@ -69,7 +69,7 @@ public class Inventory : MonoBehaviour
     }
 
     protected internal void clearLists(){
-        looseItems = new List<string>{"inventory/bracelet", "inventory/recipe-book"};
+        looseItems = new List<string>{"inventory/bracelet", "inventory/recipe-book", "inventory/inventory-feathers", "inventory/inventory-glove", "inventory/inventory-gummy-worms", "inventory/inventory-jar", "inventory/inventory-plant-friend", "inventory/inventory-scalpel", "inventory/inventory-scissors"};
         currItems = new List<string>{};
         usedItems = new List<string>{};
     }

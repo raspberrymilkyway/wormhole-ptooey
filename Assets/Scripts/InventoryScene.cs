@@ -20,7 +20,13 @@ public class InventoryScene : MonoBehaviour
     void Start(){
         isc = this;
         for (int i=0; i<itemPaths.Count; i++){
-            itemObjects[i].SetActive(Inventory.inv.isItemLoose(itemPaths[i]));
+            bool show = Inventory.inv.isItemLoose(itemPaths[i]);
+            bool keepBase = Inventory.inv.shouldBaseStay(itemPaths[i]);
+            if (!show && keepBase){
+                show = true;
+                ((ClickableClick)itemObjects[i].GetComponent("ClickableClick")).inventoryItem = false;
+            }
+            itemObjects[i].SetActive(show);
         }
         cursor.gameObject.SetActive(false);
         setInventory();

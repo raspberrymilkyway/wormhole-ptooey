@@ -34,7 +34,7 @@ public class ClickableClick : MonoBehaviour, IPointerClickHandler
                     }
                     else{
                         inventoryItem = false;
-                        this.enabled = false;
+                        //edit dialogue here
                     }
                 }
                 else if (puzzleOpener){

@@ -48,6 +48,12 @@ public class Inventory : MonoBehaviour
         }
         return false;
     }
+    protected internal bool shouldBaseStay(string item){
+        if (item.Contains("inventory-")){
+            return true;
+        }
+        return false;
+    }
 
     protected internal void addLooseItem(string path){
         looseItems.Add(path);

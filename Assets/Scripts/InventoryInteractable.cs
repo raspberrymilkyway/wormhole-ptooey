@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
+// fwiw the cursor is always empty rn. just call straight from the button instead
+// which is maybe a better practice anyway so. eh.
+
 public class InventoryInteractable: MonoBehaviour
 {
     public string functionToCall = "";

@@ -12,13 +12,20 @@ public class PuzzleFunctions : MonoBehaviour
     public GameObject puzzleBgGlasses;
     public GameObject bomb;
     public GameObject wave;
+    public GameObject bodyAnchor;
     public GameObject[] microNum = new GameObject[3];
 
     protected internal bool alreadySolved;
+    private System.Random random = new System.Random();
 
     private bool open = true;
     private List<string> cookTime = new List<string>{};
     private Image[] microNumImg = new Image[3];
+
+    private int colorIndex = 0;
+    private string[] colors = new string[]{"red", "blue", "yellow"};
+    private bool swapColor = true;
+    private string currPart = "";
 
     void Start(){
         pf = this;
@@ -108,5 +115,110 @@ public class PuzzleFunctions : MonoBehaviour
     }
     public void addFood(){
         //???
+    }
+
+    public void blue(){
+        swapColor = false;
+        colorIndex = Array.IndexOf(colors, "blue");
+        // blue part if part on cursor
+    }
+    public void red(){
+        swapColor = false;
+        colorIndex = Array.IndexOf(colors, "red");
+    }
+    public void yellow(){
+        swapColor = false;
+        colorIndex = Array.IndexOf(colors, "yellow");
+    }
+    public void eraseAll(){
+        while (bodyAnchor.transform.childCount > 0) {
+            DestroyImmediate(bodyAnchor.transform.GetChild(0).gameObject);
+        }
+        ButtonFunctions.bf.hideCursor();
+    }
+    public void flip(){
+        //
+    }
+    public void grow(){
+        //
+    }
+    public void layerDown(){
+        //
+    }
+    public void layerUp(){
+        //
+    }
+    public void shrink(){
+        //
+    }
+    public void trash(){
+        //
+    }
+    public void antenna(){
+        currPart = "assembly-antenna";
+        handlePartClick();
+    }
+    public void arm(){
+        currPart = "assembly-arm";
+        handlePartClick();
+    }
+    public void eye(){
+        currPart = "assembly-eye";
+        handlePartClick();
+    }
+    public void head(){
+        currPart = "assembly-head";
+        handlePartClick();
+    }
+    public void leg(){
+        currPart = "assembly-leg";
+        handlePartClick();
+    }
+    public void mouth(){
+        currPart = "assembly-mouth";
+        handlePartClick();
+    }
+    public void tail(){
+        currPart = "assembly-tail";
+        handlePartClick();
+    }
+    public void torso(){
+        currPart = "assembly-torso";
+        handlePartClick();
+    }
+
+    private void handlePartClick(){
+        if (swapColor){
+            colorIndex = colorIndex+1 > 2 ? 0 : colorIndex+1;
+            if (colorIndex == 0){
+                shuffle();
+            }
+        }
+
+        addImage();
+        //add cursor image
+    }
+    private void shuffle(){
+        int i = colors.Length;
+        while (i > 1){
+            int t = random.Next(i);
+            i--;
+            string temp = colors[t];
+            colors[t] = colors[i];
+            colors[i] = temp;
+        }
+    }
+    private void addImage(){
+        GameObject go = new GameObject();
+        go.name = currPart;
+
+        Image igo = go.AddComponent<Image>();
+        string s = "medbed/assembly/" + currPart;
+        s = currPart.Equals("assembly-mouth") || currPart.Equals("assembly-eye") ? s : s + "-" + colors[colorIndex];
+        igo.sprite = Resources.Load<Sprite>(s);
+        go.AddComponent(typeof(IHatJHat.UI.HideInvisible));
+
+        go.transform.SetParent(bodyAnchor.transform);
+        go.SetActive(true);
     }
 }

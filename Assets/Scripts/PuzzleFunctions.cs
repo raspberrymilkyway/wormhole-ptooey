@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using System.Collections.Generic;
+using UnityEngine.InputSystem;
 
 public class PuzzleFunctions : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class PuzzleFunctions : MonoBehaviour
     public GameObject bomb;
     public GameObject wave;
     public GameObject bodyAnchor;
+    public GameObject puzzleCursor;
     public GameObject[] microNum = new GameObject[3];
 
     protected internal bool alreadySolved;
@@ -26,6 +28,11 @@ public class PuzzleFunctions : MonoBehaviour
     private string[] colors = new string[]{"red", "blue", "yellow"};
     private bool swapColor = true;
     private string currPart = "";
+    private bool newImg = true;
+    private RectTransform puzzleRT;
+    private int hardCapNumParts = 1000;
+    private int currNumParts = 0;
+    private int currGS = 0;
 
     void Start(){
         pf = this;
@@ -35,6 +42,10 @@ public class PuzzleFunctions : MonoBehaviour
             for (int i=0; i<microNum.Length; i++){
                 microNumImg[i] = microNum[i].GetComponent<Image>();
             }
+        }
+        if (puzzleCursor != null){
+            puzzleCursor.SetActive(false);
+            puzzleRT = puzzleCursor.GetComponent<RectTransform>();
         }
     }
 
@@ -120,27 +131,35 @@ public class PuzzleFunctions : MonoBehaviour
     public void blue(){
         swapColor = false;
         colorIndex = Array.IndexOf(colors, "blue");
-        // blue part if part on cursor
+        swapPuzzleCursor();
     }
     public void red(){
         swapColor = false;
         colorIndex = Array.IndexOf(colors, "red");
+        swapPuzzleCursor();
     }
     public void yellow(){
         swapColor = false;
         colorIndex = Array.IndexOf(colors, "yellow");
+        swapPuzzleCursor();
     }
     public void eraseAll(){
         while (bodyAnchor.transform.childCount > 0) {
             DestroyImmediate(bodyAnchor.transform.GetChild(0).gameObject);
         }
         ButtonFunctions.bf.hideCursor();
+        currNumParts = 0;
     }
     public void flip(){
-        //
+        if (currPart != ""){
+            puzzleRT.localScale = new Vector3(puzzleRT.localScale.x*-1, 1, 1);
+        }
     }
-    public void grow(){
-        //
+    public void grow(float amt=1.5f){
+        if (currPart != "" && currGS < 5){
+            puzzleRT.sizeDelta = new Vector3(puzzleRT.sizeDelta.x * amt, puzzleRT.sizeDelta.y * amt, 0);
+            currGS++;
+        }
     }
     public void layerDown(){
         //
@@ -148,11 +167,18 @@ public class PuzzleFunctions : MonoBehaviour
     public void layerUp(){
         //
     }
-    public void shrink(){
-        //
+    public void shrink(float amt=1.5f){
+        if (currPart != "" && currGS > -5){
+            puzzleRT.sizeDelta = new Vector3(puzzleRT.sizeDelta.x / amt, puzzleRT.sizeDelta.y / amt, 0);
+            currGS--;
+        }
     }
     public void trash(){
-        //
+        currPart = "";
+        swapColor = true;
+        newImg = true;
+        puzzleRT.localScale = new Vector3(1, 1, 1);
+        swapPuzzleCursor();
     }
     public void antenna(){
         currPart = "assembly-antenna";
@@ -194,9 +220,9 @@ public class PuzzleFunctions : MonoBehaviour
                 shuffle();
             }
         }
-
-        addImage();
-        //add cursor image
+        
+        newImg = true;
+        swapPuzzleCursor();
     }
     private void shuffle(){
         int i = colors.Length;
@@ -208,7 +234,28 @@ public class PuzzleFunctions : MonoBehaviour
             colors[i] = temp;
         }
     }
-    private void addImage(){
+    private void swapPuzzleCursor(){
+        if (currPart != ""){
+            string s = "medbed/assembly/" + currPart;
+            s = currPart.Equals("assembly-mouth") || currPart.Equals("assembly-eye") ? s : s + "-" + colors[colorIndex];
+            Image img = puzzleCursor.GetComponent<Image>();
+            img.sprite = Resources.Load<Sprite>(s);
+            if (newImg){
+                img.SetNativeSize();
+                newImg = false;
+                puzzleRT.localScale = new Vector3(1, 1, 1);
+            }
+            puzzleCursor.SetActive(true);
+        }
+        else{
+            puzzleCursor.SetActive(false);
+        }
+    }
+    public void addImage(){
+        if (currNumParts >= hardCapNumParts || currPart.Equals("")){
+            return; //maxed. stop adding stuff.
+        }
+
         GameObject go = new GameObject();
         go.name = currPart;
 
@@ -218,7 +265,13 @@ public class PuzzleFunctions : MonoBehaviour
         igo.sprite = Resources.Load<Sprite>(s);
         go.AddComponent(typeof(IHatJHat.UI.HideInvisible));
 
-        go.transform.SetParent(bodyAnchor.transform);
+        RectTransform rgo = go.GetComponent<RectTransform>();
+        rgo.SetParent(bodyAnchor.transform);
+        rgo.sizeDelta = puzzleRT.sizeDelta;
+        rgo.position = puzzleRT.position;
+        rgo.localScale = puzzleRT.localScale;
+
         go.SetActive(true);
+        currNumParts++;
     }
 }

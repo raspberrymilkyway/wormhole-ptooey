@@ -14,7 +14,8 @@ public class PuzzleFunctions : MonoBehaviour
     public GameObject bomb;
     public GameObject wave;
     public GameObject bodyAnchor;
-    public GameObject puzzleCursor;
+    public GameObject puzzleCursorTop;
+    public GameObject puzzleCursorBottom;
     public GameObject[] microNum = new GameObject[3];
 
     protected internal bool alreadySolved;
@@ -28,8 +29,9 @@ public class PuzzleFunctions : MonoBehaviour
     private string[] colors = new string[]{"red", "blue", "yellow"};
     private bool swapColor = true;
     private string currPart = "";
-    private bool newImg = true;
-    private RectTransform puzzleRT;
+    protected internal bool newImg = true;
+    private RectTransform puzzleRTT;
+    private RectTransform puzzleRTB;
     private int hardCapNumParts = 1000;
     private int currNumParts = 0;
     private int currGS = 0;
@@ -43,9 +45,11 @@ public class PuzzleFunctions : MonoBehaviour
                 microNumImg[i] = microNum[i].GetComponent<Image>();
             }
         }
-        if (puzzleCursor != null){
-            puzzleCursor.SetActive(false);
-            puzzleRT = puzzleCursor.GetComponent<RectTransform>();
+        if (puzzleCursorTop != null){
+            puzzleCursorTop.SetActive(false);
+            puzzleCursorBottom.SetActive(false);
+            puzzleRTT = puzzleCursorTop.GetComponent<RectTransform>();
+            puzzleRTB = puzzleCursorBottom.GetComponent<RectTransform>();
         }
     }
 
@@ -144,32 +148,54 @@ public class PuzzleFunctions : MonoBehaviour
         swapPuzzleCursor();
     }
     public void eraseAll(){
-        while (bodyAnchor.transform.childCount > 0) {
-            DestroyImmediate(bodyAnchor.transform.GetChild(0).gameObject);
+        int i = 0;
+        while (bodyAnchor.transform.childCount > 1) {
+            GameObject go = bodyAnchor.transform.GetChild(i).gameObject;
+            if (go != puzzleCursorBottom){
+                DestroyImmediate(go);
+            }
+            else{
+                i++;
+            }
         }
         ButtonFunctions.bf.hideCursor();
         currNumParts = 0;
     }
     public void flip(){
         if (currPart != ""){
-            puzzleRT.localScale = new Vector3(puzzleRT.localScale.x*-1, 1, 1);
+            puzzleRTT.localScale = new Vector3(puzzleRTT.localScale.x*-1, 1, 1);
+            puzzleRTB.localScale = new Vector3(puzzleRTB.localScale.x*-1, 1, 1);
         }
     }
     public void grow(float amt=1.5f){
         if (currPart != "" && currGS < 5){
-            puzzleRT.sizeDelta = new Vector3(puzzleRT.sizeDelta.x * amt, puzzleRT.sizeDelta.y * amt, 0);
+            puzzleRTT.sizeDelta = new Vector3(puzzleRTT.sizeDelta.x * amt, puzzleRTT.sizeDelta.y * amt, 0);
+            puzzleRTB.sizeDelta = new Vector3(puzzleRTB.sizeDelta.x * amt, puzzleRTB.sizeDelta.y * amt, 0);
             currGS++;
         }
     }
     public void layerDown(){
-        //
+        int curr = puzzleRTB.GetSiblingIndex();
+        if (curr == 0){
+            return;
+        }
+        else{
+            puzzleRTB.SetSiblingIndex(curr-1);
+        }
     }
     public void layerUp(){
-        //
+        int curr = puzzleRTB.GetSiblingIndex();
+        if (curr == bodyAnchor.transform.childCount-1){
+            return;
+        }
+        else{
+            puzzleRTB.SetSiblingIndex(curr+1);
+        }
     }
     public void shrink(float amt=1.5f){
         if (currPart != "" && currGS > -5){
-            puzzleRT.sizeDelta = new Vector3(puzzleRT.sizeDelta.x / amt, puzzleRT.sizeDelta.y / amt, 0);
+            puzzleRTT.sizeDelta = new Vector3(puzzleRTT.sizeDelta.x / amt, puzzleRTT.sizeDelta.y / amt, 0);
+            puzzleRTB.sizeDelta = new Vector3(puzzleRTB.sizeDelta.x / amt, puzzleRTB.sizeDelta.y / amt, 0);
             currGS--;
         }
     }
@@ -177,7 +203,8 @@ public class PuzzleFunctions : MonoBehaviour
         currPart = "";
         swapColor = true;
         newImg = true;
-        puzzleRT.localScale = new Vector3(1, 1, 1);
+        puzzleRTT.localScale = new Vector3(1, 1, 1);
+        puzzleRTB.localScale = new Vector3(1, 1, 1);
         swapPuzzleCursor();
     }
     public void antenna(){
@@ -238,17 +265,23 @@ public class PuzzleFunctions : MonoBehaviour
         if (currPart != ""){
             string s = "medbed/assembly/" + currPart;
             s = currPart.Equals("assembly-mouth") || currPart.Equals("assembly-eye") ? s : s + "-" + colors[colorIndex];
-            Image img = puzzleCursor.GetComponent<Image>();
-            img.sprite = Resources.Load<Sprite>(s);
+            Image imgT = puzzleCursorTop.GetComponent<Image>();
+            imgT.sprite = Resources.Load<Sprite>(s);
+            Image imgB = puzzleCursorBottom.GetComponent<Image>();
+            imgB.sprite = imgT.sprite;
             if (newImg){
-                img.SetNativeSize();
                 newImg = false;
-                puzzleRT.localScale = new Vector3(1, 1, 1);
+                imgT.SetNativeSize();
+                puzzleRTT.localScale = new Vector3(1, 1, 1);
+                imgB.SetNativeSize();
+                puzzleRTB.localScale = new Vector3(1, 1, 1);
             }
-            puzzleCursor.SetActive(true);
+            puzzleCursorTop.SetActive(true);
+            puzzleCursorBottom.SetActive(true);
         }
         else{
-            puzzleCursor.SetActive(false);
+            puzzleCursorTop.SetActive(false);
+            puzzleCursorBottom.SetActive(false);
         }
     }
     public void addImage(){
@@ -267,9 +300,10 @@ public class PuzzleFunctions : MonoBehaviour
 
         RectTransform rgo = go.GetComponent<RectTransform>();
         rgo.SetParent(bodyAnchor.transform);
-        rgo.sizeDelta = puzzleRT.sizeDelta;
-        rgo.position = puzzleRT.position;
-        rgo.localScale = puzzleRT.localScale;
+        rgo.SetSiblingIndex(puzzleRTB.GetSiblingIndex()); //shove bottom cursor up one layer
+        rgo.sizeDelta = puzzleRTB.sizeDelta;
+        rgo.position = puzzleRTB.position;
+        rgo.localScale = puzzleRTB.localScale;
 
         go.SetActive(true);
         currNumParts++;
